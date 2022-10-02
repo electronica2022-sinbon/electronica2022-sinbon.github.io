@@ -1,4 +1,5 @@
 @use "utility.scss";
+@use 'sass:math';
 
 .sinbon-logo {
   width: utility.width(206);
@@ -51,9 +52,51 @@
     width: utility.width(369);
     // 為了置中，高不用訂死
     // height: utility.height(369);
+    $sec: 12s;
+    &:nth-child(1){
+      // animation: floating ($sec * math.random()) infinite alternate;
+      animation: floating 2.3898021649s infinite alternate;
+    }
+    &:nth-child(2){
+      // animation: floating ($sec * math.random()) infinite alternate-reverse;
+      animation: floating 4.1441648987s infinite alternate-reverse;
+    }
+    &:nth-child(3){
+      animation: floating 6.524291946s infinite alternate;
+    }
     img {
       width: 100%;
       display: block;
     }
   }
+}
+
+@keyframes floating {
+  // 0% {
+  //   transform: translate((math.random() * 20px), (math.random() * 20px)) rotate(math.random() * 10deg);
+  // }
+  // 25% {
+  //   transform: translate((math.random() * 20px), (math.random() * 20px)) rotate(math.random() * 10deg);
+  // }
+  // 50% {
+  //   transform: translate((math.random() * 20px), (math.random() * 20px)) rotate(math.random() * 10deg);
+  // }
+  // 75% {
+  //   transform: translate((math.random() * 20px), (math.random() * 20px)) rotate(math.random() * 10deg);
+  // }
+    0% {
+      transform: translate(1.5361076761px, 9.3340998139px) rotate(2.5596703838deg);
+    }
+  
+    25% {
+      transform: translate(8.8381011027px, 13.0731382216px) rotate(0.6929871803deg);
+    }
+  
+    50% {
+      transform: translate(16.5657577187px, 6.4031424025px) rotate(0.4934138496deg);
+    }
+  
+    75% {
+      transform: translate(1.0992439396px, 12.7889552806px) rotate(9.9937371279deg);
+    }
 }
