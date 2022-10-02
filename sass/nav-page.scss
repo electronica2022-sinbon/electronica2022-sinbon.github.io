@@ -1,0 +1,59 @@
+@use "utility.scss";
+
+.sinbon-logo {
+  width: utility.width(206);
+  height: utility.height(62.3);
+  margin: auto;
+  margin-top: utility.height(37);
+  img {
+    width: 100%;
+    display: block;
+  }
+}
+
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  margin-left: utility.width(100);
+  margin-right: utility.width(100);
+  margin-top: utility.height(256);
+  &-item {
+    flex: 1 1 auto;
+    padding-left: utility.width(100);
+    padding-right: utility.width(100);
+  }
+  
+  &-item {
+    position: relative;
+    .text {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      margin: auto;
+      width: fit-content;
+      height: fit-content;
+      font-size: 3em;
+      font-family: sans-serif, Montserrat;
+      font-weight: bold;
+      color: #FFFFFF;
+    }
+
+    .triangle-text-fix {
+      right: 10%;
+    }
+
+  }
+
+  .shape {
+    width: utility.width(369);
+    // 為了置中，高不用訂死
+    // height: utility.height(369);
+    img {
+      width: 100%;
+      display: block;
+    }
+  }
+}
