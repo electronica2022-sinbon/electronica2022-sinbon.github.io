@@ -14,12 +14,13 @@
   align-items: center;
   margin-left: 5.2083333333vw;
   margin-right: 5.2083333333vw;
-  margin-top: 23.7037037037vh;
+  margin-top: 35.1268518519vh;
 }
 .main-nav-item {
   flex: 1 1 auto;
   padding-left: 5.2083333333vw;
   padding-right: 5.2083333333vw;
+  box-sizing: border-box;
 }
 .main-nav-item {
   position: relative;
@@ -37,22 +38,14 @@
   width: 19.21875vw;
 }
 .main-nav-item .text {
+  line-height: 1em;
   font-size: 3em;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   color: #FFFFFF;
 }
-.main-nav .shape:nth-child(1) {
-  animation: floating 3.3898021649s ease-in-out infinite alternate;
-}
 .main-nav .shape:nth-child(1) img {
   transform: rotate(-26deg) translate(-21px, -61px) scale(1.1160433604);
-}
-.main-nav .shape:nth-child(2) {
-  animation: floating 4.1441648987s ease-in-out infinite alternate-reverse;
-}
-.main-nav .shape:nth-child(3) {
-  animation: floating 6.524291946s ease-in-out infinite alternate;
 }
 .main-nav .shape:nth-child(3) img {
   transform: rotate(-15deg) scale(0.81899729);
