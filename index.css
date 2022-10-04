@@ -23,29 +23,30 @@
 }
 .main-nav-item {
   position: relative;
+  text-align: center;
 }
-.main-nav-item .text {
+.main-nav-item img {
   position: absolute;
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
   margin: auto;
-  width: fit-content;
-  height: fit-content;
+  display: block;
+  z-index: -1;
+  width: 19.21875vw;
+}
+.main-nav-item .text {
   font-size: 3em;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   color: #FFFFFF;
 }
-.main-nav-item .triangle-text-fix {
-  right: 10%;
-}
-.main-nav .shape {
-  width: 19.21875vw;
-}
 .main-nav .shape:nth-child(1) {
   animation: floating 3.3898021649s ease-in-out infinite alternate;
+}
+.main-nav .shape:nth-child(1) img {
+  transform: rotate(-26deg) translate(-21px, -61px) scale(1.1160433604);
 }
 .main-nav .shape:nth-child(2) {
   animation: floating 4.1441648987s ease-in-out infinite alternate-reverse;
@@ -53,9 +54,8 @@
 .main-nav .shape:nth-child(3) {
   animation: floating 6.524291946s ease-in-out infinite alternate;
 }
-.main-nav .shape img {
-  width: 100%;
-  display: block;
+.main-nav .shape:nth-child(3) img {
+  transform: rotate(-15deg) scale(0.81899729);
 }
 
 @keyframes floating {
@@ -75,6 +75,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #F2F3F4;
 }
 
 .app {

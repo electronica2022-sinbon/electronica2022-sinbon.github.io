@@ -27,33 +27,35 @@
   
   &-item {
     position: relative;
-    .text {
+    text-align: center;
+    img {
       position: absolute;
       top: 0;
       bottom: 0;
       right: 0;
       left: 0;
       margin: auto;
-      width: fit-content;
-      height: fit-content;
+      display: block;
+      z-index: -1;
+      width: utility.width(369);
+    }
+    .text {
       font-size: 3em;
       font-family: 'Montserrat', sans-serif;
       font-weight: bold;
       color: #FFFFFF;
     }
-
-    .triangle-text-fix {
-      right: 10%;
-    }
-
   }
 
   .shape {
-    width: utility.width(369);
     // 為了置中，高不用訂死
     // height: utility.height(369);
     $sec: 12s;
+
     &:nth-child(1){
+      img {
+        transform: rotate(-26deg) translate(-21px, -61px) scale(math.div(411.82, 369));
+      }
       // animation: floating ($sec * math.random()) infinite alternate;
       animation: floating 3.3898021649s ease-in-out infinite alternate;
     }
@@ -62,11 +64,10 @@
       animation: floating 4.1441648987s ease-in-out infinite alternate-reverse;
     }
     &:nth-child(3){
+      img {
+        transform: rotate(-15deg) scale(math.div(302.21, 369));
+      }
       animation: floating 6.524291946s ease-in-out infinite alternate;
-    }
-    img {
-      width: 100%;
-      display: block;
     }
   }
 }
