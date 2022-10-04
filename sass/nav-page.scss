@@ -68,11 +68,11 @@
           scale(math.div(411.82, 369));
       }
       // animation: floating ($sec * math.random()) infinite alternate;
-      // animation: floating 3.3898021649s ease-in-out infinite alternate;
+      animation: floating 3.3898021649s ease-in-out infinite alternate;
     }
     &:nth-child(2){
       // animation: floating ($sec * math.random()) infinite alternate-reverse;
-      // animation: floating 4.1441648987s ease-in-out infinite alternate-reverse;
+      animation: floating 4.1441648987s ease-in-out infinite alternate-reverse;
     }
     &:nth-child(3){
       img {
@@ -80,7 +80,7 @@
           rotate(-15deg) 
           scale(math.div(302.21, 369));
       }
-      // animation: floating 6.524291946s ease-in-out infinite alternate;
+      animation: floating 6.524291946s ease-in-out infinite alternate;
     }
   }
 }
