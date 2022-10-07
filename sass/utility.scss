@@ -7,3 +7,7 @@
 @function height ($height ) {
   @return math.div($height, 1080) * 100vh;
 }
+
+.display-none {
+  display: none!important;
+}

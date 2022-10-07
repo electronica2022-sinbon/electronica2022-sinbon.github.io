@@ -1,3 +1,7 @@
+.display-none {
+  display: none !important;
+}
+
 .sinbon-logo {
   width: 10.7291666667vw;
   height: 5.7685185185vh;
@@ -22,7 +26,12 @@
   padding-right: 5.2083333333vw;
   box-sizing: border-box;
 }
+.main-nav .scale0-to-origin {
+  scale: 0;
+}
 .main-nav-item {
+  transition: scale 0.3s;
+  scale: 1;
   position: relative;
   text-align: center;
 }

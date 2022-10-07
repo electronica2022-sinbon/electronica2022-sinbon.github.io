@@ -32,7 +32,12 @@
     box-sizing: border-box;
   }
   
+  .scale0-to-origin {
+    scale: 0;
+  }
   &-item {
+    transition: scale .3s;
+    scale: 1;
     position: relative;
     text-align: center;
     img {

@@ -9,31 +9,31 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="index.css">
+  <script src="https://unpkg.com/lottie-web@5.9.6/build/player/lottie.js"></script>
 </head>
 <body>
   <div class="app">
-    <div class="nav-page">
+    <div id="lottie"></div>
+    <div class="nav-page display-none">
       <div class="sinbon-logo">
         <img src="./assets/logo.png" alt="">
       </div>
       <div class="main-nav">
-        <div class="main-nav-item shape">
+        <div class="main-nav-item shape scale0-to-origin">
           <img src="./assets/triangle.png" alt="">
           <div class="text triangle-text-fix">Product</div>
         </div>
-        <div class="main-nav-item shape">
+        <div class="main-nav-item shape scale0-to-origin">
           <img src="./assets/circle.png" alt="">
           <div class="text">Case<br />Study</div>
         </div>
-        <div class="main-nav-item shape">
+        <div class="main-nav-item shape scale0-to-origin">
           <img src="./assets/Rectangle.png" alt="">
           <div class="text">About<br />SINBON</div>
         </div>
       </div>
     </div>
   </div>
-  <script>
-    // TODO: 23143
-  </script>
+  <script src="./main.js" type="module"></script>
 </body>
 </html>
