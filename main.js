@@ -1,22 +1,14 @@
-// import animation from 
+import App from './app/app.js'
+import Router from './app/router.js'
+import routes from './routes.js'
+import animationBegin from './components/animation-begin.js'
 
-// TODO: 23143
-window.onload = function () {
-  const animationBegin = lottie.loadAnimation({
-    container: document.getElementById('lottie'), // the dom element that will contain the animation
-    renderer: 'svg',
-    loop: false,
-    autoplay: true,
-    path: "./assets/begin.json" // the path to the animation json
-  });
+const app = new App('#app', animationBegin)
+app.use(new Router({
+  routes
+}));
 
-  animationBegin.addEventListener('complete', function () {
-    animationBegin.destroy();
-    document.querySelector('.nav-page').classList.toggle('display-none');
-    setTimeout(() => {
-      document.querySelectorAll('.main-nav-item').forEach(item => {
-        item.classList.toggle('scale0-to-origin')
-      })
-    })
-  })
-}
+app.mounte()
+
+
+

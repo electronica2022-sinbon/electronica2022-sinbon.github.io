@@ -19,12 +19,6 @@
   margin-left: utility.width(100);
   margin-right: utility.width(100);
   margin-top: utility.height(379.37);
-  // position: absolute;
-  // top: 0;
-  // bottom: 0;
-  // margin: auto;
-  // left: 0;
-  // right: 0;
   &-item {
     flex: 1 1 auto;
     padding-left: utility.width(100);
@@ -57,6 +51,8 @@
       font-family: 'Montserrat', sans-serif;
       font-weight: bold;
       color: #FFFFFF;
+
+      pointer-events: none;
     }
   }
 

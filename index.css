@@ -52,6 +52,7 @@
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   color: #FFFFFF;
+  pointer-events: none;
 }
 .main-nav .shape:nth-child(1) {
   animation: floating 3.3898021649s ease-in-out infinite alternate;
