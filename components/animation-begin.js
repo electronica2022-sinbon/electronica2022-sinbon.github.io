@@ -1,10 +1,8 @@
 export default function animationBegin(app) {
-  this.app = app;
   this.data = {
-
+    amination: null
   }
   this.mounted = () => {
-    console.log('mounted');
     this.data.amination = lottie.loadAnimation({
       container: document.getElementById('lottie'), // the dom element that will contain the animation
       renderer: 'svg',
@@ -15,7 +13,7 @@ export default function animationBegin(app) {
 
     this.data.amination.addEventListener('complete', () => {
       this.destroy()
-      this.app.$router.push('nav-page')
+      app.$router.push('nav-page')
     })
   }
   

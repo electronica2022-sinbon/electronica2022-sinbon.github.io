@@ -9,5 +9,9 @@ export default [{
   name: 'nav-page',
   path: '/main-nav',
   component: navPage.toString()
+}, {
+  name: 'nav-page1',
+  path: '/main-nav1',
+  component: animationBegin.toString()
 }]
 

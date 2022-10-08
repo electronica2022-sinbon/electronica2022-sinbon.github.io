@@ -2,6 +2,26 @@
   display: none !important;
 }
 
+.scale0-to-origin {
+  scale: 0 !important;
+}
+
+.transition-next-page {
+  width: 10vw;
+  height: 10vw;
+  border-radius: 4000px;
+  background-color: #005694;
+  transition: scale 0.3s;
+  scale: 15;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 100;
+}
+
 .sinbon-logo {
   width: 10.7291666667vw;
   height: 5.7685185185vh;
@@ -25,9 +45,6 @@
   padding-left: 5.2083333333vw;
   padding-right: 5.2083333333vw;
   box-sizing: border-box;
-}
-.main-nav .scale0-to-origin {
-  scale: 0;
 }
 .main-nav-item {
   transition: scale 0.3s;

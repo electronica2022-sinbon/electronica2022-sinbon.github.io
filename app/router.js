@@ -13,7 +13,6 @@ export default function (config) {
   this.beforeEach = callback => {
     window.addEventListener("popstate", (route) => {
       // this.app.mount(route.component.name)
-      console.log(route);
       callback(route);
     });
   }

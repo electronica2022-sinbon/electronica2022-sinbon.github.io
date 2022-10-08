@@ -20,8 +20,8 @@ export default function main(appId, initComponent) {
   this.mounte = (key = 'init') => {
     if (this.currentComponent != null) {
       if ('destroy' in this.currentComponent) {
-        this.currentComponent.destroy();
         this.appElement.innerHTML = ''
+        this.currentComponent.destroy();
       }
       this.currentComponent = null;
     }

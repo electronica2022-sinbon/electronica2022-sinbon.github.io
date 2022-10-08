@@ -1,6 +1,24 @@
 @use "utility.scss";
 @use 'sass:math';
 
+.transition-next-page {
+  width: 10vw;
+  height: 10vw;
+  border-radius: 4000px;
+  background-color: #005694;
+
+  transition: scale .3s;
+  scale: 15;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 100;
+}
+
 .sinbon-logo {
   width: utility.width(206);
   height: utility.height(62.3);
@@ -26,9 +44,6 @@
     box-sizing: border-box;
   }
   
-  .scale0-to-origin {
-    scale: 0;
-  }
   &-item {
     transition: scale .3s;
     scale: 1;
