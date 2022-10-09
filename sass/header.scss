@@ -1,0 +1,23 @@
+@use "utility.scss";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .back-prev,
+  .options,
+  .sinbon-logo {
+    flex: none;
+    width: utility.width(206);
+  }
+
+  .back-prev,
+  .options {
+    flex: none;
+    width: utility.width(80);
+    img {
+      width: 100%;
+    }
+  }
+}

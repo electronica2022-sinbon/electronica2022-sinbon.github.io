@@ -1,5 +1,7 @@
 import animationBegin from './components/animation-begin.js'
 import navPage from './components/nav-page.js'
+import productCategory from './components/product-category.js'
+import page404 from './components/page404.js'
 
 export default [{
   name: 'animation-beign',
@@ -10,8 +12,12 @@ export default [{
   path: '/main-nav',
   component: navPage.toString()
 }, {
-  name: 'nav-page1',
-  path: '/main-nav1',
-  component: animationBegin.toString()
+  name: 'product-category',
+  path: '/product-category',
+  component: productCategory.toString()
+}, {
+  name: '404',
+  path: '*',
+  component: page404.toString()
 }]
 

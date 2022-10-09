@@ -6,34 +6,50 @@ export default function navPage(app) {
       document.querySelectorAll('.main-nav-item').forEach(item => item.classList.toggle('scale0-to-origin'))
     })
 
-    document.querySelectorAll('.main-nav-item > img').forEach(item => {
-      item.addEventListener('click', e => {
-        console.log('e.currentTarget', e.currentTarget)
-        document.querySelector('.transition-next-page').classList.toggle('scale0-to-origin')
-        setTimeout(() => {
-          app.$router.push('nav-page1');
-        }, 300)
-      })
+    // 點擊選項，播放動畫    
+    document.querySelector('.triangle').addEventListener('click', () => {
+      document.querySelector('.transition-next-page').classList.toggle('scale0-to-origin')
+      setTimeout(() => {
+        app.$router.push('/');
+      }, 300)
+      
+    })
+    document.querySelector('.circle').addEventListener('click', () => {
+      document.querySelector('.transition-next-page').classList.toggle('scale0-to-origin')
+      setTimeout(() => {
+        app.$router.push('/');
+      }, 300)
+
+    })
+
+    // 進入指定 router
+    document.querySelector('.rectangle').addEventListener('click', () => {
+      document.querySelector('.transition-next-page').classList.toggle('scale0-to-origin')
+      setTimeout(() => {
+        app.$router.push('product-category');
+      }, 300)
     })
   }
 
   this.render = () => `
     <div class="nav-page display-none">
       <div class="transition-next-page scale0-to-origin"></div>
-      <div class="sinbon-logo">
-        <img src="./assets/logo.png" alt="">
+      <div class="header">
+        <img class="back-prev" src="./assets/back_prev.png" alt="">
+        <img class="sinbon-logo" src="./assets/logo.png" alt="">
+        <img class="options" src="./assets/options.png" alt="">
       </div>
       <div class="main-nav">
         <div class="main-nav-item shape scale0-to-origin">
-          <img src="./assets/triangle.png" alt="">
+          <img class="triangle" src="./assets/triangle.png" alt="">
           <div class="text triangle-text-fix">Product</div>
         </div>
         <div class="main-nav-item shape scale0-to-origin">
-          <img src="./assets/circle.png" alt="">
+          <img class="circle" src="./assets/circle.png" alt="">
           <div class="text">Case<br />Study</div>
         </div>
         <div class="main-nav-item shape scale0-to-origin">
-          <img src="./assets/Rectangle.png" alt="">
+          <img class="rectangle" src="./assets/rectangle.png" alt="">
           <div class="text">About<br />SINBON</div>
         </div>
       </div>

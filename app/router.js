@@ -1,3 +1,4 @@
+
 export default function (config) {
   const { routes } = config;
   // data
@@ -11,8 +12,9 @@ export default function (config) {
   this.back = back;
   this.forward = forward;
   this.beforeEach = callback => {
-    window.addEventListener("popstate", (route) => {
+    window.addEventListener("hashchange", (route) => {
       // this.app.mount(route.component.name)
+      console.log('hash change', route);
       callback(route);
     });
   }
@@ -69,9 +71,16 @@ function stringToFunction(stringFunction) {
 
 
 function findTargetRoute(routeCondition) {
+  let route = null
   if (typeof routeCondition === 'string')
-    return this.routes.find(route => route.name === routeCondition || route.path === routeCondition);
+    route = this.routes.find(route => route.name === routeCondition || route.path === routeCondition);
   else if (routeCondition instanceof Object) {
-    return this.routes.find(route => Object.keys(routeCondition).every(key => route[key] === routeCondition[key]));
+    route = this.routes.find(route => Object.keys(routeCondition).every(key => route[key] === routeCondition[key]));
+  } 
+   
+  if (route == null) {
+    route = this.routes.find(route => route.path === '*');
   }
+
+  return route
 }

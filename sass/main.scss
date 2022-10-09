@@ -1,4 +1,7 @@
+@use "utility.scss";
+
 @use 'nav-page.scss';
+@use 'product-category.scss';
 
 body {
   margin: 0;
@@ -8,5 +11,22 @@ body {
 
 .app {
   display: block;
+  position: relative;
 }
+.transition-next-page {
+  width: 10vw;
+  height: 10vw;
+  border-radius: 4000px;
+  background-color: #005694;
 
+  transition: scale .3s;
+  scale: 15;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 100;
+}
