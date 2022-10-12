@@ -57,7 +57,7 @@
     span {
       font-family: 'Montserrat', sans-serif;
         font-weight: bold;
-        font-size: 1.56em;
+        font-size: 1.9em;
         
         color: #FFFFFF;
     }
@@ -82,7 +82,7 @@
       left: 0;
     }
     &:nth-child(1) {
-      margin-top: 63px;
+      margin-top: 130px;
       animation: floating 3.3656091897s ease-in-out infinite alternate-reverse;
       // animation: floating ($sec * math.random()) ease-in-out infinite alternate-reverse;
       img {
@@ -108,11 +108,11 @@
 
   .circle {
     scale: 1;
-    img {
-      scale: 0.9;
-    }
+    // img {
+    //   scale: 0.9;
+    // }
     
-    $spacer: 63px;
+    $spacer: 150px;
     &:nth-child(1) {
       animation: floating 6.1125706591s ease-in-out infinite alternate-reverse;
       // animation: floating ($sec * math.random()) ease-in-out infinite alternate;

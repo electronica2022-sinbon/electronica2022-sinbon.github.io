@@ -310,7 +310,7 @@
 .case-study .option span {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  font-size: 1.56em;
+  font-size: 1.9em;
   color: #FFFFFF;
 }
 .case-study .shape {
@@ -327,7 +327,7 @@
   left: 0;
 }
 .case-study .triangle:nth-child(1) {
-  margin-top: 63px;
+  margin-top: 130px;
   animation: floating 3.3656091897s ease-in-out infinite alternate-reverse;
 }
 .case-study .triangle:nth-child(1) img {
@@ -350,14 +350,11 @@
 .case-study .circle {
   scale: 1;
 }
-.case-study .circle img {
-  scale: 0.9;
-}
 .case-study .circle:nth-child(1) {
   animation: floating 6.1125706591s ease-in-out infinite alternate-reverse;
 }
 .case-study .circle:nth-child(2) {
-  margin-top: 63px;
+  margin-top: 150px;
   animation: floating 5.3613873204s ease-in-out infinite alternate;
 }
 .case-study .rectangle {
