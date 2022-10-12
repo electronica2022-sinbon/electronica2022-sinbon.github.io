@@ -269,6 +269,117 @@
   rotate: 2.59deg;
 }
 
+.case-study .header {
+  margin-top: 5.462962963vh;
+  margin-left: 3.125vw;
+  margin-right: 3.125vw;
+}
+.case-study .body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  margin-left: 3.125vw;
+  margin-right: 3.125vw;
+}
+.case-study .body-item {
+  flex: 1 0 33.33%;
+  text-align: center;
+  height: 22em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.case-study .option {
+  display: inline-block;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.case-study .option img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: -1;
+  transform-origin: center;
+}
+.case-study .option span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1.56em;
+  color: #FFFFFF;
+}
+.case-study .shape {
+  width: 11.3541666667vw;
+}
+.case-study .option {
+  width: 11.3541666667vw;
+}
+.case-study .triangle {
+  width: 12.5vw;
+}
+.case-study .triangle img {
+  scale: 1.12;
+  left: 0;
+}
+.case-study .triangle:nth-child(1) {
+  margin-top: 63px;
+  animation: floating 3.3656091897s ease-in-out infinite alternate-reverse;
+}
+.case-study .triangle:nth-child(1) img {
+  rotate: -9.35deg;
+  top: 0;
+  bottom: 70px;
+  left: 0;
+  right: 10px;
+}
+.case-study .triangle:nth-child(2) {
+  animation: floating 4.3728878885s ease-in-out infinite alternate;
+}
+.case-study .triangle:nth-child(2) img {
+  rotate: 12.16deg;
+  top: 0;
+  bottom: 65px;
+  left: 20px;
+  right: 0;
+}
+.case-study .circle {
+  scale: 1;
+}
+.case-study .circle img {
+  scale: 0.9;
+}
+.case-study .circle:nth-child(1) {
+  animation: floating 6.1125706591s ease-in-out infinite alternate-reverse;
+}
+.case-study .circle:nth-child(2) {
+  margin-top: 63px;
+  animation: floating 5.3613873204s ease-in-out infinite alternate;
+}
+.case-study .rectangle {
+  width: 12.5vw;
+}
+.case-study .rectangle img {
+  scale: 0.88;
+}
+.case-study .rectangle:nth-child(1) {
+  margin-top: 42px;
+  animation: floating 9.3131782653s ease-in-out infinite alternate;
+}
+.case-study .rectangle:nth-child(1) img {
+  rotate: 10.88deg;
+}
+.case-study .rectangle:nth-child(2) {
+  animation: floating 6.8423769918s ease-in-out infinite alternate-reverse;
+}
+.case-study .rectangle:nth-child(2) img {
+  rotate: -4.48deg;
+}
+
 .about-sinbon .header {
   margin-top: 5.462962963vh;
   margin-left: 3.125vw;

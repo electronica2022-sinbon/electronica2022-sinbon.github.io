@@ -18,7 +18,7 @@ export default function navPage(app) {
     document.querySelector('.circle').addEventListener('click', () => {
       document.querySelector('.transition-next-page').classList.remove('scale0-to-origin')
       setTimeout(() => {
-        app.$router.push('/');
+        app.$router.push('case-study');
       }, 300)
 
     })
@@ -27,7 +27,7 @@ export default function navPage(app) {
     document.querySelector('.rectangle').addEventListener('click', () => {
       document.querySelector('.transition-next-page').classList.remove('scale0-to-origin')
       setTimeout(() => {
-        app.$router.push('/about');
+        app.$router.push('about');
       }, 300)
     })
   }

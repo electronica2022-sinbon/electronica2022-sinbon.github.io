@@ -1,0 +1,154 @@
+@use "./utility.scss";
+@use "./header.scss";
+@use "./amination.scss";
+@use 'sass:math';
+
+
+.case-study {
+  $sec: 12s;
+  .header {
+    margin-top: utility.height(59);
+    margin-left: utility.width(60);
+    margin-right: utility.width(60);
+  }
+
+  .body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin-left: utility.width(60);
+    margin-right: utility.width(60);
+    
+    &-item {
+      // &:nth-child(1) {
+      //   flex: 1 0 26vw;
+      // }
+      flex: 1 0 33.33%;
+      text-align: center;
+      height: 22em;
+
+      // 為了內部排版
+      display: flex;
+      // flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
+  .option {
+    display: inline-block;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      z-index: -1;
+      transform-origin: center;
+    }
+
+    span {
+      font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 1.56em;
+        
+        color: #FFFFFF;
+    }
+  }
+  .shape {
+    width: utility.width(218);
+    // height: utility.height(218);
+  }
+  .option {
+    width: utility.width(218);
+    // height: utility.height(218);
+  }
+
+
+  // 形狀旋轉
+  .triangle {
+    width: utility.width(240);
+    // height: utility.height(240);
+    // line-height: 10em;
+    img {
+      scale: 1.12;
+      left: 0;
+    }
+    &:nth-child(1) {
+      margin-top: 63px;
+      animation: floating 3.3656091897s ease-in-out infinite alternate-reverse;
+      // animation: floating ($sec * math.random()) ease-in-out infinite alternate-reverse;
+      img {
+        rotate: -9.35deg;
+        top: 0;
+        bottom: 70px;
+        left: 0;
+        right: 10px;
+      }
+    }
+    &:nth-child(2) {
+      animation: floating 4.3728878885s ease-in-out infinite alternate;
+      // animation: floating ($sec * math.random()) ease-in-out infinite alternate;
+      img {
+        rotate: 12.16deg;
+        top: 0;
+        bottom: 65px;
+        left: 20px;
+        right: 0;
+      }
+    }
+  }
+
+  .circle {
+    scale: 1;
+    img {
+      scale: 0.9;
+    }
+    
+    $spacer: 63px;
+    &:nth-child(1) {
+      animation: floating 6.1125706591s ease-in-out infinite alternate-reverse;
+      // animation: floating ($sec * math.random()) ease-in-out infinite alternate;
+    }
+    
+    &:nth-child(2) {
+      margin-top: $spacer;
+      animation: floating 5.3613873204s ease-in-out infinite alternate;
+      // animation: floating ($sec * math.random()) ease-in-out infinite alternate;
+    }
+  }
+
+  .rectangle {
+    width: utility.width(240);
+    // height: utility.height(240);
+    // line-height: 12em;
+    img {
+      scale: 0.88;
+    }
+    
+    $spacer: 60px;
+    &:nth-child(1) {
+      margin-top: $spacer * .7;
+      animation: floating 9.3131782653s ease-in-out infinite alternate;
+      // animation: floating ($sec * math.random()) ease-in-out infinite alternate;
+      img {
+        rotate: 10.88deg;
+      }
+    }
+
+    &:nth-child(2) {
+      animation: floating 6.8423769918s ease-in-out infinite alternate-reverse;
+      // animation: floating ($sec * math.random()) ease-in-out infinite alternate;
+      img {
+        rotate: -4.48deg;
+      }
+    }
+  }
+}
