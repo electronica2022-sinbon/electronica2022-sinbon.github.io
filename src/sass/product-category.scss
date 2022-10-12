@@ -3,9 +3,9 @@
 @use "./amination.scss";
 @use 'sass:math';
 
-$sec: 12s;
 
 .product-category {
+  $sec: 12s;
   .header {
     margin-top: utility.height(59);
     margin-left: utility.width(60);

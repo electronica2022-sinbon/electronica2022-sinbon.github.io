@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "sass --watch --no-source-map ./sass/main.scss ./index.css",
+    "dev": "sass --watch --no-source-map ./src/sass/main.scss ./index.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

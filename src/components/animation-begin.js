@@ -8,7 +8,7 @@ export default function animationBegin(app) {
       renderer: 'svg',
       loop: false,
       autoplay: true,
-      path: "./assets/begin.json" // the path to the animation json
+      path: "./src/assets/begin.json" // the path to the animation json
     });
 
     this.data.amination.addEventListener('complete', () => {
