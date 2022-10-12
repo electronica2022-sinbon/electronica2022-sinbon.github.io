@@ -1,6 +1,7 @@
 @use "utility.scss";
 @use 'sass:math';
 @use "./header.scss";
+@use "./amination.scss";
 
 .nav-page {
   .header {
@@ -40,7 +41,7 @@
       }
       .text {
         line-height: 1em;
-        font-size: 3em;
+        font-size: 3.13em;
         font-family: 'Montserrat', sans-serif;
         font-weight: bold;
         color: #FFFFFF;
@@ -80,33 +81,3 @@
   }
 }
   
-
-@keyframes floating {
-  // 0% {
-  //   transform: translate((math.random() * 20px), (math.random() * 20px)) rotate(math.random() * 10deg);
-  // }
-  // 25% {
-  //   transform: translate((math.random() * 20px), (math.random() * 20px)) rotate(math.random() * 10deg);
-  // }
-  // 50% {
-  //   transform: translate((math.random() * 20px), (math.random() * 20px)) rotate(math.random() * 10deg);
-  // }
-  // 75% {
-  //   transform: translate((math.random() * 20px), (math.random() * 20px)) rotate(math.random() * 10deg);
-  // }
-    0% {
-      transform: translate(15.5361076761px, 9.3340998139px) rotate(2.5596703838deg);
-    }
-  
-    25% {
-      transform: translate(8.8381011027px, 13.0731382216px) rotate(3.6929871803deg);
-    }
-  
-    50% {
-      transform: translate(16.5657577187px, 6.4031424025px) rotate(0.4934138496deg);
-    }
-  
-    75% {
-      transform: translate(1.0992439396px, 12.7889552806px) rotate(1.9937371279deg);
-    }
-}

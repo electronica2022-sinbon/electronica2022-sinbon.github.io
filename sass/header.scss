@@ -5,6 +5,26 @@
   justify-content: space-between;
   align-items: center;
 
+  .back-prev {
+    position: relative;
+    .title {
+      position: absolute;
+      left: utility.width(80);
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      font-size: 2.69em;
+      white-space: nowrap;
+      font-family: 'Montserrat';
+      font-weight: bold;
+      height: fit-content;
+      padding-left: 0.79em;
+      
+        /* blueGray/blueGray */
+      
+        color: #939DAE;
+    }
+  }
   .back-prev,
   .options,
   .sinbon-logo {

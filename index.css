@@ -11,6 +11,24 @@
   justify-content: space-between;
   align-items: center;
 }
+.header .back-prev {
+  position: relative;
+}
+.header .back-prev .title {
+  position: absolute;
+  left: 4.1666666667vw;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  font-size: 2.69em;
+  white-space: nowrap;
+  font-family: "Montserrat";
+  font-weight: bold;
+  height: fit-content;
+  padding-left: 0.79em;
+  /* blueGray/blueGray */
+  color: #939DAE;
+}
 .header .back-prev,
 .header .options,
 .header .sinbon-logo {
@@ -27,6 +45,20 @@
   width: 100%;
 }
 
+@keyframes floating {
+  0% {
+    transform: translate(15.5361076761px, 9.3340998139px) rotate(2.5596703838deg);
+  }
+  25% {
+    transform: translate(8.8381011027px, 13.0731382216px) rotate(3.6929871803deg);
+  }
+  50% {
+    transform: translate(16.5657577187px, 6.4031424025px) rotate(0.4934138496deg);
+  }
+  75% {
+    transform: translate(1.0992439396px, 12.7889552806px) rotate(1.9937371279deg);
+  }
+}
 .nav-page .header {
   margin-top: 3.4259259259vh;
   margin-left: 3.125vw;
@@ -64,7 +96,7 @@
 }
 .nav-page .main-nav-item .text {
   line-height: 1em;
-  font-size: 3em;
+  font-size: 3.13em;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   color: #FFFFFF;
@@ -86,24 +118,155 @@
   transform: rotate(-15deg) scale(0.81899729);
 }
 
-@keyframes floating {
-  0% {
-    transform: translate(15.5361076761px, 9.3340998139px) rotate(2.5596703838deg);
-  }
-  25% {
-    transform: translate(8.8381011027px, 13.0731382216px) rotate(3.6929871803deg);
-  }
-  50% {
-    transform: translate(16.5657577187px, 6.4031424025px) rotate(0.4934138496deg);
-  }
-  75% {
-    transform: translate(1.0992439396px, 12.7889552806px) rotate(1.9937371279deg);
-  }
-}
 .product-category .header {
   margin-top: 5.462962963vh;
   margin-left: 3.125vw;
   margin-right: 3.125vw;
+}
+.product-category .body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  margin-left: 3.125vw;
+  margin-right: 3.125vw;
+}
+.product-category .body-item {
+  text-align: center;
+  height: 22em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.product-category .body-item:nth-child(1) {
+  flex: 1 0 26vw;
+}
+.product-category .option {
+  display: inline-block;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-category .option img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: -1;
+  transform-origin: center;
+}
+.product-category .option span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1.56em;
+  color: #FFFFFF;
+}
+.product-category .shape {
+  width: 11.3541666667vw;
+}
+.product-category .option {
+  width: 11.3541666667vw;
+}
+.product-category .triangle {
+  width: 12.5vw;
+}
+.product-category .triangle img {
+  scale: 1.12;
+  left: 0;
+}
+.product-category .triangle:nth-child(1) {
+  animation: floating 3.3656091897s ease-in-out infinite alternate-reverse;
+}
+.product-category .triangle:nth-child(1) img {
+  rotate: -9.35deg;
+  top: 0;
+  bottom: 70px;
+  left: 0;
+  right: 10px;
+}
+.product-category .triangle:nth-child(2) {
+  animation: floating 4.3728878885s ease-in-out infinite alternate;
+}
+.product-category .triangle:nth-child(2) img {
+  rotate: 100.68deg;
+  top: 0;
+  bottom: 0;
+  left: 30px;
+  right: 0;
+}
+.product-category .triangle:nth-child(3) {
+  animation: floating 7.020452753s ease-in-out infinite alternate;
+}
+.product-category .triangle:nth-child(3) img {
+  rotate: -64.64deg;
+  top: 0;
+  bottom: 40px;
+  left: -60px;
+  right: 0;
+}
+.product-category .triangle:nth-child(4) {
+  animation: floating 4.3379028587s ease-in-out infinite alternate;
+}
+.product-category .triangle:nth-child(4) img {
+  rotate: -80.4deg;
+  top: 0;
+  bottom: 0;
+  left: -55px;
+  right: 0;
+}
+.product-category .circle {
+  scale: 1;
+}
+.product-category .circle img {
+  scale: 0.9;
+}
+.product-category .circle:nth-child(1) {
+  animation: floating 6.1125706591s ease-in-out infinite alternate-reverse;
+}
+.product-category .circle:nth-child(2) {
+  margin-top: 60px;
+  animation: floating 5.3613873204s ease-in-out infinite alternate;
+}
+.product-category .circle:nth-child(3) {
+  margin-top: 120px;
+  animation: floating 5.9087350152s ease-in-out infinite alternate-reverse;
+}
+.product-category .circle:nth-child(4) {
+  margin-top: 60px;
+  animation: floating 3.580243699s ease-in-out infinite alternate;
+}
+.product-category .circle:nth-child(5) {
+  margin-top: 120px;
+  animation: floating 6.6803234705s ease-in-out infinite alternate-reverse;
+}
+.product-category .rectangle {
+  width: 12.5vw;
+}
+.product-category .rectangle img {
+  scale: 0.88;
+}
+.product-category .rectangle:nth-child(1) {
+  animation: floating 9.3131782653s ease-in-out infinite alternate;
+}
+.product-category .rectangle:nth-child(1) img {
+  rotate: -15deg;
+}
+.product-category .rectangle:nth-child(2) {
+  margin-top: 42px;
+  animation: floating 6.8423769918s ease-in-out infinite alternate-reverse;
+}
+.product-category .rectangle:nth-child(2) img {
+  rotate: 14.97deg;
+}
+.product-category .rectangle:nth-child(3) {
+  margin-top: 72px;
+  animation: floating 8.4659051938s ease-in-out infinite alternate;
+}
+.product-category .rectangle:nth-child(3) img {
+  rotate: 2.59deg;
 }
 
 body {
