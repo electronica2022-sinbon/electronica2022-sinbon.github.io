@@ -15,8 +15,7 @@ export default function (config) {
   window.addEventListener('hashchange', ({ newURL, oldURL }) => {
     const path = location.hash.split('#')[1]    
     const new_route = findTargetRoute.call(this, { path });
-    const componentConstructor = stringToFunction(new_route.component);
-    this.app.mounte(componentConstructor);
+    this.app.mounte(new_route.component);
   });
 }
 
@@ -29,8 +28,7 @@ function install(app) {
 
   // 覆蓋第一頁為 route 指定的頁面
   const curr_route = findTargetRoute.call(this, { path });
-  const componentConstructor = stringToFunction(curr_route.component);
-  this.app.initialFirstPage(componentConstructor)
+  this.app.initialFirstPage(curr_route.component)
 }
 
 function forward () {
@@ -45,10 +43,6 @@ function push(routeCondition) {
   // 找出指定的 route => curr_route
   const curr_route = findTargetRoute.call(this, routeCondition);
   location.hash = `${curr_route.path}`
-}
-
-function stringToFunction(stringFunction) {
-  return new Function(`return ${stringFunction}`)();
 }
 
 function findTargetRoute(routeCondition) {

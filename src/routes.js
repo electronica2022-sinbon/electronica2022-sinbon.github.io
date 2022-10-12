@@ -7,22 +7,22 @@ import page404 from './components/page404.js'
 export default [{
   name: 'animation-beign',
   path: '/', // not be '/', that is not init page
-  component: animationBegin.toString()
+  component: animationBegin
 }, {
   name: 'nav-page',
   path: '/main-nav',
-  component: navPage.toString()
+  component: navPage
 }, {
   name: 'product-category',
   path: '/product-category',
-  component: productCategory.toString()
+  component: productCategory
 }, {
   name: 'about',
   path: '/about',
-  component: aboutSimbon.toString()
+  component: aboutSimbon
 }, {
   name: '404',
   path: '*',
-  component: page404.toString()
+  component: page404
 }]
 
