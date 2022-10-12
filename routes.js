@@ -1,6 +1,7 @@
 import animationBegin from './components/animation-begin.js'
 import navPage from './components/nav-page.js'
 import productCategory from './components/product-category.js'
+import aboutSimbon from './components/about-sinbon.js'
 import page404 from './components/page404.js'
 
 export default [{
@@ -15,6 +16,10 @@ export default [{
   name: 'product-category',
   path: '/product-category',
   component: productCategory.toString()
+}, {
+  name: 'about',
+  path: '/about',
+  component: aboutSimbon.toString()
 }, {
   name: '404',
   path: '*',

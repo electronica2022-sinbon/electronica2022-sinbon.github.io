@@ -1,13 +1,14 @@
 export default function productCategory(app) {
 
   this.mounted = function () {
-    document.querySelector('.back-prev > img').addEventListener('click', () => {
-      document.querySelector('.transition-next-page').classList.remove('scale0-to-origin')
-      setTimeout(() => {
-        app.$router.push('/main-nav');
-      }, 300)
-    })
     document.querySelector('.transition-next-page').classList.add('scale0-to-origin')
+
+    document.querySelector('.back-prev > img').addEventListener('click', () => {
+      // document.querySelector('.transition-next-page').classList.remove('scale0-to-origin')
+      app.$router.push('/main-nav');
+      // setTimeout(() => {
+      // }, 300)
+    })
 
   }
 

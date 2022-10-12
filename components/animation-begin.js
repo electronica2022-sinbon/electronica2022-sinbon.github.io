@@ -12,12 +12,13 @@ export default function animationBegin(app) {
     });
 
     this.data.amination.addEventListener('complete', () => {
-      this.destroy()
+      // this.destroy()
       app.$router.push('nav-page')
     })
   }
   
   this.destroy = () => {
+    console.log('this.data.amination.destroy();');
     this.data.amination.destroy();
   }
 

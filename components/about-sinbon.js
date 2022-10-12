@@ -1,11 +1,11 @@
 export default function navPage(app) {
 
   this.mounted = function () {
-    // document.querySelector('.nav-page').classList.remove('display-none')
+    document.querySelector('.nav-page').classList.toggle('display-none')
     document.querySelector('.transition-next-page').classList.add('scale0-to-origin')
     setTimeout(() => {
-      document.querySelectorAll('.main-nav-item').forEach(item => item.classList.remove('scale0-to-origin'))
-    }, 100)
+      document.querySelectorAll('.main-nav-item').forEach(item => item.classList.toggle('scale0-to-origin'))
+    })
 
     // 點擊選項，播放動畫    
     document.querySelector('.triangle').addEventListener('click', () => {
@@ -33,7 +33,7 @@ export default function navPage(app) {
   }
 
   this.render = () => `
-    <div class="nav-page">
+    <div class="nav-page display-none">
       <div class="header">
         <!-- 前後兩個元素隱藏 -->
         <div></div>
