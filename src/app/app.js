@@ -18,25 +18,31 @@ export default function main(appId, initComponent) {
   };
 
   this.mounte = (key = 'init') => {
-    if (this.currentComponent != null) {
-      if ('destroy' in this.currentComponent) {
-        this.appElement.innerHTML = ''
-        this.currentComponent.destroy();
+
+    new Promise(res => {
+      if (this.currentComponent != null) {
+        if ('destroy' in this.currentComponent) {
+          this.appElement.innerHTML = ''
+          this.currentComponent.destroy();
+        }
+        this.currentComponent = null;
       }
-      this.currentComponent = null;
-    }
-
-    if (key instanceof Function) {
-      this.currentComponent = new (key)(this)
-    } else {
-      // if (typeof key === 'string')
-      this.currentComponent = new (this.components[key])(this)
-    }
-
-    this.appElement.innerHTML = this.currentComponent.render()
-
-    if ('mounted' in this.currentComponent)
-      this.currentComponent.mounted();
+      res();
+    })
+    .then(() => {
+      if (key instanceof Function) {
+        this.currentComponent = new (key)(this)
+      } else {
+        // if (typeof key === 'string')
+        this.currentComponent = new (this.components[key])(this)
+      }
+  
+      this.appElement.innerHTML = this.currentComponent.render()
+    })
+    .then(() => { 
+      if ('mounted' in this.currentComponent)
+        this.currentComponent.mounted();
+    })
   };
 
   
