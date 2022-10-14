@@ -1,0 +1,81 @@
+@use "./utility.scss";
+.pop-up {
+  background-color: #6b6b6b99;
+  
+  position: absolute;
+  top: 30000px;
+  left: 30000px;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+
+  transition: left 0ms ease 600ms, top 0ms ease 600ms, opacity .3s .3s;
+  opacity: 0;
+  .content {
+    opacity: 0;
+    transition: opacity .3s;
+  }
+  
+  &.show {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    
+    opacity: 1;
+    transition: opacity .3s;
+    .content {
+      opacity: 1;
+      transition: opacity .3s .3s;
+    }
+  }
+
+  .content {
+    background-color: #F2F3F4;
+    max-width: 683px;
+    box-sizing: border-box;
+    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: utility.width(683);
+    height: utility.height(707);
+
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+
+    .head { 
+      flex: 0;
+      img {
+        display: block;
+        margin-left: auto;
+        width: utility.width(80);
+      }
+    }
+
+    .body{
+      flex: 1 1 auto;
+      .qr-code {
+        display: block;
+        margin: auto;
+        object-fit: contain;
+        min-width: 435px;
+      }
+    }
+    .footer {
+      flex: 0;
+      font-family: 'Montserrat';
+      font-size: 24px;
+      line-height: 1.2;
+      text-align: center;  
+      color: #252A31;
+      padding-bottom: 96px;
+    }
+  }
+}

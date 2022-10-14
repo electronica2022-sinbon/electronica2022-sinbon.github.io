@@ -1,0 +1,66 @@
+@use "./utility.scss";
+.ebook {
+  background-color: #6b6b6b99;
+  
+  position: absolute;
+  top: 30000px;
+  left: 30000px;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+
+  transition: left 0ms ease 600ms, top 0ms ease 600ms, opacity .3s .3s;
+  opacity: 0;
+  .content {
+    opacity: 0;
+    transition: opacity .3s;
+  }
+  
+  &.show {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    
+    opacity: 1;
+    transition: opacity .3s;
+    .content {
+      opacity: 1;
+      transition: opacity .3s .3s;
+    }
+  }
+
+  .content {
+    background-color: #F2F3F4;
+    width: 80%;
+    height: 90%;
+    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+
+    .head { 
+      flex: 0;
+      img {
+        display: block;
+        margin-left: auto;
+        width: utility.width(80);
+      }
+    }
+
+    .body{
+      flex: 1 1 auto;
+      border: none;
+      padding-top: 1.2em;
+    }
+  }
+}

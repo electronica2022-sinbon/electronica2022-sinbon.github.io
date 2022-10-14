@@ -9,6 +9,22 @@ export default function aboutSimbon(app) {
         app.$router.push('/main-nav');
       }, 300)
     })
+
+    document.querySelector('.qr-code-button').addEventListener('click', () => {
+      document.querySelector('.pop-up').classList.add('show');
+    })
+    document.querySelector('.pop-up .close').addEventListener('click', () => {
+      document.querySelector('.pop-up').classList.remove('show');
+    })
+
+
+    document.querySelector('.read-me-button').addEventListener('click', () => {
+      document.querySelector('iframe.body').src ="https://heyzine.com/flip-book/SINBON2022Electronica?fbclid=IwAR273vBJx8uczl2NclAz_cP9dUoJd1cuu2bE7whseSO8EytFNWMY_opAkbg#page/1";
+      document.querySelector('.ebook').classList.add('show');
+    })
+    document.querySelector('.ebook .close').addEventListener('click', () => {
+      document.querySelector('.ebook').classList.remove('show');
+    })
   }
 
   this.destroy = function () {
@@ -29,13 +45,36 @@ export default function aboutSimbon(app) {
         <div></div>
         <div class="content">
           <img src="./src/assets/about-content.png" alt="">
-          <div class="read-me">
+          <div class="read-me-button">
             Read Me
           </div>
         </div>
-        <div class="qr-code">
-          <img src="./src/assets/icon-mail.png" alt="">
-          Send PDF as Email
+        <div class="qr-code-button">
+          <img src="./src/assets/icon-email.png" alt="">
+          <span>Send PDF as Email</span>
+        </div>
+      </div>
+      <div class="pop-up">
+        <div class="content">
+          <div class="head">
+            <img class="close" src="./src/assets/close-x.png" alt="">
+          </div>
+          <div class="body">
+            <img class="qr-code" src="./src/assets/qr-code-book.png" alt="">
+          </div>
+          <div class="footer">
+            Scan the QR code and fill in your email,<br />
+            and we will send a PDF to you.
+          </div>
+        </div>
+      </div>
+      <div class="ebook">
+        <div class="content">
+          <div class="head">
+            <img class="close" src="./src/assets/close-x.png" alt="">
+          </div>
+          <iframe class="body" src="https://heyzine.com/flip-book/SINBON2022Electronica?fbclid=IwAR273vBJx8uczl2NclAz_cP9dUoJd1cuu2bE7whseSO8EytFNWMY_opAkbg#page/1">
+          </iframe>
         </div>
       </div>
     </div>`

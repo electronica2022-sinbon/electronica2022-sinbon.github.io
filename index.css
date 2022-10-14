@@ -377,12 +377,141 @@
   rotate: -4.48deg;
 }
 
-.about-sinbon .header {
+.pop-up {
+  background-color: rgba(107, 107, 107, 0.6);
+  position: absolute;
+  top: 30000px;
+  left: 30000px;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  transition: left 0ms ease 600ms, top 0ms ease 600ms, opacity 0.3s 0.3s;
+  opacity: 0;
+}
+.pop-up .content {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.pop-up.show {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+.pop-up.show .content {
+  opacity: 1;
+  transition: opacity 0.3s 0.3s;
+}
+.pop-up .content {
+  background-color: #F2F3F4;
+  max-width: 683px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 35.5729166667vw;
+  height: 65.462962963vh;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+.pop-up .content .head {
+  flex: 0;
+}
+.pop-up .content .head img {
+  display: block;
+  margin-left: auto;
+  width: 4.1666666667vw;
+}
+.pop-up .content .body {
+  flex: 1 1 auto;
+}
+.pop-up .content .body .qr-code {
+  display: block;
+  margin: auto;
+  object-fit: contain;
+  min-width: 435px;
+}
+.pop-up .content .footer {
+  flex: 0;
+  font-family: "Montserrat";
+  font-size: 24px;
+  line-height: 1.2;
+  text-align: center;
+  color: #252A31;
+  padding-bottom: 96px;
+}
+
+.ebook {
+  background-color: rgba(107, 107, 107, 0.6);
+  position: absolute;
+  top: 30000px;
+  left: 30000px;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  transition: left 0ms ease 600ms, top 0ms ease 600ms, opacity 0.3s 0.3s;
+  opacity: 0;
+}
+.ebook .content {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.ebook.show {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+.ebook.show .content {
+  opacity: 1;
+  transition: opacity 0.3s 0.3s;
+}
+.ebook .content {
+  background-color: #F2F3F4;
+  width: 80%;
+  height: 90%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+.ebook .content .head {
+  flex: 0;
+}
+.ebook .content .head img {
+  display: block;
+  margin-left: auto;
+  width: 4.1666666667vw;
+}
+.ebook .content .body {
+  flex: 1 1 auto;
+  border: none;
+  padding-top: 1.2em;
+}
+
+.about-sinbon > .header {
   margin-top: 5.462962963vh;
   margin-left: 3.125vw;
   margin-right: 3.125vw;
 }
-.about-sinbon .body {
+.about-sinbon > .body {
   display: flex;
   gap: 20px;
   flex-direction: column;
@@ -392,15 +521,15 @@
   margin-left: 3.125vw;
   margin-right: 3.125vw;
 }
-.about-sinbon .body .content {
+.about-sinbon > .body .content {
   max-width: 1113px;
   box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
   position: relative;
 }
-.about-sinbon .body .content img {
+.about-sinbon > .body .content img {
   display: block;
 }
-.about-sinbon .body .content .read-me {
+.about-sinbon > .body .content .read-me-button {
   position: absolute;
   left: 64px;
   bottom: 59.71px;
@@ -415,7 +544,7 @@
   border-radius: 40px;
   line-height: 2.2;
 }
-.about-sinbon .body .qr-code {
+.about-sinbon > .body .qr-code-button {
   background: #FFFFFF;
   /* main */
   border: 4px solid #005694;
@@ -426,11 +555,16 @@
   font-size: 1.67em;
   color: #005694;
 }
+.about-sinbon > .body .qr-code-button img, .about-sinbon > .body .qr-code-button span {
+  height: 1em;
+  vertical-align: middle;
+}
 
 body {
   margin: 0;
   padding: 0;
   background-color: #F2F3F4;
+  overflow: hidden;
 }
 
 .app {

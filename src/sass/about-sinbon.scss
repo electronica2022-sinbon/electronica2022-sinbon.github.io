@@ -1,18 +1,20 @@
 @use "./utility.scss";
 @use "./header.scss";
+@use "./pop-up.scss";
+@use "./ebook.scss";
 
 @use 'sass:math';
 
 
 .about-sinbon {
   $sec: 12s;
-  .header {
+  > .header {
     margin-top: utility.height(59);
     margin-left: utility.width(60);
     margin-right: utility.width(60);
   }
 
-  .body {
+  > .body {
     display: flex;
     gap: 20px;
     flex-direction: column;
@@ -30,7 +32,7 @@
       }
       
       position: relative;
-      .read-me {
+      .read-me-button {
         position: absolute;
         left: 64px;
         bottom: 59.71px;
@@ -49,7 +51,7 @@
         line-height: 2.2;
       }
     }
-    .qr-code {
+    .qr-code-button {
       background: #FFFFFF;
       /* main */
       
@@ -63,6 +65,11 @@
       font-size: 1.67em;
 
       color: #005694;
+
+      img, span {
+        height: 1em;
+        vertical-align: middle;
+      }
     }
   }
 }

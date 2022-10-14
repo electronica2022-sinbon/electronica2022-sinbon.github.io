@@ -9,7 +9,6 @@ export default function caseStudy(app) {
         app.$router.push('/main-nav');
       }, 300)
     })
-
   }
 
   this.destroy = function () {
