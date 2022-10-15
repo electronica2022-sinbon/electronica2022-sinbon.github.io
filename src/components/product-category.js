@@ -9,6 +9,25 @@ export default function productCategory(app) {
         app.$router.push('/main-nav');
       }, 300)
     })
+
+    document.querySelectorAll('.triangle').forEach(product => {
+      product.addEventListener('click', e => {
+        console.log('product', e);
+        app.$router.push('/electric-vehicle')
+      })
+    })
+
+    document.querySelectorAll('.circle').forEach(product => {
+      product.addEventListener('click', () => {
+        app.$router.push('/robotics')
+      })
+    })
+
+    document.querySelectorAll('.rectangle').forEach(product => {
+      product.addEventListener('click', () => {
+        app.$router.push('/patient-monitoring')
+      })
+    })
   }
 
   this.destroy = function () {

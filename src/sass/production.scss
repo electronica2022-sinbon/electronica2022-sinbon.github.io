@@ -1,0 +1,149 @@
+@use "utility.scss";
+
+.production {
+  .background-title {
+    opacity: 1;
+    translate: 0px;
+    transition: opacity .5s ease-in-out, translate .5s ease-in-out;
+
+    &.initial {
+      opacity: 0;
+      translate: 100px 0px;
+    }
+  }
+
+  .title {
+    h1, h2, .photo {
+      opacity: 1;
+      translate: 0px;
+      transition: opacity .5s ease-in-out,
+        translate .5s ease-in-out;
+
+      &.initial {
+        opacity: 0;
+        translate: -100px 0px;
+      }
+    }
+  }
+
+
+
+  height: 100%;
+  display: flow-root;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  &.electric-vehicle {
+    background-image: 
+    url('./src/assets/background-triangle.png');
+  }
+
+  position: relative;
+  .icon-close {
+    position: absolute;
+    right: 34px;
+    top: 38px;
+    display: block;
+    width: 80px;
+  }
+  .background-title {
+    position: absolute;
+    top: 133px;
+    right: 45px;
+    bottom: 25px;
+    z-index: 0;
+    > img {
+      height: 100%;
+    }
+  }
+
+  .container {
+    display: flex;
+    .title, .content {
+      flex: 1 1 50%
+    }
+  }
+  .title {
+    padding: 67px 0 0 99px;
+    h2, h1 {
+      flex: none;
+      color: #FFF;
+      background: #0095DA;
+      padding: 16px;
+      width: fit-content;
+      font-family: 'Montserrat';
+      line-height: 1;
+      margin: 18px 0;
+    }
+    h1 {
+      font-size: 45px;
+      font-weight: bold;
+    }
+    h2 {
+      font-size: 36px;
+      font-weight: lighter;
+      &::before {
+        content: 'Electric Vehicle';
+      }
+    }
+    .photo {
+      margin: 40px 0;
+    }
+  }
+
+  .content {
+    padding: 154px 160px 0 0;
+    .pagination {
+      flex: none;
+      display: flex;
+      align-items: center;
+      > .prev, .next {
+        background-color: #0095DA;
+        border-radius: 900px;
+        width: 70px;
+        height: 70px;
+        box-sizing: border-box;
+        line-height: 1;
+        padding: 20px;
+        position: relative;
+        > img {
+          display: block;
+          position: absolute;
+          width: 18.85px;
+          height: 32.31px;
+          top: 0;
+          bottom: 0;
+          right: 0;
+          left: 0;
+          margin: auto;
+        }
+      }
+      span {
+        padding: 0 14px 0;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 47px;
+        color: #4F4F4F;
+      }
+    }
+    .text {
+      position: relative;
+      margin: 24px 0;
+      padding: 40px 60px;
+      background: rgba(255, 255, 255, 0.8);
+      z-index: 10;
+      color: black;
+      opacity: 1;
+
+      p {
+        font-family: 'Montserrat';
+        font-weight: lighter;
+        font-size: 32px;
+        line-height: 1.2;
+        color: #252A31;
+        margin: 0;
+      }
+    }
+  }
+}

@@ -5,19 +5,18 @@ export default function (config) {
   this.app = null;
   this.routes = routes;
   history.scrollRestoration = "auto";
+  this.search = '';
 
   // methods
   this.install = install; // for use
   this.push = push;
   this.back = back;
   this.forward = forward;
-  // this.beforeEach = callback => {
-  window.addEventListener('hashchange', ({ newURL, oldURL }) => {
-    const path = location.hash.split('#')[1]    
-    const new_route = findTargetRoute.call(this, { path });
-    this.app.mounte(new_route.component);
-  });
+  this.findTargetRoute = findTargetRoute
+  this.beforeEach = beforeEach
+  window.addEventListener('hashchange', beforeEach.bind(this));
 }
+
 
 function install(app) {
   this.app = app
@@ -27,7 +26,7 @@ function install(app) {
   const path = location.hash.split('#')[1];
 
   // 覆蓋第一頁為 route 指定的頁面
-  const curr_route = findTargetRoute.call(this, { path });
+  const curr_route = this.findTargetRoute({ path });
   this.app.initialFirstPage(curr_route.component)
 }
 
@@ -39,9 +38,22 @@ function back () {
   history.back();
 }
 
-function push(routeCondition) {
+function beforeEach() {
+  console.log('beforeEach');
+  
+  const path = location.hash.split('#')[1]
+  const new_route = this.findTargetRoute({ path });
+  this.app.mounte(new_route.component);
+}
+
+function push(routeCondition, query) {
   // 找出指定的 route => curr_route
-  const curr_route = findTargetRoute.call(this, routeCondition);
+  console.log('push', routeCondition, query);
+  const curr_route = this.findTargetRoute(routeCondition);
+  
+  // 要傳給 beforeEach 的 UrlAppendSearch
+  this.search = new URLSearchParams(query).toString();
+  
   location.hash = `${curr_route.path}`
 }
 

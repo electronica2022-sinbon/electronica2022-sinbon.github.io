@@ -162,6 +162,7 @@
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 1.56em;
+  pointer-events: none;
   color: #FFFFFF;
 }
 .product-category .shape {
@@ -267,6 +268,140 @@
 }
 .product-category .rectangle:nth-child(3) img {
   rotate: 2.59deg;
+}
+
+.production {
+  height: 100%;
+  display: flow-root;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+.production .background-title {
+  opacity: 1;
+  translate: 0px;
+  transition: opacity 0.5s ease-in-out, translate 0.5s ease-in-out;
+}
+.production .background-title.initial {
+  opacity: 0;
+  translate: 100px 0px;
+}
+.production .title h1, .production .title h2, .production .title .photo {
+  opacity: 1;
+  translate: 0px;
+  transition: opacity 0.5s ease-in-out, translate 0.5s ease-in-out;
+}
+.production .title h1.initial, .production .title h2.initial, .production .title .photo.initial {
+  opacity: 0;
+  translate: -100px 0px;
+}
+.production.electric-vehicle {
+  background-image: url("./src/assets/background-triangle.png");
+}
+.production .icon-close {
+  position: absolute;
+  right: 34px;
+  top: 38px;
+  display: block;
+  width: 80px;
+}
+.production .background-title {
+  position: absolute;
+  top: 133px;
+  right: 45px;
+  bottom: 25px;
+  z-index: 0;
+}
+.production .background-title > img {
+  height: 100%;
+}
+.production .container {
+  display: flex;
+}
+.production .container .title, .production .container .content {
+  flex: 1 1 50%;
+}
+.production .title {
+  padding: 67px 0 0 99px;
+}
+.production .title h2, .production .title h1 {
+  flex: none;
+  color: #FFF;
+  background: #0095DA;
+  padding: 16px;
+  width: fit-content;
+  font-family: "Montserrat";
+  line-height: 1;
+  margin: 18px 0;
+}
+.production .title h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+.production .title h2 {
+  font-size: 36px;
+  font-weight: lighter;
+}
+.production .title h2::before {
+  content: "Electric Vehicle";
+}
+.production .title .photo {
+  margin: 40px 0;
+}
+.production .content {
+  padding: 154px 160px 0 0;
+}
+.production .content .pagination {
+  flex: none;
+  display: flex;
+  align-items: center;
+}
+.production .content .pagination > .prev, .production .content .pagination .next {
+  background-color: #0095DA;
+  border-radius: 900px;
+  width: 70px;
+  height: 70px;
+  box-sizing: border-box;
+  line-height: 1;
+  padding: 20px;
+  position: relative;
+}
+.production .content .pagination > .prev > img, .production .content .pagination .next > img {
+  display: block;
+  position: absolute;
+  width: 18.85px;
+  height: 32.31px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.production .content .pagination span {
+  padding: 0 14px 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #4F4F4F;
+}
+.production .content .text {
+  position: relative;
+  margin: 24px 0;
+  padding: 40px 60px;
+  background: rgba(255, 255, 255, 0.8);
+  z-index: 10;
+  color: black;
+  opacity: 1;
+}
+.production .content .text p {
+  font-family: "Montserrat";
+  font-weight: lighter;
+  font-size: 32px;
+  line-height: 1.2;
+  color: #252A31;
+  margin: 0;
 }
 
 .case-study .header {
@@ -528,6 +663,7 @@
 }
 .about-sinbon > .body .content img {
   display: block;
+  max-width: 1113px;
 }
 .about-sinbon > .body .content .read-me-button {
   position: absolute;
@@ -539,8 +675,8 @@
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 1.7em;
-  color: #FFFFFF;
-  background: #005694;
+  color: #005694;
+  background: #FFFFFF;
   border-radius: 40px;
   line-height: 2.2;
 }
@@ -560,16 +696,18 @@
   vertical-align: middle;
 }
 
-body {
+html, body {
   margin: 0;
   padding: 0;
   background-color: #F2F3F4;
   overflow: hidden;
+  height: 100%;
 }
 
-.app {
-  display: block;
+#app {
+  display: flow-root;
   position: relative;
+  height: 100%;
 }
 
 .transition-next-page {

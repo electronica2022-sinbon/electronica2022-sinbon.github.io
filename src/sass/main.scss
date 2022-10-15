@@ -1,19 +1,22 @@
 @use "utility.scss";
 @use 'nav-page.scss';
 @use 'product-category.scss';
+@use 'production.scss';
 @use 'case-study.scss';
 @use 'about-sinbon.scss';
 
-body {
+html, body {
   margin: 0;
   padding: 0;
   background-color: #F2F3F4;
   overflow: hidden;
+  height: 100%;
 }
 
-.app {
-  display: block;
+#app {
+  display: flow-root;
   position: relative;
+  height: 100%;
 }
 
 .transition-next-page {

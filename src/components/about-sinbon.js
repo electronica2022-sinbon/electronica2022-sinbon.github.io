@@ -57,7 +57,7 @@ export default function aboutSimbon(app) {
       <div class="pop-up">
         <div class="content">
           <div class="head">
-            <img class="close" src="./src/assets/close-x.png" alt="">
+            <img class="close" src="./src/assets/close-blue.png" alt="">
           </div>
           <div class="body">
             <img class="qr-code" src="./src/assets/qr-code-book.png" alt="">
@@ -71,7 +71,7 @@ export default function aboutSimbon(app) {
       <div class="ebook">
         <div class="content">
           <div class="head">
-            <img class="close" src="./src/assets/close-x.png" alt="">
+            <img class="close" src="./src/assets/close-blue.png" alt="">
           </div>
           <iframe class="body" src="https://heyzine.com/flip-book/SINBON2022Electronica?fbclid=IwAR273vBJx8uczl2NclAz_cP9dUoJd1cuu2bE7whseSO8EytFNWMY_opAkbg#page/1">
           </iframe>
