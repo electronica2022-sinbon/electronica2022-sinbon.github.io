@@ -12,7 +12,6 @@ export default function productCategory(app) {
 
     document.querySelectorAll('.triangle').forEach(product => {
       product.addEventListener('click', e => {
-        console.log('product', e);
         app.$router.push('/electric-vehicle')
       })
     })

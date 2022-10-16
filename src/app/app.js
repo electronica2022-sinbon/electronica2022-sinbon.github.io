@@ -1,5 +1,3 @@
-
-
 export default function main(appId, initComponent) {
   
   // method
@@ -18,7 +16,6 @@ export default function main(appId, initComponent) {
   };
 
   this.mounte = (key = 'init') => {
-
     new Promise(res => {
       if (this.currentComponent != null) {
         if ('destroy' in this.currentComponent) {
@@ -27,7 +24,14 @@ export default function main(appId, initComponent) {
         }
         this.currentComponent = null;
       }
-      res();
+      if ('beforeEnter' in this.$route) {
+        this.$route.beforeEnter(res)
+      } else {
+        res();
+      }
+      // if (this.$router)
+      // this.$router.beforeEach()
+      // res();
     })
     .then(() => {
       if (key instanceof Function) {
@@ -36,7 +40,7 @@ export default function main(appId, initComponent) {
         // if (typeof key === 'string')
         this.currentComponent = new (this.components[key])(this)
       }
-  
+      
       this.appElement.innerHTML = this.currentComponent.render()
     })
     .then(() => { 

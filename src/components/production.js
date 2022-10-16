@@ -6,6 +6,13 @@ export default function production(app) {
     'robotics': './src/assets/background-title-SmartFactory.png',
     'patient-monitoring': './src/assets/background-title-Medical.png',
   }
+  let api_data = window.sinbon.production;
+  let index = 0;
+
+  function current_data(index) {
+    return api_data[index];
+  }
+
   this.mounted = function () {
     document.querySelector('.transition-next-page').classList.add('scale-0')
 
@@ -17,13 +24,14 @@ export default function production(app) {
     document.querySelector('.icon-close').addEventListener('click', () => {
       app.$router.push('/product-category')
     })
+    console.log(current_data(2));
   }
 
   this.destroy = function () {
   }
 
   this.render = () => `
-    <div class="production ${routeHash}">
+    <div class="production ${ routeHash }">
       <img class="icon-close" src="./src/assets/close-white.png" alt="">
       <div class="background-title initial">
         <img src="${routeToBacktroundTitle[routeHash]}" alt="">
@@ -41,7 +49,7 @@ export default function production(app) {
             <div class="prev">
               <img src="./src/assets/slider_prev.png" alt="">
             </div>
-            <span>2/11</span>
+            <span>${index}/${api_data.length}</span>
             <div class="next">
               <img src="./src/assets/slider_next.png" alt="">
             </div>

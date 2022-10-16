@@ -21,7 +21,17 @@ export default [{
 }, {
   name: 'electric-vehicle',
   path: '/electric-vehicle',
-  component: production
+  component: production,
+  beforeEnter: (next) => {
+    axios.get('https://api.airtable.com/v0/appKo4M9y5FKMRTUE/E-mobility', {
+      headers: {
+        'Authorization': 'Bearer keyPYCkBHUENMuMDp'
+      }
+    })
+      .then(res => res.data)
+      .then(data => window.sinbon.production = data.records)
+      .then(next)
+  }
 }, {
   name: 'robotics',
   path: '/robotics',

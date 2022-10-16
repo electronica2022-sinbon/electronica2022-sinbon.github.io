@@ -18,7 +18,6 @@ export default function animationBegin(app) {
   }
   
   this.destroy = () => {
-    console.log('this.data.amination.destroy();');
     this.data.amination.destroy();
   }
 

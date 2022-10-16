@@ -10,5 +10,5 @@ app.use(new Router({
 
 app.mounte()
 
-
+window.sinbon = {}
 
