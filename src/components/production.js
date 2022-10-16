@@ -15,12 +15,15 @@ export default function production(app) {
 
   this.mounted = function () {
     document.querySelector('.transition-next-page').classList.add('scale-0')
-
     setTimeout(() => {
       document.querySelectorAll('.initial').forEach(item => {
         item.classList.remove('initial')
       })
     }, 10)
+    
+    document.querySelector('.icon-close').addEventListener('click', () => {
+      app.$router.push('/product-category')
+    })        
   }
 
   this.destroy = function () {
@@ -28,8 +31,56 @@ export default function production(app) {
 
   this.bindingEvent = () => {
     // after render
-    document.querySelector('.icon-close').addEventListener('click', () => {
-      app.$router.push('/product-category')
+
+    document.querySelector('.prev').addEventListener('click', () => {
+      console.log('prev');
+      if (index === 1) return;
+      index -= 1;
+      this.render();
+      this.bindingEvent();
+    })
+    document.querySelector('.next').addEventListener('click', () => {
+      console.log('next');
+      // debugger
+      if (index === api_data.length) return;
+      index += 1;
+      
+      document.querySelector('.production .container').innerHTML = `
+        <div class="title">
+          <h2 class="initial">${current_data(index).fields.Product}</h2>
+          <h1 class="initial">${current_data(index).fields.Name}</h1>
+          <div class="photo initial">
+            <img src="${current_data(index).fields.image[0].url}" alt="">
+          </div>
+        </div>
+        <div class="content">
+          <div class="pagination">
+            <div class="prev">
+              <img src="./src/assets/slider_prev.png" alt="">
+            </div>
+            <span>${index + 1}/${api_data.length}</span>
+            <div class="next">
+              <img src="./src/assets/slider_next.png" alt="">
+            </div>
+          </div>
+          <div class="text">
+            <p>
+              <b>Features</b>
+              <pre>${current_data(index).fields.Features}</pre>
+            </p>
+            <p>
+              <b>Specification</b>
+              <pre>${current_data(index).fields.Specification}</pre>
+            </p>
+          </div>
+        </div>`
+      
+      setTimeout(() => {
+        document.querySelectorAll('.initial').forEach(item => {
+          item.classList.remove('initial')
+        })
+        this.bindingEvent();
+      }, 10)
     })
   }
 

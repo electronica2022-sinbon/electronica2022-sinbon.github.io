@@ -15,6 +15,12 @@ export default function main(appId, initComponent) {
     this.components[registComponent.name, registComponent]
   };
 
+  this.render = () => {
+    this.appElement.innerHTML = this.currentComponent.render();
+    if ('bindingEvent' in this.currentComponent)
+      this.currentComponent.bindingEvent();
+  }
+
   this.mounte = (key = 'init') => {
     new Promise(res => {
       if (this.currentComponent != null) {
@@ -41,8 +47,7 @@ export default function main(appId, initComponent) {
         this.currentComponent = new (this.components[key])(this)
       }
       
-      this.appElement.innerHTML = this.currentComponent.render();
-      if ('bindingEvent' in this.currentComponent) this.currentComponent.bindingEvent();
+      this.render()
     })
     .then(() => { 
       if ('mounted' in this.currentComponent)
@@ -60,4 +65,5 @@ export default function main(appId, initComponent) {
   this.currentComponent = null;
 
   return this
+
 }

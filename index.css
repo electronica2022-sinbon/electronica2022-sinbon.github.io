@@ -279,21 +279,945 @@
   opacity: 0;
   translate: 100px 0px;
 }
-.production .title h1, .production .title h2, .production .title .photo {
+.production.electric-vehicle .title h2, .production.electric-vehicle .title h1 {
+  background-image: linear-gradient(90deg, #0095DA 100%, transparent 100%);
+  animation: bacnground-color-transition1 0.5s forwards;
+}
+.production.electric-vehicle .title h2.initial, .production.electric-vehicle .title h1.initial {
+  animation: none;
+}
+.production.robotics .title h2, .production.robotics .title h1 {
+  background-image: linear-gradient(90deg, #F58F5C 100%, transparent 100%);
+  animation: bacnground-color-transition2 0.5s forwards;
+}
+.production.robotics .title h2.initial, .production.robotics .title h1.initial {
+  animation: none;
+}
+.production.patient-monitoring .title h2, .production.patient-monitoring .title h1 {
+  background-image: linear-gradient(90deg, #EE3034 100%, transparent 100%);
+  animation: bacnground-color-transition3 0.5s forwards;
+}
+.production.patient-monitoring .title h2.initial, .production.patient-monitoring .title h1.initial {
+  animation: none;
+}
+.production .title .photo {
   opacity: 1;
   translate: 0px;
   transition: opacity 0.5s ease-in-out, translate 0.5s ease-in-out;
 }
-.production .title h1.initial, .production .title h2.initial, .production .title .photo.initial {
+.production .title .photo.initial {
   opacity: 0;
   translate: -100px 0px;
 }
 
+@keyframes bacnground-color-transition1 {
+  0% {
+    background-image: linear-gradient(90deg, #0095DA 0%, transparent 0%);
+  }
+  1% {
+    background-image: linear-gradient(90deg, #0095DA 1%, transparent 1%);
+  }
+  2% {
+    background-image: linear-gradient(90deg, #0095DA 2%, transparent 2%);
+  }
+  3% {
+    background-image: linear-gradient(90deg, #0095DA 3%, transparent 3%);
+  }
+  4% {
+    background-image: linear-gradient(90deg, #0095DA 4%, transparent 4%);
+  }
+  5% {
+    background-image: linear-gradient(90deg, #0095DA 5%, transparent 5%);
+  }
+  6% {
+    background-image: linear-gradient(90deg, #0095DA 6%, transparent 6%);
+  }
+  7% {
+    background-image: linear-gradient(90deg, #0095DA 7%, transparent 7%);
+  }
+  8% {
+    background-image: linear-gradient(90deg, #0095DA 8%, transparent 8%);
+  }
+  9% {
+    background-image: linear-gradient(90deg, #0095DA 9%, transparent 9%);
+  }
+  10% {
+    background-image: linear-gradient(90deg, #0095DA 10%, transparent 10%);
+  }
+  11% {
+    background-image: linear-gradient(90deg, #0095DA 11%, transparent 11%);
+  }
+  12% {
+    background-image: linear-gradient(90deg, #0095DA 12%, transparent 12%);
+  }
+  13% {
+    background-image: linear-gradient(90deg, #0095DA 13%, transparent 13%);
+  }
+  14% {
+    background-image: linear-gradient(90deg, #0095DA 14%, transparent 14%);
+  }
+  15% {
+    background-image: linear-gradient(90deg, #0095DA 15%, transparent 15%);
+  }
+  16% {
+    background-image: linear-gradient(90deg, #0095DA 16%, transparent 16%);
+  }
+  17% {
+    background-image: linear-gradient(90deg, #0095DA 17%, transparent 17%);
+  }
+  18% {
+    background-image: linear-gradient(90deg, #0095DA 18%, transparent 18%);
+  }
+  19% {
+    background-image: linear-gradient(90deg, #0095DA 19%, transparent 19%);
+  }
+  20% {
+    background-image: linear-gradient(90deg, #0095DA 20%, transparent 20%);
+  }
+  21% {
+    background-image: linear-gradient(90deg, #0095DA 21%, transparent 21%);
+  }
+  22% {
+    background-image: linear-gradient(90deg, #0095DA 22%, transparent 22%);
+  }
+  23% {
+    background-image: linear-gradient(90deg, #0095DA 23%, transparent 23%);
+  }
+  24% {
+    background-image: linear-gradient(90deg, #0095DA 24%, transparent 24%);
+  }
+  25% {
+    background-image: linear-gradient(90deg, #0095DA 25%, transparent 25%);
+  }
+  26% {
+    background-image: linear-gradient(90deg, #0095DA 26%, transparent 26%);
+  }
+  27% {
+    background-image: linear-gradient(90deg, #0095DA 27%, transparent 27%);
+  }
+  28% {
+    background-image: linear-gradient(90deg, #0095DA 28%, transparent 28%);
+  }
+  29% {
+    background-image: linear-gradient(90deg, #0095DA 29%, transparent 29%);
+  }
+  30% {
+    background-image: linear-gradient(90deg, #0095DA 30%, transparent 30%);
+  }
+  31% {
+    background-image: linear-gradient(90deg, #0095DA 31%, transparent 31%);
+  }
+  32% {
+    background-image: linear-gradient(90deg, #0095DA 32%, transparent 32%);
+  }
+  33% {
+    background-image: linear-gradient(90deg, #0095DA 33%, transparent 33%);
+  }
+  34% {
+    background-image: linear-gradient(90deg, #0095DA 34%, transparent 34%);
+  }
+  35% {
+    background-image: linear-gradient(90deg, #0095DA 35%, transparent 35%);
+  }
+  36% {
+    background-image: linear-gradient(90deg, #0095DA 36%, transparent 36%);
+  }
+  37% {
+    background-image: linear-gradient(90deg, #0095DA 37%, transparent 37%);
+  }
+  38% {
+    background-image: linear-gradient(90deg, #0095DA 38%, transparent 38%);
+  }
+  39% {
+    background-image: linear-gradient(90deg, #0095DA 39%, transparent 39%);
+  }
+  40% {
+    background-image: linear-gradient(90deg, #0095DA 40%, transparent 40%);
+  }
+  41% {
+    background-image: linear-gradient(90deg, #0095DA 41%, transparent 41%);
+  }
+  42% {
+    background-image: linear-gradient(90deg, #0095DA 42%, transparent 42%);
+  }
+  43% {
+    background-image: linear-gradient(90deg, #0095DA 43%, transparent 43%);
+  }
+  44% {
+    background-image: linear-gradient(90deg, #0095DA 44%, transparent 44%);
+  }
+  45% {
+    background-image: linear-gradient(90deg, #0095DA 45%, transparent 45%);
+  }
+  46% {
+    background-image: linear-gradient(90deg, #0095DA 46%, transparent 46%);
+  }
+  47% {
+    background-image: linear-gradient(90deg, #0095DA 47%, transparent 47%);
+  }
+  48% {
+    background-image: linear-gradient(90deg, #0095DA 48%, transparent 48%);
+  }
+  49% {
+    background-image: linear-gradient(90deg, #0095DA 49%, transparent 49%);
+  }
+  50% {
+    background-image: linear-gradient(90deg, #0095DA 50%, transparent 50%);
+  }
+  51% {
+    background-image: linear-gradient(90deg, #0095DA 51%, transparent 51%);
+  }
+  52% {
+    background-image: linear-gradient(90deg, #0095DA 52%, transparent 52%);
+  }
+  53% {
+    background-image: linear-gradient(90deg, #0095DA 53%, transparent 53%);
+  }
+  54% {
+    background-image: linear-gradient(90deg, #0095DA 54%, transparent 54%);
+  }
+  55% {
+    background-image: linear-gradient(90deg, #0095DA 55%, transparent 55%);
+  }
+  56% {
+    background-image: linear-gradient(90deg, #0095DA 56%, transparent 56%);
+  }
+  57% {
+    background-image: linear-gradient(90deg, #0095DA 57%, transparent 57%);
+  }
+  58% {
+    background-image: linear-gradient(90deg, #0095DA 58%, transparent 58%);
+  }
+  59% {
+    background-image: linear-gradient(90deg, #0095DA 59%, transparent 59%);
+  }
+  60% {
+    background-image: linear-gradient(90deg, #0095DA 60%, transparent 60%);
+  }
+  61% {
+    background-image: linear-gradient(90deg, #0095DA 61%, transparent 61%);
+  }
+  62% {
+    background-image: linear-gradient(90deg, #0095DA 62%, transparent 62%);
+  }
+  63% {
+    background-image: linear-gradient(90deg, #0095DA 63%, transparent 63%);
+  }
+  64% {
+    background-image: linear-gradient(90deg, #0095DA 64%, transparent 64%);
+  }
+  65% {
+    background-image: linear-gradient(90deg, #0095DA 65%, transparent 65%);
+  }
+  66% {
+    background-image: linear-gradient(90deg, #0095DA 66%, transparent 66%);
+  }
+  67% {
+    background-image: linear-gradient(90deg, #0095DA 67%, transparent 67%);
+  }
+  68% {
+    background-image: linear-gradient(90deg, #0095DA 68%, transparent 68%);
+  }
+  69% {
+    background-image: linear-gradient(90deg, #0095DA 69%, transparent 69%);
+  }
+  70% {
+    background-image: linear-gradient(90deg, #0095DA 70%, transparent 70%);
+  }
+  71% {
+    background-image: linear-gradient(90deg, #0095DA 71%, transparent 71%);
+  }
+  72% {
+    background-image: linear-gradient(90deg, #0095DA 72%, transparent 72%);
+  }
+  73% {
+    background-image: linear-gradient(90deg, #0095DA 73%, transparent 73%);
+  }
+  74% {
+    background-image: linear-gradient(90deg, #0095DA 74%, transparent 74%);
+  }
+  75% {
+    background-image: linear-gradient(90deg, #0095DA 75%, transparent 75%);
+  }
+  76% {
+    background-image: linear-gradient(90deg, #0095DA 76%, transparent 76%);
+  }
+  77% {
+    background-image: linear-gradient(90deg, #0095DA 77%, transparent 77%);
+  }
+  78% {
+    background-image: linear-gradient(90deg, #0095DA 78%, transparent 78%);
+  }
+  79% {
+    background-image: linear-gradient(90deg, #0095DA 79%, transparent 79%);
+  }
+  80% {
+    background-image: linear-gradient(90deg, #0095DA 80%, transparent 80%);
+  }
+  81% {
+    background-image: linear-gradient(90deg, #0095DA 81%, transparent 81%);
+  }
+  82% {
+    background-image: linear-gradient(90deg, #0095DA 82%, transparent 82%);
+  }
+  83% {
+    background-image: linear-gradient(90deg, #0095DA 83%, transparent 83%);
+  }
+  84% {
+    background-image: linear-gradient(90deg, #0095DA 84%, transparent 84%);
+  }
+  85% {
+    background-image: linear-gradient(90deg, #0095DA 85%, transparent 85%);
+  }
+  86% {
+    background-image: linear-gradient(90deg, #0095DA 86%, transparent 86%);
+  }
+  87% {
+    background-image: linear-gradient(90deg, #0095DA 87%, transparent 87%);
+  }
+  88% {
+    background-image: linear-gradient(90deg, #0095DA 88%, transparent 88%);
+  }
+  89% {
+    background-image: linear-gradient(90deg, #0095DA 89%, transparent 89%);
+  }
+  90% {
+    background-image: linear-gradient(90deg, #0095DA 90%, transparent 90%);
+  }
+  91% {
+    background-image: linear-gradient(90deg, #0095DA 91%, transparent 91%);
+  }
+  92% {
+    background-image: linear-gradient(90deg, #0095DA 92%, transparent 92%);
+  }
+  93% {
+    background-image: linear-gradient(90deg, #0095DA 93%, transparent 93%);
+  }
+  94% {
+    background-image: linear-gradient(90deg, #0095DA 94%, transparent 94%);
+  }
+  95% {
+    background-image: linear-gradient(90deg, #0095DA 95%, transparent 95%);
+  }
+  96% {
+    background-image: linear-gradient(90deg, #0095DA 96%, transparent 96%);
+  }
+  97% {
+    background-image: linear-gradient(90deg, #0095DA 97%, transparent 97%);
+  }
+  98% {
+    background-image: linear-gradient(90deg, #0095DA 98%, transparent 98%);
+  }
+  99% {
+    background-image: linear-gradient(90deg, #0095DA 99%, transparent 99%);
+  }
+}
+@keyframes bacnground-color-transition2 {
+  0% {
+    background-image: linear-gradient(90deg, #F58F5C 0%, transparent 0%);
+  }
+  1% {
+    background-image: linear-gradient(90deg, #F58F5C 1%, transparent 1%);
+  }
+  2% {
+    background-image: linear-gradient(90deg, #F58F5C 2%, transparent 2%);
+  }
+  3% {
+    background-image: linear-gradient(90deg, #F58F5C 3%, transparent 3%);
+  }
+  4% {
+    background-image: linear-gradient(90deg, #F58F5C 4%, transparent 4%);
+  }
+  5% {
+    background-image: linear-gradient(90deg, #F58F5C 5%, transparent 5%);
+  }
+  6% {
+    background-image: linear-gradient(90deg, #F58F5C 6%, transparent 6%);
+  }
+  7% {
+    background-image: linear-gradient(90deg, #F58F5C 7%, transparent 7%);
+  }
+  8% {
+    background-image: linear-gradient(90deg, #F58F5C 8%, transparent 8%);
+  }
+  9% {
+    background-image: linear-gradient(90deg, #F58F5C 9%, transparent 9%);
+  }
+  10% {
+    background-image: linear-gradient(90deg, #F58F5C 10%, transparent 10%);
+  }
+  11% {
+    background-image: linear-gradient(90deg, #F58F5C 11%, transparent 11%);
+  }
+  12% {
+    background-image: linear-gradient(90deg, #F58F5C 12%, transparent 12%);
+  }
+  13% {
+    background-image: linear-gradient(90deg, #F58F5C 13%, transparent 13%);
+  }
+  14% {
+    background-image: linear-gradient(90deg, #F58F5C 14%, transparent 14%);
+  }
+  15% {
+    background-image: linear-gradient(90deg, #F58F5C 15%, transparent 15%);
+  }
+  16% {
+    background-image: linear-gradient(90deg, #F58F5C 16%, transparent 16%);
+  }
+  17% {
+    background-image: linear-gradient(90deg, #F58F5C 17%, transparent 17%);
+  }
+  18% {
+    background-image: linear-gradient(90deg, #F58F5C 18%, transparent 18%);
+  }
+  19% {
+    background-image: linear-gradient(90deg, #F58F5C 19%, transparent 19%);
+  }
+  20% {
+    background-image: linear-gradient(90deg, #F58F5C 20%, transparent 20%);
+  }
+  21% {
+    background-image: linear-gradient(90deg, #F58F5C 21%, transparent 21%);
+  }
+  22% {
+    background-image: linear-gradient(90deg, #F58F5C 22%, transparent 22%);
+  }
+  23% {
+    background-image: linear-gradient(90deg, #F58F5C 23%, transparent 23%);
+  }
+  24% {
+    background-image: linear-gradient(90deg, #F58F5C 24%, transparent 24%);
+  }
+  25% {
+    background-image: linear-gradient(90deg, #F58F5C 25%, transparent 25%);
+  }
+  26% {
+    background-image: linear-gradient(90deg, #F58F5C 26%, transparent 26%);
+  }
+  27% {
+    background-image: linear-gradient(90deg, #F58F5C 27%, transparent 27%);
+  }
+  28% {
+    background-image: linear-gradient(90deg, #F58F5C 28%, transparent 28%);
+  }
+  29% {
+    background-image: linear-gradient(90deg, #F58F5C 29%, transparent 29%);
+  }
+  30% {
+    background-image: linear-gradient(90deg, #F58F5C 30%, transparent 30%);
+  }
+  31% {
+    background-image: linear-gradient(90deg, #F58F5C 31%, transparent 31%);
+  }
+  32% {
+    background-image: linear-gradient(90deg, #F58F5C 32%, transparent 32%);
+  }
+  33% {
+    background-image: linear-gradient(90deg, #F58F5C 33%, transparent 33%);
+  }
+  34% {
+    background-image: linear-gradient(90deg, #F58F5C 34%, transparent 34%);
+  }
+  35% {
+    background-image: linear-gradient(90deg, #F58F5C 35%, transparent 35%);
+  }
+  36% {
+    background-image: linear-gradient(90deg, #F58F5C 36%, transparent 36%);
+  }
+  37% {
+    background-image: linear-gradient(90deg, #F58F5C 37%, transparent 37%);
+  }
+  38% {
+    background-image: linear-gradient(90deg, #F58F5C 38%, transparent 38%);
+  }
+  39% {
+    background-image: linear-gradient(90deg, #F58F5C 39%, transparent 39%);
+  }
+  40% {
+    background-image: linear-gradient(90deg, #F58F5C 40%, transparent 40%);
+  }
+  41% {
+    background-image: linear-gradient(90deg, #F58F5C 41%, transparent 41%);
+  }
+  42% {
+    background-image: linear-gradient(90deg, #F58F5C 42%, transparent 42%);
+  }
+  43% {
+    background-image: linear-gradient(90deg, #F58F5C 43%, transparent 43%);
+  }
+  44% {
+    background-image: linear-gradient(90deg, #F58F5C 44%, transparent 44%);
+  }
+  45% {
+    background-image: linear-gradient(90deg, #F58F5C 45%, transparent 45%);
+  }
+  46% {
+    background-image: linear-gradient(90deg, #F58F5C 46%, transparent 46%);
+  }
+  47% {
+    background-image: linear-gradient(90deg, #F58F5C 47%, transparent 47%);
+  }
+  48% {
+    background-image: linear-gradient(90deg, #F58F5C 48%, transparent 48%);
+  }
+  49% {
+    background-image: linear-gradient(90deg, #F58F5C 49%, transparent 49%);
+  }
+  50% {
+    background-image: linear-gradient(90deg, #F58F5C 50%, transparent 50%);
+  }
+  51% {
+    background-image: linear-gradient(90deg, #F58F5C 51%, transparent 51%);
+  }
+  52% {
+    background-image: linear-gradient(90deg, #F58F5C 52%, transparent 52%);
+  }
+  53% {
+    background-image: linear-gradient(90deg, #F58F5C 53%, transparent 53%);
+  }
+  54% {
+    background-image: linear-gradient(90deg, #F58F5C 54%, transparent 54%);
+  }
+  55% {
+    background-image: linear-gradient(90deg, #F58F5C 55%, transparent 55%);
+  }
+  56% {
+    background-image: linear-gradient(90deg, #F58F5C 56%, transparent 56%);
+  }
+  57% {
+    background-image: linear-gradient(90deg, #F58F5C 57%, transparent 57%);
+  }
+  58% {
+    background-image: linear-gradient(90deg, #F58F5C 58%, transparent 58%);
+  }
+  59% {
+    background-image: linear-gradient(90deg, #F58F5C 59%, transparent 59%);
+  }
+  60% {
+    background-image: linear-gradient(90deg, #F58F5C 60%, transparent 60%);
+  }
+  61% {
+    background-image: linear-gradient(90deg, #F58F5C 61%, transparent 61%);
+  }
+  62% {
+    background-image: linear-gradient(90deg, #F58F5C 62%, transparent 62%);
+  }
+  63% {
+    background-image: linear-gradient(90deg, #F58F5C 63%, transparent 63%);
+  }
+  64% {
+    background-image: linear-gradient(90deg, #F58F5C 64%, transparent 64%);
+  }
+  65% {
+    background-image: linear-gradient(90deg, #F58F5C 65%, transparent 65%);
+  }
+  66% {
+    background-image: linear-gradient(90deg, #F58F5C 66%, transparent 66%);
+  }
+  67% {
+    background-image: linear-gradient(90deg, #F58F5C 67%, transparent 67%);
+  }
+  68% {
+    background-image: linear-gradient(90deg, #F58F5C 68%, transparent 68%);
+  }
+  69% {
+    background-image: linear-gradient(90deg, #F58F5C 69%, transparent 69%);
+  }
+  70% {
+    background-image: linear-gradient(90deg, #F58F5C 70%, transparent 70%);
+  }
+  71% {
+    background-image: linear-gradient(90deg, #F58F5C 71%, transparent 71%);
+  }
+  72% {
+    background-image: linear-gradient(90deg, #F58F5C 72%, transparent 72%);
+  }
+  73% {
+    background-image: linear-gradient(90deg, #F58F5C 73%, transparent 73%);
+  }
+  74% {
+    background-image: linear-gradient(90deg, #F58F5C 74%, transparent 74%);
+  }
+  75% {
+    background-image: linear-gradient(90deg, #F58F5C 75%, transparent 75%);
+  }
+  76% {
+    background-image: linear-gradient(90deg, #F58F5C 76%, transparent 76%);
+  }
+  77% {
+    background-image: linear-gradient(90deg, #F58F5C 77%, transparent 77%);
+  }
+  78% {
+    background-image: linear-gradient(90deg, #F58F5C 78%, transparent 78%);
+  }
+  79% {
+    background-image: linear-gradient(90deg, #F58F5C 79%, transparent 79%);
+  }
+  80% {
+    background-image: linear-gradient(90deg, #F58F5C 80%, transparent 80%);
+  }
+  81% {
+    background-image: linear-gradient(90deg, #F58F5C 81%, transparent 81%);
+  }
+  82% {
+    background-image: linear-gradient(90deg, #F58F5C 82%, transparent 82%);
+  }
+  83% {
+    background-image: linear-gradient(90deg, #F58F5C 83%, transparent 83%);
+  }
+  84% {
+    background-image: linear-gradient(90deg, #F58F5C 84%, transparent 84%);
+  }
+  85% {
+    background-image: linear-gradient(90deg, #F58F5C 85%, transparent 85%);
+  }
+  86% {
+    background-image: linear-gradient(90deg, #F58F5C 86%, transparent 86%);
+  }
+  87% {
+    background-image: linear-gradient(90deg, #F58F5C 87%, transparent 87%);
+  }
+  88% {
+    background-image: linear-gradient(90deg, #F58F5C 88%, transparent 88%);
+  }
+  89% {
+    background-image: linear-gradient(90deg, #F58F5C 89%, transparent 89%);
+  }
+  90% {
+    background-image: linear-gradient(90deg, #F58F5C 90%, transparent 90%);
+  }
+  91% {
+    background-image: linear-gradient(90deg, #F58F5C 91%, transparent 91%);
+  }
+  92% {
+    background-image: linear-gradient(90deg, #F58F5C 92%, transparent 92%);
+  }
+  93% {
+    background-image: linear-gradient(90deg, #F58F5C 93%, transparent 93%);
+  }
+  94% {
+    background-image: linear-gradient(90deg, #F58F5C 94%, transparent 94%);
+  }
+  95% {
+    background-image: linear-gradient(90deg, #F58F5C 95%, transparent 95%);
+  }
+  96% {
+    background-image: linear-gradient(90deg, #F58F5C 96%, transparent 96%);
+  }
+  97% {
+    background-image: linear-gradient(90deg, #F58F5C 97%, transparent 97%);
+  }
+  98% {
+    background-image: linear-gradient(90deg, #F58F5C 98%, transparent 98%);
+  }
+  99% {
+    background-image: linear-gradient(90deg, #F58F5C 99%, transparent 99%);
+  }
+}
+@keyframes bacnground-color-transition3 {
+  0% {
+    background-image: linear-gradient(90deg, #EE3034 0%, transparent 0%);
+  }
+  1% {
+    background-image: linear-gradient(90deg, #EE3034 1%, transparent 1%);
+  }
+  2% {
+    background-image: linear-gradient(90deg, #EE3034 2%, transparent 2%);
+  }
+  3% {
+    background-image: linear-gradient(90deg, #EE3034 3%, transparent 3%);
+  }
+  4% {
+    background-image: linear-gradient(90deg, #EE3034 4%, transparent 4%);
+  }
+  5% {
+    background-image: linear-gradient(90deg, #EE3034 5%, transparent 5%);
+  }
+  6% {
+    background-image: linear-gradient(90deg, #EE3034 6%, transparent 6%);
+  }
+  7% {
+    background-image: linear-gradient(90deg, #EE3034 7%, transparent 7%);
+  }
+  8% {
+    background-image: linear-gradient(90deg, #EE3034 8%, transparent 8%);
+  }
+  9% {
+    background-image: linear-gradient(90deg, #EE3034 9%, transparent 9%);
+  }
+  10% {
+    background-image: linear-gradient(90deg, #EE3034 10%, transparent 10%);
+  }
+  11% {
+    background-image: linear-gradient(90deg, #EE3034 11%, transparent 11%);
+  }
+  12% {
+    background-image: linear-gradient(90deg, #EE3034 12%, transparent 12%);
+  }
+  13% {
+    background-image: linear-gradient(90deg, #EE3034 13%, transparent 13%);
+  }
+  14% {
+    background-image: linear-gradient(90deg, #EE3034 14%, transparent 14%);
+  }
+  15% {
+    background-image: linear-gradient(90deg, #EE3034 15%, transparent 15%);
+  }
+  16% {
+    background-image: linear-gradient(90deg, #EE3034 16%, transparent 16%);
+  }
+  17% {
+    background-image: linear-gradient(90deg, #EE3034 17%, transparent 17%);
+  }
+  18% {
+    background-image: linear-gradient(90deg, #EE3034 18%, transparent 18%);
+  }
+  19% {
+    background-image: linear-gradient(90deg, #EE3034 19%, transparent 19%);
+  }
+  20% {
+    background-image: linear-gradient(90deg, #EE3034 20%, transparent 20%);
+  }
+  21% {
+    background-image: linear-gradient(90deg, #EE3034 21%, transparent 21%);
+  }
+  22% {
+    background-image: linear-gradient(90deg, #EE3034 22%, transparent 22%);
+  }
+  23% {
+    background-image: linear-gradient(90deg, #EE3034 23%, transparent 23%);
+  }
+  24% {
+    background-image: linear-gradient(90deg, #EE3034 24%, transparent 24%);
+  }
+  25% {
+    background-image: linear-gradient(90deg, #EE3034 25%, transparent 25%);
+  }
+  26% {
+    background-image: linear-gradient(90deg, #EE3034 26%, transparent 26%);
+  }
+  27% {
+    background-image: linear-gradient(90deg, #EE3034 27%, transparent 27%);
+  }
+  28% {
+    background-image: linear-gradient(90deg, #EE3034 28%, transparent 28%);
+  }
+  29% {
+    background-image: linear-gradient(90deg, #EE3034 29%, transparent 29%);
+  }
+  30% {
+    background-image: linear-gradient(90deg, #EE3034 30%, transparent 30%);
+  }
+  31% {
+    background-image: linear-gradient(90deg, #EE3034 31%, transparent 31%);
+  }
+  32% {
+    background-image: linear-gradient(90deg, #EE3034 32%, transparent 32%);
+  }
+  33% {
+    background-image: linear-gradient(90deg, #EE3034 33%, transparent 33%);
+  }
+  34% {
+    background-image: linear-gradient(90deg, #EE3034 34%, transparent 34%);
+  }
+  35% {
+    background-image: linear-gradient(90deg, #EE3034 35%, transparent 35%);
+  }
+  36% {
+    background-image: linear-gradient(90deg, #EE3034 36%, transparent 36%);
+  }
+  37% {
+    background-image: linear-gradient(90deg, #EE3034 37%, transparent 37%);
+  }
+  38% {
+    background-image: linear-gradient(90deg, #EE3034 38%, transparent 38%);
+  }
+  39% {
+    background-image: linear-gradient(90deg, #EE3034 39%, transparent 39%);
+  }
+  40% {
+    background-image: linear-gradient(90deg, #EE3034 40%, transparent 40%);
+  }
+  41% {
+    background-image: linear-gradient(90deg, #EE3034 41%, transparent 41%);
+  }
+  42% {
+    background-image: linear-gradient(90deg, #EE3034 42%, transparent 42%);
+  }
+  43% {
+    background-image: linear-gradient(90deg, #EE3034 43%, transparent 43%);
+  }
+  44% {
+    background-image: linear-gradient(90deg, #EE3034 44%, transparent 44%);
+  }
+  45% {
+    background-image: linear-gradient(90deg, #EE3034 45%, transparent 45%);
+  }
+  46% {
+    background-image: linear-gradient(90deg, #EE3034 46%, transparent 46%);
+  }
+  47% {
+    background-image: linear-gradient(90deg, #EE3034 47%, transparent 47%);
+  }
+  48% {
+    background-image: linear-gradient(90deg, #EE3034 48%, transparent 48%);
+  }
+  49% {
+    background-image: linear-gradient(90deg, #EE3034 49%, transparent 49%);
+  }
+  50% {
+    background-image: linear-gradient(90deg, #EE3034 50%, transparent 50%);
+  }
+  51% {
+    background-image: linear-gradient(90deg, #EE3034 51%, transparent 51%);
+  }
+  52% {
+    background-image: linear-gradient(90deg, #EE3034 52%, transparent 52%);
+  }
+  53% {
+    background-image: linear-gradient(90deg, #EE3034 53%, transparent 53%);
+  }
+  54% {
+    background-image: linear-gradient(90deg, #EE3034 54%, transparent 54%);
+  }
+  55% {
+    background-image: linear-gradient(90deg, #EE3034 55%, transparent 55%);
+  }
+  56% {
+    background-image: linear-gradient(90deg, #EE3034 56%, transparent 56%);
+  }
+  57% {
+    background-image: linear-gradient(90deg, #EE3034 57%, transparent 57%);
+  }
+  58% {
+    background-image: linear-gradient(90deg, #EE3034 58%, transparent 58%);
+  }
+  59% {
+    background-image: linear-gradient(90deg, #EE3034 59%, transparent 59%);
+  }
+  60% {
+    background-image: linear-gradient(90deg, #EE3034 60%, transparent 60%);
+  }
+  61% {
+    background-image: linear-gradient(90deg, #EE3034 61%, transparent 61%);
+  }
+  62% {
+    background-image: linear-gradient(90deg, #EE3034 62%, transparent 62%);
+  }
+  63% {
+    background-image: linear-gradient(90deg, #EE3034 63%, transparent 63%);
+  }
+  64% {
+    background-image: linear-gradient(90deg, #EE3034 64%, transparent 64%);
+  }
+  65% {
+    background-image: linear-gradient(90deg, #EE3034 65%, transparent 65%);
+  }
+  66% {
+    background-image: linear-gradient(90deg, #EE3034 66%, transparent 66%);
+  }
+  67% {
+    background-image: linear-gradient(90deg, #EE3034 67%, transparent 67%);
+  }
+  68% {
+    background-image: linear-gradient(90deg, #EE3034 68%, transparent 68%);
+  }
+  69% {
+    background-image: linear-gradient(90deg, #EE3034 69%, transparent 69%);
+  }
+  70% {
+    background-image: linear-gradient(90deg, #EE3034 70%, transparent 70%);
+  }
+  71% {
+    background-image: linear-gradient(90deg, #EE3034 71%, transparent 71%);
+  }
+  72% {
+    background-image: linear-gradient(90deg, #EE3034 72%, transparent 72%);
+  }
+  73% {
+    background-image: linear-gradient(90deg, #EE3034 73%, transparent 73%);
+  }
+  74% {
+    background-image: linear-gradient(90deg, #EE3034 74%, transparent 74%);
+  }
+  75% {
+    background-image: linear-gradient(90deg, #EE3034 75%, transparent 75%);
+  }
+  76% {
+    background-image: linear-gradient(90deg, #EE3034 76%, transparent 76%);
+  }
+  77% {
+    background-image: linear-gradient(90deg, #EE3034 77%, transparent 77%);
+  }
+  78% {
+    background-image: linear-gradient(90deg, #EE3034 78%, transparent 78%);
+  }
+  79% {
+    background-image: linear-gradient(90deg, #EE3034 79%, transparent 79%);
+  }
+  80% {
+    background-image: linear-gradient(90deg, #EE3034 80%, transparent 80%);
+  }
+  81% {
+    background-image: linear-gradient(90deg, #EE3034 81%, transparent 81%);
+  }
+  82% {
+    background-image: linear-gradient(90deg, #EE3034 82%, transparent 82%);
+  }
+  83% {
+    background-image: linear-gradient(90deg, #EE3034 83%, transparent 83%);
+  }
+  84% {
+    background-image: linear-gradient(90deg, #EE3034 84%, transparent 84%);
+  }
+  85% {
+    background-image: linear-gradient(90deg, #EE3034 85%, transparent 85%);
+  }
+  86% {
+    background-image: linear-gradient(90deg, #EE3034 86%, transparent 86%);
+  }
+  87% {
+    background-image: linear-gradient(90deg, #EE3034 87%, transparent 87%);
+  }
+  88% {
+    background-image: linear-gradient(90deg, #EE3034 88%, transparent 88%);
+  }
+  89% {
+    background-image: linear-gradient(90deg, #EE3034 89%, transparent 89%);
+  }
+  90% {
+    background-image: linear-gradient(90deg, #EE3034 90%, transparent 90%);
+  }
+  91% {
+    background-image: linear-gradient(90deg, #EE3034 91%, transparent 91%);
+  }
+  92% {
+    background-image: linear-gradient(90deg, #EE3034 92%, transparent 92%);
+  }
+  93% {
+    background-image: linear-gradient(90deg, #EE3034 93%, transparent 93%);
+  }
+  94% {
+    background-image: linear-gradient(90deg, #EE3034 94%, transparent 94%);
+  }
+  95% {
+    background-image: linear-gradient(90deg, #EE3034 95%, transparent 95%);
+  }
+  96% {
+    background-image: linear-gradient(90deg, #EE3034 96%, transparent 96%);
+  }
+  97% {
+    background-image: linear-gradient(90deg, #EE3034 97%, transparent 97%);
+  }
+  98% {
+    background-image: linear-gradient(90deg, #EE3034 98%, transparent 98%);
+  }
+  99% {
+    background-image: linear-gradient(90deg, #EE3034 99%, transparent 99%);
+  }
+}
 .production.electric-vehicle {
   background-image: url("./src/assets/background-triangle.png");
-}
-.production.electric-vehicle .title h2, .production.electric-vehicle .title h1 {
-  background: #0095DA;
 }
 .production.electric-vehicle .pagination > .prev, .production.electric-vehicle .pagination .next {
   background-color: #0095DA;
@@ -302,18 +1226,12 @@
 .production.robotics {
   background-image: url("./src/assets/background-circle.png");
 }
-.production.robotics .title h2, .production.robotics .title h1 {
-  background: #F58F5C;
-}
 .production.robotics .pagination > .prev, .production.robotics .pagination .next {
   background-color: #F58F5C;
 }
 
 .production.patient-monitoring {
   background-image: url("./src/assets/background-rectangle.png");
-}
-.production.patient-monitoring .title h2, .production.patient-monitoring .title h1 {
-  background: #EE3034;
 }
 .production.patient-monitoring .pagination > .prev, .production.patient-monitoring .pagination .next {
   background-color: #EE3034;
@@ -346,6 +1264,7 @@
 }
 .production .container {
   display: flex;
+  gap: 2%;
 }
 .production .container .title, .production .container .content {
   flex: 1 1 50%;
@@ -405,6 +1324,7 @@
   right: 0;
   left: 0;
   margin: auto;
+  pointer-events: none;
 }
 .production .content .pagination span {
   padding: 0 14px 0;

@@ -12,9 +12,43 @@
       translate: 100px 0px;
     }
   }
+  &.electric-vehicle {
+    .title {
+      h2, h1 {
+        background-image: linear-gradient(90deg, #0095DA 100%, transparent 100%);
+        animation: bacnground-color-transition1 .5s forwards;
+        &.initial {
+          animation: none;
+        }
+      }
+    }
+  }
+  &.robotics {
+    .title {
+      h2, h1 {
+        background-image: linear-gradient(90deg, #F58F5C 100%, transparent 100%);
+        animation: bacnground-color-transition2 .5s forwards;
+        &.initial {
+          animation: none;
+        }
+      }
+    }
+  }
+  &.patient-monitoring {
+    .title {
+      h2, h1 {
+        background-image: linear-gradient(90deg, #EE3034 100%, transparent 100%);
+        animation: bacnground-color-transition3 .5s forwards;
+        &.initial {
+          animation: none;
+        }
+      }
+    }
+  }
+
 
   .title {
-    h1, h2, .photo {
+    .photo {
       opacity: 1;
       translate: 0px;
       transition: opacity .5s ease-in-out,
@@ -28,22 +62,24 @@
   }
 }
 
+@mixin bacnground-color-transition($number, $color) {
+  @keyframes bacnground-color-transition#{$number} {
+    @for $index from 0% to 100% {
+      #{$index} {
+        background-image: linear-gradient(90deg, $color #{$index}, transparent #{$index});
+      }
+    }
+  }
+}
+@include bacnground-color-transition(1, #0095DA);
+@include bacnground-color-transition(2, #F58F5C);
+@include bacnground-color-transition(3, #EE3034);
 
 .production {
   // route path
   &.electric-vehicle {
     background-image:
       url('./src/assets/background-triangle.png');
-
-    .title {
-      h2, h1 {
-        background: #0095DA;
-      }
-      // h2::before {
-      //   content: 'Electric Vehicle';
-      // }
-    }
-
     .pagination {    
         > .prev, .next {
           background-color: #0095DA;
@@ -58,15 +94,6 @@
     background-image:
       url('./src/assets/background-circle.png');
 
-    .title {
-      h2, h1 {
-        background: #F58F5C;
-      }
-      // h2::before {
-      //   content: 'Robotics';
-      // }
-    }
-
     .pagination {    
         > .prev, .next {
           background-color: #F58F5C;
@@ -75,20 +102,12 @@
   }
 }
 
+
 .production {
   // route path
   &.patient-monitoring {
     background-image:
       url('./src/assets/background-rectangle.png');
-
-    .title {
-      h2, h1 {
-        background: #EE3034;
-      }
-      // h2::before {
-      //   content: 'Patient monitoring';
-      // }
-    }
 
     .pagination {    
         > .prev, .next {
@@ -126,6 +145,7 @@
 
   .container {
     display: flex;
+    gap: 2%;
     .title, .content {
       flex: 1 1 50%
     }
@@ -183,6 +203,7 @@
           right: 0;
           left: 0;
           margin: auto;
+          pointer-events: none;
         }
       }
       span {
