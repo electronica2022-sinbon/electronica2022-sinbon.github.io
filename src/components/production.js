@@ -21,13 +21,16 @@ export default function production(app) {
         item.classList.remove('initial')
       })
     }, 10)
-    document.querySelector('.icon-close').addEventListener('click', () => {
-      app.$router.push('/product-category')
-    })
-    console.log(current_data(2));
   }
 
   this.destroy = function () {
+  }
+
+  this.bindingEvent = () => {
+    // after render
+    document.querySelector('.icon-close').addEventListener('click', () => {
+      app.$router.push('/product-category')
+    })
   }
 
   this.render = () => `
@@ -38,10 +41,10 @@ export default function production(app) {
       </div> 
       <div class="container">
         <div class="title">
-          <h2 class="initial"></h2>
-          <h1 class="initial">CCS2 DC Charging Cable</h1>
+          <h2 class="initial">${current_data(index).fields.Product}</h2>
+          <h1 class="initial">${current_data(index).fields.Name}</h1>
           <div class="photo initial">
-            <img src="https://fakeimg.pl/800x550/" alt="">
+            <img src="${current_data(index).fields.image[0].url}" alt="">
           </div>
         </div>
         <div class="content">
@@ -49,17 +52,19 @@ export default function production(app) {
             <div class="prev">
               <img src="./src/assets/slider_prev.png" alt="">
             </div>
-            <span>${index}/${api_data.length}</span>
+            <span>${index + 1}/${api_data.length}</span>
             <div class="next">
               <img src="./src/assets/slider_next.png" alt="">
             </div>
           </div>
           <div class="text">
             <p>
-              Flame Retardant Grade: UL94V-0 <br />
-              Outdoor Suitability: UL 746C (f1)<br />
-              Protection Grade: IP66<br />
-              Withstand Vehicle Rolling Test
+              <b>Features</b>
+              <pre>${current_data(index).fields.Features}</pre>
+            </p>
+            <p>
+              <b>Specification</b>
+              <pre>${current_data(index).fields.Specification}</pre>
             </p>
           </div>
         </div>

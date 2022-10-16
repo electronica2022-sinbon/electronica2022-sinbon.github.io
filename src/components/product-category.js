@@ -2,7 +2,13 @@ export default function productCategory(app) {
 
   this.mounted = function () {
     document.querySelector('.transition-next-page').classList.add('scale-0')
+  }
 
+  this.destroy = function () {
+    document.querySelector('.transition-next-page').classList.remove('scale-0')
+  }
+
+  this.bindingEvent = () => {
     document.querySelector('.back-prev > img').addEventListener('click', () => {
       document.querySelector('.transition-next-page').classList.remove('scale-0')
       setTimeout(() => {
@@ -27,10 +33,6 @@ export default function productCategory(app) {
         app.$router.push('/patient-monitoring')
       })
     })
-  }
-
-  this.destroy = function () {
-    document.querySelector('.transition-next-page').classList.remove('scale-0')
   }
 
   this.render = () => `

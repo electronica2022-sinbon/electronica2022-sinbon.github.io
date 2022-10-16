@@ -2,7 +2,14 @@ export default function aboutSimbon(app) {
 
   this.mounted = function () {
     document.querySelector('.transition-next-page').classList.add('scale-0')
+  }
 
+  this.destroy = function () {
+    document.querySelector('.transition-next-page').classList.remove('scale-0')
+  }
+
+  this.bindingEvent = () => {
+    // after render
     document.querySelector('.back-prev > img').addEventListener('click', () => {
       document.querySelector('.transition-next-page').classList.remove('scale-0')
       setTimeout(() => {
@@ -19,16 +26,12 @@ export default function aboutSimbon(app) {
 
 
     document.querySelector('.read-me-button').addEventListener('click', () => {
-      document.querySelector('iframe.body').src ="https://heyzine.com/flip-book/SINBON2022Electronica?fbclid=IwAR273vBJx8uczl2NclAz_cP9dUoJd1cuu2bE7whseSO8EytFNWMY_opAkbg#page/1";
+      document.querySelector('iframe.body').src = "https://heyzine.com/flip-book/SINBON2022Electronica?fbclid=IwAR273vBJx8uczl2NclAz_cP9dUoJd1cuu2bE7whseSO8EytFNWMY_opAkbg#page/1";
       document.querySelector('.ebook').classList.add('show');
     })
     document.querySelector('.ebook .close').addEventListener('click', () => {
       document.querySelector('.ebook').classList.remove('show');
     })
-  }
-
-  this.destroy = function () {
-    document.querySelector('.transition-next-page').classList.remove('scale-0')
   }
 
   this.render = () => `

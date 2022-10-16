@@ -295,9 +295,6 @@
 .production.electric-vehicle .title h2, .production.electric-vehicle .title h1 {
   background: #0095DA;
 }
-.production.electric-vehicle .title h2::before {
-  content: "Electric Vehicle";
-}
 .production.electric-vehicle .pagination > .prev, .production.electric-vehicle .pagination .next {
   background-color: #0095DA;
 }
@@ -308,9 +305,6 @@
 .production.robotics .title h2, .production.robotics .title h1 {
   background: #F58F5C;
 }
-.production.robotics .title h2::before {
-  content: "Robotics";
-}
 .production.robotics .pagination > .prev, .production.robotics .pagination .next {
   background-color: #F58F5C;
 }
@@ -320,9 +314,6 @@
 }
 .production.patient-monitoring .title h2, .production.patient-monitoring .title h1 {
   background: #EE3034;
-}
-.production.patient-monitoring .title h2::before {
-  content: "Patient monitoring";
 }
 .production.patient-monitoring .pagination > .prev, .production.patient-monitoring .pagination .next {
   background-color: #EE3034;
@@ -381,6 +372,11 @@
 }
 .production .title .photo {
   margin: 40px 0;
+  width: 880px;
+}
+.production .title .photo > img {
+  display: block;
+  width: 100%;
 }
 .production .content {
   padding: 154px 160px 0 0;
@@ -427,13 +423,24 @@
   color: black;
   opacity: 1;
 }
-.production .content .text p {
+.production .content .text p + p {
+  margin-top: 2em;
+}
+.production .content .text b {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 1.2;
+  color: #252A31;
+}
+.production .content .text pre {
   font-family: "Montserrat";
   font-weight: lighter;
   font-size: 32px;
   line-height: 1.2;
   color: #252A31;
   margin: 0;
+  white-space: pre-wrap;
 }
 
 .case-study .header {

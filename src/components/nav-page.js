@@ -6,21 +6,22 @@ export default function navPage(app) {
     setTimeout(() => {
       document.querySelectorAll('.main-nav-item').forEach(item => item.classList.remove('scale-0'))
     }, 100)
+  }
 
+  this.bindingEvent = () => {
     // 點擊選項，播放動畫    
     document.querySelector('.triangle').addEventListener('click', () => {
       document.querySelector('.transition-next-page').classList.remove('scale-0')
       setTimeout(() => {
         app.$router.push('product-category');
       }, 300)
-      
+
     })
     document.querySelector('.circle').addEventListener('click', () => {
       document.querySelector('.transition-next-page').classList.remove('scale-0')
       setTimeout(() => {
         app.$router.push('case-study');
       }, 300)
-
     })
 
     // 進入指定 router

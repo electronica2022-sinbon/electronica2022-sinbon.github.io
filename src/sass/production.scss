@@ -39,9 +39,9 @@
       h2, h1 {
         background: #0095DA;
       }
-      h2::before {
-        content: 'Electric Vehicle';
-      }
+      // h2::before {
+      //   content: 'Electric Vehicle';
+      // }
     }
 
     .pagination {    
@@ -62,9 +62,9 @@
       h2, h1 {
         background: #F58F5C;
       }
-      h2::before {
-        content: 'Robotics';
-      }
+      // h2::before {
+      //   content: 'Robotics';
+      // }
     }
 
     .pagination {    
@@ -85,9 +85,9 @@
       h2, h1 {
         background: #EE3034;
       }
-      h2::before {
-        content: 'Patient monitoring';
-      }
+      // h2::before {
+      //   content: 'Patient monitoring';
+      // }
     }
 
     .pagination {    
@@ -151,6 +151,11 @@
     }
     .photo {
       margin: 40px 0;
+      width: 880px;
+      > img {
+        display: block;
+        width: 100%;
+      }
     }
   }
 
@@ -198,13 +203,26 @@
       color: black;
       opacity: 1;
 
-      p {
+      p + p {
+        margin-top: 2em;
+      }
+
+      b {
+        font-family: 'Montserrat';
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 1.2;
+        color: #252A31;
+      }
+
+      pre {
         font-family: 'Montserrat';
         font-weight: lighter;
         font-size: 32px;
         line-height: 1.2;
         color: #252A31;
         margin: 0;
+        white-space: pre-wrap;
       }
     }
   }

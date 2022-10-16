@@ -3,16 +3,19 @@ export default function caseStudy(app) {
   this.mounted = function () {
     document.querySelector('.transition-next-page').classList.add('scale-0')
 
+  }
+
+  this.destroy = function () {
+    document.querySelector('.transition-next-page').classList.remove('scale-0')
+  }
+
+  this.bindingEvent = () => {
     document.querySelector('.back-prev > img').addEventListener('click', () => {
       document.querySelector('.transition-next-page').classList.remove('scale-0')
       setTimeout(() => {
         app.$router.push('/main-nav');
       }, 300)
     })
-  }
-
-  this.destroy = function () {
-    document.querySelector('.transition-next-page').classList.remove('scale-0')
   }
 
   this.render = () => `

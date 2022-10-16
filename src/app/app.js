@@ -41,7 +41,8 @@ export default function main(appId, initComponent) {
         this.currentComponent = new (this.components[key])(this)
       }
       
-      this.appElement.innerHTML = this.currentComponent.render()
+      this.appElement.innerHTML = this.currentComponent.render();
+      if ('bindingEvent' in this.currentComponent) this.currentComponent.bindingEvent();
     })
     .then(() => { 
       if ('mounted' in this.currentComponent)
