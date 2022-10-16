@@ -1,5 +1,6 @@
 @use "utility.scss";
 
+// initial transition
 .production {
   .background-title {
     opacity: 1;
@@ -25,18 +26,84 @@
       }
     }
   }
+}
 
 
+.production {
+  // route path
+  &.electric-vehicle {
+    background-image:
+      url('./src/assets/background-triangle.png');
 
+    .title {
+      h2, h1 {
+        background: #0095DA;
+      }
+      h2::before {
+        content: 'Electric Vehicle';
+      }
+    }
+
+    .pagination {    
+        > .prev, .next {
+          background-color: #0095DA;
+        }
+    }
+  }
+}
+
+.production {
+  // route path
+  &.robotics {
+    background-image:
+      url('./src/assets/background-circle.png');
+
+    .title {
+      h2, h1 {
+        background: #F58F5C;
+      }
+      h2::before {
+        content: 'Robotics';
+      }
+    }
+
+    .pagination {    
+        > .prev, .next {
+          background-color: #F58F5C;
+        }
+    }
+  }
+}
+
+.production {
+  // route path
+  &.patient-monitoring {
+    background-image:
+      url('./src/assets/background-rectangle.png');
+
+    .title {
+      h2, h1 {
+        background: #EE3034;
+      }
+      h2::before {
+        content: 'Patient monitoring';
+      }
+    }
+
+    .pagination {    
+        > .prev, .next {
+          background-color: #EE3034;
+        }
+    }
+  }
+}
+
+.production {
   height: 100%;
   display: flow-root;
   background-position: left;
   background-repeat: no-repeat;
   background-size: contain;
-  &.electric-vehicle {
-    background-image: 
-    url('./src/assets/background-triangle.png');
-  }
 
   position: relative;
   .icon-close {
@@ -68,7 +135,6 @@
     h2, h1 {
       flex: none;
       color: #FFF;
-      background: #0095DA;
       padding: 16px;
       width: fit-content;
       font-family: 'Montserrat';
@@ -82,9 +148,6 @@
     h2 {
       font-size: 36px;
       font-weight: lighter;
-      &::before {
-        content: 'Electric Vehicle';
-      }
     }
     .photo {
       margin: 40px 0;
@@ -98,7 +161,6 @@
       display: flex;
       align-items: center;
       > .prev, .next {
-        background-color: #0095DA;
         border-radius: 900px;
         width: 70px;
         height: 70px;

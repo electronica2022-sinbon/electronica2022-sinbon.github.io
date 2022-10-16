@@ -1,7 +1,14 @@
 export default function production(app) {
   this.backgroundUrl = './src/assets/background-triangle.png';
+  const routeHash = location.hash.split('#/')[1];
+  const routeToBacktroundTitle = {
+    'electric-vehicle': './src/assets/background-title-E-mobility.png',
+    'robotics': './src/assets/background-title-SmartFactory.png',
+    'patient-monitoring': './src/assets/background-title-Medical.png',
+  }
   this.mounted = function () {
     document.querySelector('.transition-next-page').classList.add('scale-0')
+
     setTimeout(() => {
       document.querySelectorAll('.initial').forEach(item => {
         item.classList.remove('initial')
@@ -16,10 +23,10 @@ export default function production(app) {
   }
 
   this.render = () => `
-    <div class="production electric-vehicle">
+    <div class="production ${routeHash}">
       <img class="icon-close" src="./src/assets/close-white.png" alt="">
       <div class="background-title initial">
-        <img src="./src/assets/E-mobility.png" alt="">
+        <img src="${routeToBacktroundTitle[routeHash]}" alt="">
       </div> 
       <div class="container">
         <div class="title">
