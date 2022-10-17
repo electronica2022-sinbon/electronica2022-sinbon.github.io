@@ -35,11 +35,31 @@ export default [{
 }, {
   name: 'robotics',
   path: '/robotics',
-  component: production
+  component: production,
+  beforeEnter: (next) => {
+    axios.get('https://api.airtable.com/v0/appKo4M9y5FKMRTUE/Smart Factory', {
+      headers: {
+        'Authorization': 'Bearer keyPYCkBHUENMuMDp'
+      }
+    })
+      .then(res => res.data)
+      .then(data => window.sinbon.production = data.records)
+      .then(next)
+  }
 }, {
   name: 'patient-monitoring',
   path: '/patient-monitoring',
-  component: production
+  component: production,
+  beforeEnter: (next) => {
+    axios.get('https://api.airtable.com/v0/appKo4M9y5FKMRTUE/Medical', {
+      headers: {
+        'Authorization': 'Bearer keyPYCkBHUENMuMDp'
+      }
+    })
+      .then(res => res.data)
+      .then(data => window.sinbon.production = data.records)
+      .then(next)
+  }
 }, {
   name: 'case-study',
   path: '/case-study',
