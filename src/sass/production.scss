@@ -218,11 +218,16 @@
     .text {
       position: relative;
       margin: 24px 0;
-      padding: 40px 60px;
+      padding: 0 20px;
       background: rgba(255, 255, 255, 0.8);
       z-index: 10;
       color: black;
       opacity: 1;
+      height: 765px;
+      box-sizing: border-box;
+      overflow: hidden;
+      overflow-y: auto;
+      border: solid rgba(255, 255, 255, 0) 40px;
 
       p + p {
         margin-top: 2em;

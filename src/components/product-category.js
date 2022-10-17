@@ -20,7 +20,6 @@ export default function productCategory(app) {
     document.querySelectorAll('.triangle').forEach(product => {
       product.addEventListener('click', (e) => {
         const current_data_set = e.currentTarget.dataset.type;
-        console.log('SINBON_TYPE', current_data_set);
         Cookies.set('SINBON_TYPE', current_data_set);
         app.$router.push('/electric-vehicle');
       })
@@ -29,7 +28,6 @@ export default function productCategory(app) {
     document.querySelectorAll('.circle').forEach(product => {
       product.addEventListener('click', (e) => {
         const current_data_set = e.currentTarget.dataset.type;
-        console.log('SINBON_TYPE', current_data_set);
         Cookies.set('SINBON_TYPE', current_data_set);
         app.$router.push('/robotics');
       })
@@ -38,7 +36,6 @@ export default function productCategory(app) {
     document.querySelectorAll('.rectangle').forEach(product => {
       product.addEventListener('click', (e) => {
         const current_data_set = e.currentTarget.dataset.type;
-        console.log('SINBON_TYPE', current_data_set);
         Cookies.set('SINBON_TYPE', current_data_set);
         app.$router.push('/patient-monitoring');
       })

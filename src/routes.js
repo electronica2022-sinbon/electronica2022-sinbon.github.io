@@ -24,7 +24,6 @@ export default [{
   component: production,
   beforeEnter: (next) => {
     const type = Cookies.get('SINBON_TYPE');
-    console.log('type', type);
     axios.get('https://api.airtable.com/v0/appKo4M9y5FKMRTUE/E-mobility', {
       headers: {
         'Authorization': 'Bearer keyPYCkBHUENMuMDp'
@@ -32,6 +31,7 @@ export default [{
     })
       .then(res => res.data)
       .then(data => window.sinbon.production = data.records.filter(item => item.fields.Type.includes(type)))
+      .then(data => data.sort((a, b) => a.fields.ID.localeCompare(b.fields.ID)))
       .then(next)
   }
 }, {
@@ -40,7 +40,6 @@ export default [{
   component: production,
   beforeEnter: (next) => {
     const type = Cookies.get('SINBON_TYPE');
-    console.log('type', type);
     axios.get('https://api.airtable.com/v0/appKo4M9y5FKMRTUE/Smart Factory', {
       headers: {
         'Authorization': 'Bearer keyPYCkBHUENMuMDp'
@@ -48,6 +47,7 @@ export default [{
     })
       .then(res => res.data)
       .then(data => window.sinbon.production = data.records.filter(item => item.fields.Type.includes(type)))
+      .then(data => data.sort((a, b) => a.fields.ID.localeCompare(b.fields.ID)))
       .then(next)
   }
 }, {
@@ -56,7 +56,6 @@ export default [{
   component: production,
   beforeEnter: (next) => {
     const type = Cookies.get('SINBON_TYPE');
-    console.log('type', type);
     axios.get('https://api.airtable.com/v0/appKo4M9y5FKMRTUE/Medical', {
       headers: {
         'Authorization': 'Bearer keyPYCkBHUENMuMDp'
@@ -64,6 +63,7 @@ export default [{
     })
       .then(res => res.data)
       .then(data => window.sinbon.production = data.records.filter(item => item.fields.Type.includes(type)))
+      .then(data => data.sort((a, b) => a.fields.ID.localeCompare(b.fields.ID)))
       .then(next)
   }
 }, {

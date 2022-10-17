@@ -16,10 +16,8 @@ export default function main(appId, initComponent) {
   };
 
   this.render = () => {
-    console.log('render');
     this.appElement.innerHTML = this.currentComponent.render();
     if ('bindingEvent' in this.currentComponent) {
-      console.log('bindingEvent');
       this.currentComponent.bindingEvent();
     }
   }
@@ -53,9 +51,10 @@ export default function main(appId, initComponent) {
         this.currentComponent = new (this.components[key])(this)
       }  
     })
-    .then(() => {
-      this.render()
-    })
+    .then(() => new Promise(res => {
+      this.render();
+      res();
+    }))
     .then(() => { 
       if ('mounted' in this.currentComponent)
         this.currentComponent.mounted();
