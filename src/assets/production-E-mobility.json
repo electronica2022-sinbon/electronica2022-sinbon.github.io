@@ -1,0 +1,1733 @@
+[
+  {
+    "id": "rec1zaYsgYRgWo7Uk",
+    "createdTime": "2022-09-08T07:06:51.000Z",
+    "fields": {
+      "Categories": "E-mobility",
+      "Features": "- Flame retardant grade: UL94V-0 ​\n- Outdoor suitability: UL746C (f1)​\n- Protection grade: IP66​\n- Withstand vehicle rolling test.​\n- Emergency unlocking structure: In case of abnormal charging locking.\n",
+      "Name": "GB DC Charging Cable ​",
+      "image": [
+        {
+          "id": "attDSKfn1ATSaGLVJ",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/2dcdf1a23a11dfdffc428b4178b43f23/46ad9660/EV03_GBDCChargingCable.png",
+          "filename": "EV03_GB DC Charging Cable.png",
+          "size": 596368,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/f836011a1e43c3d52d92427331352cfa/61d08f47",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/d4f68b1403dae800ac781e86d3f82413/1e8314d7",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/646c9106a34438debcf5d6e0bcd32ee7/ca49d82d",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "Electric Vehicle​_03",
+      "Type": "Electric Vehicle",
+      "Specification": "- Max current: 350A​\n- Rated voltage: 1000V DC​\n- Smaller outer diameter.​\n- Contacts temperature rise: <50K\n",
+      "Reliability Requirements": "\n"
+    }
+  },
+  {
+    "id": "rec3Ox41Nyzn36Pyt",
+    "createdTime": "2022-09-08T08:17:55.000Z",
+    "fields": {
+      "Categories": "E-mobility",
+      "Features": "- Fool-Proof Design​\n- IP Rating : IPX7​\n\n",
+      "Name": "5 Pin Mini Circular Connector (Male / Female) for E-bike Front Light",
+      "image": [
+        {
+          "id": "attNVl0XHlSYuww20",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/5bbaef518389ee821b5c073c52ca98fd/f0e7e9da/EC155PinMiniCircularConnector.png",
+          "filename": "EC15 5Pin Mini Circular Connector.png",
+          "size": 226064,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/bb5099e21b21ba3f8af53122027754ae/64c93aa6",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/f7b2c20d2b9c772c46de6ffcca6257e0/a08c390b",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/0ebeb00f68234cbae5e3b31ec73c9af5/6aa42e7e",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "E-mobility Connectivity​_15",
+      "Type": "E-mobility Connectivity​"
+    }
+  },
+  {
+    "id": "rec3hAxMdUix6uwDQ",
+    "createdTime": "2022-09-08T08:20:53.000Z",
+    "fields": {
+      "Categories": "E-mobility",
+      "Features": "- Cable with PCB assembly.​\n- Low-pressure injection molding.\n",
+      "Name": "Ethernet Adapter​",
+      "image": [
+        {
+          "id": "att3j7FrsSvv8kO0c",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/411e12a0a1a446525496e3ff7a32f5d1/cc00f90d/OM02_EthernetAdapter.png",
+          "filename": "OM02_Ethernet Adapter.png",
+          "size": 764600,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/d4ebbe0e5c112a619455dfd3da94664e/8750a6b9",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/857d642222f9e28eb3f277e15485dd0f/b60e34bb",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/111dccd2ab728a0175c4608a604e2228/426e218c",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "Other Mobility​_02",
+      "Type": "Other Mobility​",
+      "Specification": "\n",
+      "Reliability Requirements": "- IP67 sealing.​\n- Crush test.​\n- High temperature (85℃) / High humidity (85RH)test.\n\n"
+    }
+  },
+  {
+    "id": "rec4uuyfq8qgszdOI",
+    "createdTime": "2022-09-08T08:13:31.000Z",
+    "fields": {
+      "Categories": "E-mobility",
+      "Features": "- High precision tooling design & molding process.​\n- Eco-friendly materials used for environmental protection.​\n- Fool-proof design.​\n- Customized design available.\n\n",
+      "Name": "5P Cable Assembly for E-bike Rear light",
+      "image": [
+        {
+          "id": "attMphYtqN0UkANQq",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/192ee48d4cf853b7989727becf041747/b9fac7e0/EC11RearLight5PCableAssembly.png",
+          "filename": "EC11 Rear Light 5P  Cable Assembly.png",
+          "size": 304488,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/1907049d07bb547fed6d55670b8cf013/9bb9b4cb",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/2b650eef4c377613a83e29a55d668dc3/2be8b06b",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/ec32863156f32ef80e2859dda8d6c312/b3f08af3",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "E-mobility Connectivity​_11",
+      "Type": "E-mobility Connectivity​"
+    }
+  },
+  {
+    "id": "rec6DnDt6X6L43TpT",
+    "createdTime": "2022-09-08T08:13:33.000Z",
+    "fields": {
+      "Categories": "E-mobility",
+      "Features": "- Current : 30A Max​\n- Annular spring to increase inner contact area​\n\n",
+      "Name": "3+8 Battery Connector – Rectangle (Male / Female) for E-bike Battery",
+      "image": [
+        {
+          "id": "att6LLYWbmpluO2v3",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/ba9cc4aa39eec606d08fc2831d77f701/a0d0144d/EC1338BatteryConnector-Rectangle.png",
+          "filename": "EC13 3+8 Battery Connector -Rectangle.png",
+          "size": 721982,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/bfe232ed8ebf0bf89e579d3072a86823/af5c8e82",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/086cfe57e8b51d807d1bf75180f08528/b3915a2d",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/768a6d4e4c8703a1948191b85ab75aae/6bbfbc3f",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "E-mobility Connectivity​_13",
+      "Type": "E-mobility Connectivity​"
+    }
+  },
+  {
+    "id": "rec8PJttZOLn8NQ7Q",
+    "createdTime": "2022-09-08T07:53:34.000Z",
+    "fields": {
+      "Categories": "E-mobility",
+      "Features": "- Swappable battery connector for e-motorcycle.​\n- High power transmission and two and one direction for plug in. \n\n",
+      "Name": "SBMC Male and Female Connectors for​ E-motorcycle Swappable Battery",
+      "image": [
+        {
+          "id": "att6vXy52E4prol81",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/458edc8a4a5cb4db29c7471fa62877ec/141c92bc/EC02_SBMCMaleandFemaleConnectorsforEmotorcycleSwappableBattery.png",
+          "filename": "EC02_SBMC Male and Female Connectors for Emotorcycle Swappable Battery.png",
+          "size": 709007,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/6bac68c649e8527a2f863af62498593f/e2a53c89",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/123a7441002a6c152d303f81fdddaec6/ebe4e575",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/fbf0645ab5897dfabe135c5dde68fcbd/5762df8e",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "E-mobility Connectivity​_02",
+      "Type": "E-mobility Connectivity​",
+      "Specification": "- Rated voltage: power pin 120V; signal pin 40V​\n- Rated current: power pin 90A; signal pin 2A​\n- Protection grade: IP65​\n- Operation temperature: -20°C ~ 105°C\n",
+      "Reliability Requirements": "\n"
+    }
+  },
+  {
+    "id": "recAYGQUPHNBokyml",
+    "createdTime": "2022-09-08T07:53:32.000Z",
+    "fields": {
+      "Categories": "E-mobility",
+      "Features": "- Swappable battery solution ideal for bike or scooter.​\n- Product life cycle up to 10,000 mating cycles.​\n- IP 67 mated and at the battery connector level.​\n- Floating design to accommodate up to 1.5mm at both x and y axis, 1.0mm at z axis.​\n- Mechanical surrounding to protect the power pin and to guide possible angled mating action.​\n- High-low pin height to consider hot swapping.\n\n",
+      "Name": "Tier similar docking station with battery",
+      "image": [
+        {
+          "id": "attoHOFPTLUDWzYcZ",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/2d7b2f76c867e58acdabd181b8a751e7/2d1c9c2f/EC01_Tiersimilardockingstationwithbattery.png",
+          "filename": "EC01_Tier similar docking station with battery.png",
+          "size": 1373434,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/e8fa185b098e4501603002713b048a05/fbb09d31",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/6b77967bb9205019343056628e517a9b/a68e1924",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/8fc6dcb5f359c64586ca3dd6a12f81ba/24238215",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "E-mobility Connectivity​_01",
+      "Type": "E-mobility Connectivity​"
+    }
+  },
+  {
+    "id": "recAmIWhTZBBzxinQ",
+    "createdTime": "2022-09-08T07:21:14.000Z",
+    "fields": {
+      "Categories": "E-mobility",
+      "Features": "- 1-Pole, 2-Pole, and 3-Pole designs are available.​\n- Engine Level Vibration Compliant  \n\n",
+      "Name": "90-degree three phase HV Motor Connector",
+      "image": [
+        {
+          "id": "attoXSeoqZsYLqAhk",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/32a02f012d7be2b85b8f3758339cd0f4/4957d8c5/EV11_90degreethreephaseHVMotorConnector.png",
+          "filename": "EV11_90 degree three phase HV Motor Connector.png",
+          "size": 1261720,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/2b8a214fc9379c9ce7ddb25c393d6d59/b8199e98",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/24521360e2a5d79cb2db2b340c22471e/8cce236a",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/359f0d144c75caa467d2717bfe72456d/a96cf665",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "Electric Vehicle​_11",
+      "Type": "Electric Vehicle",
+      "Specification": "- Withstand Temperature: -40℃ ~ 150℃​\n",
+      "Reliability Requirements": "\n"
+    }
+  },
+  {
+    "id": "recB4J3W33DKviTAk",
+    "createdTime": "2022-10-14T09:08:01.000Z",
+    "fields": {
+      "Name": "Wiring Solution​ Interconnect Planning",
+      "Description": "SINBON offers **customization** service to help solve **waterproof and vibration** problems. Our **in-house raw cable **plant makes fast and rapid cable prototyping possible. The SINBON design team will co-work with the frame designer and assembly manufacturer to think about how cable can be hidden so exposure of cabling can be kept at a minimum.​\n",
+      "image": [
+        {
+          "id": "attaXwb8QBYsXgaBy",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/ab96e48e62673b3a2b26b72f3cd1f856/d2018891/EB05_WiringSolutionInterconnectPlanning.png",
+          "filename": "EB05_Wiring Solution Interconnect Planning.png",
+          "size": 1934303,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/745ef5146005257b599f7ba28e894626/1530c7d0",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/cdcf4ec03d3798f0bc40466ad5e439c0/1c959a0b",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/7cced2a54ccebadcb8a6e6ada21c1ab8/b08bdc41",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "E-bike system_05",
+      "Type": "E-bike system"
+    }
+  },
+  {
+    "id": "recFk8IxT0sXaFw3W",
+    "createdTime": "2022-10-14T09:08:03.000Z",
+    "fields": {
+      "Features": "**Model: TAOTU3625**​\n- Rated voltage: 36 DCV​\n- Rated power: 250 W​\n- **FOC for 98% efficiency.**​\n- Sensor support: BB torque, cadence, wheel speed, temperature, **gyroscope**​\n- **Communication: CAN BUS**​\n- Protection: OVP / UVP / OCP / OTP​\n- Protection grade: IP 65​\n\n",
+      "Name": "ECU Motor Controller​",
+      "image": [
+        {
+          "id": "attHwhO2yVEhT0UtK",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/c7e4a44cbeef1eb2a7c367a3682b6231/3aea5f8a/EB08_ECUMotorController_.png",
+          "filename": "EB08_ECU Motor Controller_.png",
+          "size": 1780291,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/e2187d6d444fbb7287e42e839e0b0336/29061914",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/ac142ab8bcc804d60f86534a86eec357/685edbe7",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/7d414ede5cfa2239452fad8668d03aef/8c8607e2",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "E-bike system_08",
+      "Type": "E-bike system"
+    }
+  },
+  {
+    "id": "recFuc1PX1k5DMvOg",
+    "createdTime": "2022-09-08T07:56:34.000Z",
+    "fields": {
+      "Categories": "E-mobility",
+      "Features": "- High level materials for weather resistance (Salt spray test: 144 hours)​\n- High precision tooling design & molding process.​\n- Customized design available.\n\n",
+      "Name": "4 In 1 Cable Assembly for E-bike ECU",
+      "image": [
+        {
+          "id": "atttpbJEm4Pbg6KiE",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/1c70aa8648a6a55a39155ade0cbde7e6/bea7f163/EC08In1CableAssembly.png",
+          "filename": "EC08 In 1  Cable Assembly.png",
+          "size": 659133,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/6524e37da6f3218a2c3608ec4bcbd534/163649e4",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/decf4eadfa6997df1adbfc1ff51901c9/72450a13",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/4fef6ddff7057093e138b4f81c5d1f96/97a9b775",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "E-mobility Connectivity​_08",
+      "Type": "E-mobility Connectivity​"
+    }
+  },
+  {
+    "id": "recGFigZ8MkrTkZEI",
+    "createdTime": "2022-09-08T07:56:32.000Z",
+    "fields": {
+      "Categories": "E-mobility",
+      "Features": "- Concentric structure with rotationally symmetrical design.​\n- Waterproof design of compact size for signal.\n\n",
+      "Name": "2 Pin Circular Connector (Male / Female) for E-bike Signal Transmission",
+      "image": [
+        {
+          "id": "attsxyWfXRlvk8AhZ",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/2a65ed7ce5b218920b1f44a0e43adad0/7ad25ff9/EC062pinCircularConnectormale_femaleforE-bikeSignalTransmission.png",
+          "filename": "EC06 2 pin Circular Connector (male_ female) for E-bike Signal Transmission.png",
+          "size": 387685,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/7b85a60581369314d259387b7f7cb4e0/e773169a",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/fd3b5fd537c9715376591bd0a2dadf7e/394218ad",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/6df263fc296a45a556840fe60d593b9b/1672ed60",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "E-mobility Connectivity​_06",
+      "Type": "E-mobility Connectivity​"
+    }
+  },
+  {
+    "id": "recIrKN1J0GGOfmr2",
+    "createdTime": "2022-10-14T09:32:01.000Z",
+    "fields": {
+      "Features": "- Complying with TES-0D-02-01.\n",
+      "Name": "High Voltage E-motorcycle Fast Charging Gun",
+      "image": [
+        {
+          "id": "attYtylfgYYpsSCCW",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/683e80c6515995190d8188b308be5f7f/79c2de98/EC04_HighVoltageE-motorcycleFastChargingGun_1012.png",
+          "filename": "EC04_High Voltage E-motorcycle Fast Charging Gun_1012新增.png",
+          "size": 1027224,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/7bbbd6d4a6c3a8651348c72d7a6e60bd/67ac4e29",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/f48b94f06a191a7277d4399319af1520/02e0a035",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/7595077cb44436dabb3a63d743b8c40f/c366d439",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "E-mobility Connectivity​_04",
+      "Type": "E-mobility Connectivity​",
+      "Specification": "- Rated voltage: 120V DC​\n- Rated current: 6 / 15A​\n- Flame rating: UL94 V-0​\n- Protection grade: IP55​\n- Operation temperature: -40°C ~ 80°C\n",
+      "Reliability Requirements": "\n"
+    }
+  },
+  {
+    "id": "recJ81MyJrDoCE4U4",
+    "createdTime": "2022-09-08T07:21:26.000Z",
+    "fields": {
+      "Categories": "E-mobility",
+      "Features": "- Developing solution using aluminum rod to replace copper wire, reduce the weight and cost.​\n- Modulization and automation compatible.\n\n",
+      "Name": "Aluminum Rod as Conductive Material​",
+      "image": [
+        {
+          "id": "attMRutyOYCSridHk",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/6feb7fb430791335e0715b6336d6fced/3c0c63d2/EV12_AluminumRod.png",
+          "filename": "EV12_Aluminum Rod.png",
+          "size": 1409990,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/523cd5b47cc75c234e33446a3906eb36/b2328e8d",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/48233687c8588b8265c6030fe18ef3a3/c6031d09",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/22c3169600ab677c33ceae1344b18192/98adf60b",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "Electric Vehicle​_12",
+      "Type": "Electric Vehicle"
+    }
+  },
+  {
+    "id": "recKrYd9ZeNyYjf8F",
+    "createdTime": "2022-09-08T07:19:22.000Z",
+    "fields": {
+      "Categories": "E-mobility",
+      "Features": "- Protection Grade: IP67​\n- Flame Retardant Grade: UL94V-0 ​\n- Outdoor Suitability: UL 746C (f1)\n",
+      "Name": "CCS1 Charging Inlet ​",
+      "image": [
+        {
+          "id": "att7OdksfSSj84rW2",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/90ad99c9d44ee519d8c641f42beda78c/2093ee63/EV04_CCS2Inlet.png",
+          "filename": "EV04_ CCS1 Inlet.png",
+          "size": 510303,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/2513e1cdb60af4a9a7df95f57140930b/5336ba84",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/a9f6e025e892faa8f7399d5be239ba05/a783f160",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/b5cd6f163911babf1877c244636dd87c/a5006502",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "Electric Vehicle​_04",
+      "Type": "Electric Vehicle",
+      "Specification": "- Max Current: 400A​\n- Rated Voltage: 1000V DC\n\n",
+      "Reliability Requirements": "\n"
+    }
+  },
+  {
+    "id": "recLH34sOgJm9K4DG",
+    "createdTime": "2022-10-14T09:08:06.000Z",
+    "fields": {
+      "Name": "E-bike Smart Driving System for ​Mid-motor Solution\n(Commute / Gravel / Cargo Bike)​",
+      "Description": "**A Set of Mid-motor Solution:**​\n\n- In tube battery 7Ah, 252W.​\n- Mid-motor 36 / 48V, 200 / 250W, 60Nm.​\n- Parallel current module of dual battery.​\n- Y slipper cable for motor controller to HMI. ​\n- Elite 1.77” display.​\n- 3 buttons switch unit for city bike.​\n- Right angle charging socket cable.\n\n",
+      "image": [
+        {
+          "id": "attio1thRsBTsdJ1i",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/51dbcb42edac701edc141b215e65249f/30ff131f/EB11_E-bikeSmartDrivingSystemforMid-motorSolution_1012.png",
+          "filename": "EB11_E-bike Smart Driving System for Mid-motor Solution_1012新增.png",
+          "size": 1584997,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/1a7a6c47c11167517085e90a26fcfd39/41102c4f",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/c10be4c023275be89d1273fa38d06c2c/769e5d92",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/3e60ff5fc88fbeb2bc66e5795c4457bc/9680cda2",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "E-bike system_11",
+      "Type": "E-bike system"
+    }
+  },
+  {
+    "id": "recN6F327yNNHo6lF",
+    "createdTime": "2022-09-08T07:19:29.000Z",
+    "fields": {
+      "Categories": "E-mobility",
+      "Features": "- Flame Retardant Grade: UL94V-0 ​\n- Outdoor Suitability: UL 746C (f1)​\n- Protection Grade: IP55​\n- Withstand Vehicle Rolling Test\n\n",
+      "Name": "GB V2L Adapter ​",
+      "image": [
+        {
+          "id": "attvHuWKqh1JQmX64",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/41ed89e4d8f0f76eed9bdca6a9884201/d8772bce/EV07_GBV2LAdapter.png",
+          "filename": "EV07_GB V2L Adapter.png",
+          "size": 374747,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/853ca18caa70dbd17715bbf06074b2a3/0db40f44",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/0f752571e631b5578affc9ee9b843736/712f1269",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/b7f3975f0cf2ae14fb10d748b87004b0/57f5a5aa",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "Electric Vehicle​_07",
+      "Type": "Electric Vehicle"
+    }
+  },
+  {
+    "id": "recO6XQC2b0uWILWF",
+    "createdTime": "2022-10-14T09:08:07.000Z",
+    "fields": {
+      "Features": "**Display: Sidekick-2**​\n- 1.77”, 128 x 160mm TFT LCD​\n- 250Kbps CAN bus communication.​\n- 2.4GHz Bluetooth low energy version 5.0​\n- 32-Bit Arm® Cortex®- M0 + MCU.​\n- Protection grade: IP 65​\n​\n**Switch Unit: AMOEBA-3 for road bike**​\n- 3 Buttons.​\n- Button function: Up, down and confirm.​\n- Protection grade: IP 65​\n\n",
+      "Name": "HMI Display & Switch Units​",
+      "image": [
+        {
+          "id": "attS30IoYiLQiaXP8",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/548d768aa0ea17ed2c8ded3eb36448be/2b009214/EB12_HMIDisplaySwitchUnits_1012.png",
+          "filename": "EB12_HMI Display & Switch Units_1012新增.png",
+          "size": 1677878,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/6c4fb977162a7768fb2e056af3dda2ff/04af4ee9",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/682788aaa809c17ceede70bbd9057337/9b4b5891",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/77341a6a565cc18f913d392c947ae759/88d7d44a",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "E-bike system_12",
+      "Type": "E-bike system"
+    }
+  },
+  {
+    "id": "recOQcVoOmwheGGz7",
+    "createdTime": "2022-09-08T07:21:27.000Z",
+    "fields": {
+      "Categories": "E-mobility",
+      "Features": "- Protection Grade: IP67​\n- Flame Retardant Grade: UL94V-0 ​\n- Outdoor Suitability: UL 746C (f1)\n\n",
+      "Name": "GB DC Charging Inlet​",
+      "image": [
+        {
+          "id": "att8ScGiG2NcDO0Fk",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/f72cb8f13d929a5897626f5cdf7aad73/7a7125d3/EV06_GBDCChargingInlet.png",
+          "filename": "EV06_GB DC Charging Inlet.png",
+          "size": 1482433,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/c0bb461f4f68a898c8834b9b99eda9ba/a469a498",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/ae9e0fe70708e285c3cda449e696ab59/b1055032",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/a42270c8dd2f2029f0e8680443a9abb0/27029b21",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "Electric Vehicle​_06",
+      "Type": "Electric Vehicle",
+      "Specification": "- Max Current: 80A / 125A / 250A​\n- Rated Voltage: 750V / 1,000V DC\n\n",
+      "Reliability Requirements": "\n"
+    }
+  },
+  {
+    "id": "recPPwFnHEq7wmRzT",
+    "createdTime": "2022-09-08T08:17:55.000Z",
+    "fields": {
+      "Categories": "E-mobility",
+      "Features": "- Largest outside diameter could be 6~8mm as customized request.​\n- Standard number of pins : 2-6 pins.​\n- Fool-proof design\n\n",
+      "Name": "3+8 Battery Connector – Rectangle (Male / Female) for E-bike Battery",
+      "image": [
+        {
+          "id": "attCVUhXATzYqfslj",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/d06e831dc48fb1a3671bb18c6768d15e/052c0a4c/EC143pinCircularConnector.png",
+          "filename": "EC14 3pin Circular Connector.png",
+          "size": 374767,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/dbc962fa1e9e75726a54c92ef645cef9/56e258cd",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/42554c9131cf71596a66043c539a01a7/6938940c",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/7f17525bd0df6b1a43d1e66132cfb253/6aaa6072",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "E-mobility Connectivity​_14",
+      "Type": "E-mobility Connectivity​"
+    }
+  },
+  {
+    "id": "recQSBJ3UnVIB1b9G",
+    "createdTime": "2022-10-14T09:26:14.000Z",
+    "fields": {
+      "Features": "- Firmware update.​\n- Data transmission.​\n- Biking service.​\n- Trouble shooting manual.\n\n",
+      "Name": "Diagnostic System",
+      "Description": "Monitoring e-bike health status is critical, through connecting to the laptop / computer via the dongle tool with SINBON HMI you can easily find out the status of each component with our diagnostic system. It assists e-bike manufacturers and overseas dealers to offer quick and convenient after-service.​\n",
+      "image": [
+        {
+          "id": "attO67Pw2wSFanfIS",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/94e2da304990992ad846c87621645fc2/37174463/EB15_DiagnosticSystem.png",
+          "filename": "EB15_Diagnostic System.png",
+          "size": 291541,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/ca748215282506009abd7b59b13fab2b/ff8c98ff",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/17281029a163445443f1a1491569bd6f/e6b10d5b",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/2890cb483e7f44e7d8193fa89e2880c5/5f805864",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "E-bike system_15",
+      "Type": "E-bike system"
+    }
+  },
+  {
+    "id": "recR04d1DDL1KRmE2",
+    "createdTime": "2022-10-14T09:07:57.000Z",
+    "fields": {
+      "Features": "\n",
+      "Name": "E-bike Smart Driving System for ​Rear Hub Motor Solution\n(City / Urban / Commute Bike)",
+      "Description": "**A Set of Rear Hub Motor Solution:**​\n- In tube battery 7Ah, 252W.​\n- Rear hub motor 36V, 250W, 12Nm.​\n- Motor controller 250W.​\n- Torque sensor.​\n- Y slipper cable for motor controller to HMI. ​\n- Elite 1.77” display.​\n- 3 buttons switch unit.​\n- Straight charging socket cable.​\n\n",
+      "image": [
+        {
+          "id": "attT9C3156wNtyOiI",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/25211c69dda1a8483e4b3484bedfb8cc/b641db8f/EB02_SmartDrivingSystemforHubMotorSolution.png",
+          "filename": "EB02_Smart Driving System for Hub Motor Solution.png",
+          "size": 1247498,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/386bb7d4bcc53853edc6e467f14ae920/b38c4538",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/6c03b8ce7e280a1b8f61735323d9c8b4/b70ceafc",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/3f6f01a3e6f87e33d2fd97261208d790/cc95c550",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "E-bike system_02",
+      "Type": "E-bike system"
+    }
+  },
+  {
+    "id": "recRjmQyfvk5AGcrs",
+    "createdTime": "2022-10-14T09:08:03.000Z",
+    "fields": {
+      "Features": "**Charging socket cable – Straight **​\n- Rated voltage: 250 ACV​\n- Rated current: 2 A​\n- Temperature: -40 ~ 105 ℃​\n- Contact resistance: ≦30M Ohm​\n- Insulation resistance: ≧1,000M Ohm​\n- Protection grade: IP 67​\n​\n**Charging socket cable – Right angle**​\n- Rated voltage: 48 DCV​\n- Rated current: 20 A​\n- Temperature: -25 ~ 80 ℃​\n- Contact resistance: ≦10M Ohm​\n- Insulation resistance: ≧20M Ohm​\n- Protection grade: IP 67​\n\n",
+      "Name": "Wiring Solution​ Interconnect Planning",
+      "image": [
+        {
+          "id": "attNjFIZFMEKIemio",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/c3dc2d5109e0754d0d4dcbc0e65248d8/fff667e7/EB07_WiringSolutionInterconnectPlanning.png",
+          "filename": "EB07_Wiring Solution Interconnect Planning.png",
+          "size": 1362734,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/23e95d5d25978bbf64edf20aa5246d20/a0634d2c",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/65f9bb6142402abf3924333a4c5ead3e/93f7edf6",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/59f5b98d70d068245e383094daea31a5/49eeb3ee",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "E-bike system_07",
+      "Type": "E-bike system"
+    }
+  },
+  {
+    "id": "recVznyYV9jMZqE6G",
+    "createdTime": "2022-09-08T07:19:22.000Z",
+    "fields": {
+      "Categories": "E-mobility",
+      "Features": "- Protection Grade: IP67​\n- Flame Retardant Grade: UL94V-0 ​\n- Outdoor Suitability: UL 746C (f1)​\n",
+      "Name": "CCS2 Charging Inlet ​",
+      "image": [
+        {
+          "id": "attuutqatO0DxSbrQ",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/8cc8f1b9d8bb3be6f65865523ba31132/40c02997/EV05_CCS1Inlets.png",
+          "filename": "EV05_CCS2 Inlets.png",
+          "size": 694552,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/185a87174f07b26f2f1ba2b2ba5cd5a0/65543d15",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/aae9486d0442c8f825a114abaf452ca6/094c1690",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/efa7ab4937ddb05518af3bfa0b72c2ea/080c4701",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "Electric Vehicle​_05",
+      "Type": "Electric Vehicle",
+      "Specification": "- Max current: 400A​\n- Rated voltage: 1000V DC\n\n",
+      "Reliability Requirements": "\n"
+    }
+  },
+  {
+    "id": "recXV8UaG4KNEgVAF",
+    "createdTime": "2022-09-08T07:56:33.000Z",
+    "fields": {
+      "Categories": "E-mobility",
+      "Features": "- Easy mating / unmating design with high durability.​\n- Meets strict test standard (Waterproof / high-temperature resistance.)​\n- Fool-proof design (Connectors repel each other when mated reversely.)\n",
+      "Name": "4 Pin Magnetic Connector (Male / Female) for E-bike ECU",
+      "image": [
+        {
+          "id": "attRvvTJfjFkhEyy8",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/791d08117691f9949fc06be1fa767bd4/385d22f0/EC074PinMagneticConnectormale_femalefor_E-bikeECU.png",
+          "filename": "EC07 4 Pin Magnetic Connector (male_ female) for _E-bike ECU.png",
+          "size": 794792,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/32e88fa886a63772cfc468eb542be43a/bb7ca9af",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/85801a51588e71561397ba2a0f8bb6a4/97d87cf2",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/834c56ffea91e495cace473986866321/f7eeba6e",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "E-mobility Connectivity​_07",
+      "Type": "E-mobility Connectivity​"
+    }
+  },
+  {
+    "id": "reccj0f61tXOKP51p",
+    "createdTime": "2022-10-14T09:08:09.000Z",
+    "fields": {
+      "Name": "E-bike APP - ARION​",
+      "Description": "Monitoring e-bike health status is critical, through connect to your phone via BT with SINBON HMI display, you can easily to find out individual's level of wellness and illness. As well as the maintain / service center supports on more detailed examination. \n",
+      "image": [
+        {
+          "id": "attqr04p6rWT1eiqC",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/c7014b1afcda4a70bd24c1d613e35cd1/08ac6254/EB13_E-bikeAPPARION_1012.png",
+          "filename": "EB13_E-bike APP ARION_1012新增.png",
+          "size": 492964,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/a5b1498d689c1fc372c68063c482211d/8f378689",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/df73bdbeb9171a8068edaf279e7af158/8f81bc0c",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/159383b195d294e81ad627b107b2d5d7/0b2fad75",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "E-bike system_13",
+      "Type": "E-bike system"
+    }
+  },
+  {
+    "id": "recdxHogQ1wonyYun",
+    "createdTime": "2022-09-08T07:06:51.000Z",
+    "fields": {
+      "Categories": "E-mobility",
+      "Features": "- Flame retardant grade: UL94V-0 ​\n- Outdoor suitability: UL746C (f1)​\n- Protection grade: IP66​\n- Withstand vehicle rolling test.\n",
+      "Name": "CCS1 DC Charging Cable ",
+      "image": [
+        {
+          "id": "attZB6OLXj9sFUUih",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/700d24a3cc84a8543c95f2268202f564/e147a4c8/EV01-CCS1DCChargingCable.png",
+          "filename": "EV01- CCS1 DC Charging Cable.png",
+          "size": 547604,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/fe5827f9303efbaa6f7b27ed712a6e03/afcef835",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/3d9791cb81602cac77fd7823a2386bed/b21f2587",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/82184156ab72329549fcb0e0c7337171/500aed24",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "Electric Vehicle​_01",
+      "Type": "Electric Vehicle",
+      "Specification": "- Max current: 350A​\n- Rated voltage: 1000V DC​\n- Smaller outer diameter.​\n- Contacts temperature rise: <50K\n\n",
+      "Reliability Requirements": "\n"
+    }
+  },
+  {
+    "id": "recgR0SpVp0U4peaO",
+    "createdTime": "2022-09-08T07:20:48.000Z",
+    "fields": {
+      "Categories": "E-mobility",
+      "Features": "- Replaceable plugs to satisfy charging in different regions.​\n- Protection Grade: IP55\n",
+      "Name": "Mode 2 EV IC-CPD​",
+      "image": [
+        {
+          "id": "attX4ot5Y23wMhfrC",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/a5e048d1844c7ace88dae129b8662820/5fa88185/EV08_Mode2EVIC-CPD.png",
+          "filename": "EV08_Mode 2 EV IC-CPD.png",
+          "size": 779578,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/ff6d63f658d217deab3f95a0192e5ba6/aafba59d",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/e38ff525e9218f5b5fdf652537a62c0e/4e59958a",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/35d7c24abf01281602eec8bbc466ec70/62a30a78",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "Electric Vehicle​_08",
+      "Type": "Electric Vehicle",
+      "Specification": "\n"
+    }
+  },
+  {
+    "id": "recgXQW4oXscqnxfm",
+    "createdTime": "2022-09-08T08:13:32.000Z",
+    "fields": {
+      "Categories": "E-mobility",
+      "Features": "- Wide angle for mating / unmating.​\n- Highly reliable conductance.​\n- Rated current: 25A / 2A max​\n- Double-wipe contacts for excellent clamping force, not easy to deform after frequent mating / unmating.\n",
+      "Name": "2+5 Pin Power Bank Connector (Male / Female) for E-bike Power Bank",
+      "image": [
+        {
+          "id": "att8RG59n2e2H6aYi",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/ada319ab30ce3ff5d0449ec5c5696b4e/f36f35ca/EC1225PinPowerBankConnector.png",
+          "filename": "EC12 2+5 Pin Power Bank Connector.png",
+          "size": 656689,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/5dc53613e25fa70b611ba3094837fd38/d8e52680",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/298e854392a4a4d56beaaab05500e65b/1edd678f",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/91de44d6d6e6cb9fde1592fced898763/98fd9ac3",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "E-mobility Connectivity​_12",
+      "Type": "E-mobility Connectivity​"
+    }
+  },
+  {
+    "id": "rechEnHWdxuVi63Ot",
+    "createdTime": "2022-10-14T09:08:00.000Z",
+    "fields": {
+      "Features": "**Display: Sidekick-2**​\n- 1.77”, 128 x 160mm TFT LCD​\n- 250Kbps CAN bus communication.​\n- 2.4GHz Bluetooth low energy version 5.0​\n- 32-Bit Arm® Cortex®- M0 + MCU.​\n- Protection grade: IP 65​\n​\n**Switch Unit: AMOEBA-5**​\n- 5 keys function button.​\n- 250Kbps CAN Bus.​\n- Type C charging (500 mA).​\n- Built-in Buzzer.​\n- 32-bit Arm Cortex®-M33 MCU.​\n- Protection grade: IP 65​\n\n",
+      "Name": "HMI Display & Switch Units​",
+      "image": [
+        {
+          "id": "attATZ4zJ8YFoZbDw",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/f5cf70b39a42390ca19f362c7052a6ff/c9bb33f0/EB04_HMIDisplaySwitchUnits.png",
+          "filename": "EB04_HMI Display & Switch Units.png",
+          "size": 1852546,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/106d90233baca13f493654a629f76524/74d02d52",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/1f9a7250e75a83f0f0b35815fbcb10c2/112eccfd",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/4def72f329f57010db388376611c93d0/0f89f762",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "E-bike system_04",
+      "Type": "E-bike system"
+    }
+  },
+  {
+    "id": "recjemyJWM55VebTS",
+    "createdTime": "2022-09-08T07:33:47.000Z",
+    "fields": {
+      "Categories": "E-mobility",
+      "Features": "\n",
+      "Name": "E-bike Smart Driving System for ​Rear Hub Motor Solution\n(City / Urban / Commute Bike)",
+      "Description": "SINBON is at the forefront of this revolution in micromobility development. Our customized and integrated services provide customers with a full range of smart e-bike integration driving solutions, from HMI, motor controller, component design, and manufacturing to cloud based electrical control systems with extended IoT features.\n",
+      "image": [
+        {
+          "id": "attKz2f3oDE0E4pzW",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/e7609fc46a725542c87b811c515775ba/466bdbae/EB01_E-bikeSmartDrivingSystemforRearHubMotorSolution.png",
+          "filename": "EB01_E-bike Smart Driving System for Rear Hub Motor Solution.png",
+          "size": 2024685,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/785733bbda460bb119b18681f157bdd2/6bdce903",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/47726f5a96d11f22c70c7e526a5022e4/f315587f",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/a6e314e8708ceb0e7cb6db9f624eceb6/c3d0ec7f",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "E-bike system_01",
+      "Type": "E-bike system"
+    }
+  },
+  {
+    "id": "reckdiyqF2tktu7V9",
+    "createdTime": "2022-09-08T08:13:29.000Z",
+    "fields": {
+      "Categories": "E-mobility",
+      "Features": "- 3+6 pin motor connector with threaded coupling design.​\n- Vibration-resistant design, not easy to fall out of counterpart.​\n- Rated current: 25A / 2A max\n",
+      "Name": "Motor 3+6 Pin with NUT (Male / Female) for ​E-bike Motor",
+      "image": [
+        {
+          "id": "attRTVBCmFDo8qpy3",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/94626f1d248434e12e8b8356caaa1b87/4e29ae8c/EC10Motor36PinWithNUTmale_femaleforE-bikeMotor.png",
+          "filename": "EC10 Motor 3+6 Pin With NUT (male_ female) for E-bike Motor.png",
+          "size": 504063,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/5e9ab3849661139220591f0ab4e2ad68/1a73727f",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/9052a0a8c037a0bdb753f796defa219a/b4bb67ed",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/931a4fdd1454e4e7babe3fecb106276a/7fec0489",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "E-mobility Connectivity​_10",
+      "Type": "E-mobility Connectivity​"
+    }
+  },
+  {
+    "id": "reckk1DyivAL0pK07",
+    "createdTime": "2022-10-14T09:08:05.000Z",
+    "fields": {
+      "Name": "E-bike Smart Driving System for ​Mid-motor Solution\n(Commute / Gravel / Cargo Bike)​",
+      "Description": "SINBON is at the forefront of this revolution in micromobility development. Our customized and integrated services provide customers with a full range of smart e-bike integration driving solutions, from HMI, motor controller, component design, and manufacturing to cloud based electrical control systems with extended IoT features.\n",
+      "image": [
+        {
+          "id": "attdmfm3ofd9Mn4bb",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/4b373b6cc0f98cdcc75e2bf9ca5e4a59/a60a73ce/EB10_E-bikeSmartDrivingSystemforMidmotorSolution.png",
+          "filename": "EB10_E-bike Smart Driving System for Midmotor Solution.png",
+          "size": 1737896,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/3cbda2a448e56360d50ade60688869ad/cf8f3784",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/5d0f2c00c615450908924d1d8c9f7b7a/f24cf748",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/7e413a18d4c4c7d6988f4956022a53c9/aab01569",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "E-bike system_10",
+      "Type": "E-bike system"
+    }
+  },
+  {
+    "id": "recm22xXczHmpqmyQ",
+    "createdTime": "2022-09-08T07:20:50.000Z",
+    "fields": {
+      "Categories": "E-mobility",
+      "Features": "- ECU processes data collected from various sensors and send orders to actuators.​\n- Automated potting and sealing are used in the manufacturing process to maintain quality and improve efficiency.​\n- Protection grade: IP6K9K\n",
+      "Name": "ECU",
+      "image": [
+        {
+          "id": "attxG5CZ5meqVQxLK",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/29a05dfe0d9f5afcd81edf77c18a28a4/5714e29c/EV10_ECU.png",
+          "filename": "EV10_ECU.png",
+          "size": 2276186,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/2868243cc2d1f5f63a3a52d8229e6b94/a00c8c56",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/d4c488ecdcf01a0bbd5434f99969ba30/0b29564d",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/79a631e49ecb724d361aa61bda0a00c5/47a18223",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "Electric Vehicle​_10",
+      "Type": "Electric Vehicle",
+      "Specification": "\n"
+    }
+  },
+  {
+    "id": "recoHJRLOrFLjl6P2",
+    "createdTime": "2022-09-08T08:20:48.000Z",
+    "fields": {
+      "Categories": "E-mobility",
+      "Features": "- Signal transmission for marine application.​\n- Waterproof and customized. ​\n- Communication protocol: NEMA 2000 / One Net\n\n",
+      "Name": "Signal Cable for Marine Display​",
+      "image": [
+        {
+          "id": "attT9SXBso64qTk2t",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/57585fc9ad63fb880fe0baa1835d19ba/9af1bb64/OM01_SignalCableforMarineDisplay.png",
+          "filename": "OM01_Signal Cable for Marine Display.png",
+          "size": 740763,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/2b9584fba0c4b444624c29a5fa19ca3b/a2fa822b",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/09ece82f34c8013c8c0b272e51c1f3d7/3dc272e2",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/846713e4baf3c6ccf822ee90c208375b/f0d78d4b",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "Other Mobility​_01",
+      "Type": "Other Mobility​"
+    }
+  },
+  {
+    "id": "recpr7SrQjzeiEUpx",
+    "createdTime": "2022-10-14T09:08:02.000Z",
+    "fields": {
+      "Features": "**Y splitter cable: ** ​\n- Rated voltage: 200 ACV​\n- Rated current: 3 A​\n- Temperature: -40 ~ 85 ℃​\n- Contact resistance: ≦10M Ohm​\n- Insulation resistance: ≧10M Ohm​\n- Protection grade: IP66​\n- 8-13pins M10 male connector for ECU motor controller.​\n- 2-6 pin female signal connector for display & front / rear light.​\n\n",
+      "Name": "Wiring Solution​ Interconnect Planning",
+      "image": [
+        {
+          "id": "attgNjrffqW2aYxl6",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/ec7a7ddcdd5c5839f4b90deb1f80a4bc/1d00467b/EB06_WiringSolutionInterconnectPlanning.png",
+          "filename": "EB06_Wiring Solution Interconnect Planning.png",
+          "size": 1442130,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/5276dac3f8adbcfba903cae0f18df191/3200f79c",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/2e52dd470486926f718059975088def5/b8d77f5e",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/4a9b809688788c6ff87b85ca30b4ef62/f7c40528",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "E-bike system_06",
+      "Type": "E-bike system"
+    }
+  },
+  {
+    "id": "recqS4ZNQjml95PJH",
+    "createdTime": "2022-09-08T07:20:27.000Z",
+    "fields": {
+      "Categories": "E-mobility",
+      "Features": "- Flame retardant grade: UL94V-0 ​\n- Outdoor suitability: UL746C (f1)​\n- Protection grade: IP66​\n- Withstand vehicle rolling test.\n\n",
+      "Name": "CCS2 DC Charging Cable ​",
+      "image": [
+        {
+          "id": "attiyzNeJbDqIMpJ3",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/b343ad94ab23153654dbe61e9ded1b2a/dfcc26b1/EV02_CCS2DCChargingCable1.png",
+          "filename": "EV02_CCS2 DC Charging Cable (1).png",
+          "size": 548961,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/8e6bef10f828a4ff3412df151a8773fa/89b381ae",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/08fcb474117456563a474ffe3b755da6/54f5a6b1",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/3afd13551f691fe831965aea036cd409/bcb36b33",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "Electric Vehicle​_02",
+      "Type": "Electric Vehicle",
+      "Specification": "- Max current: 350A​\n- Rated voltage: 1000V DC​\n- Smaller outer diameter.​\n- Contacts temperature rise: <50K\n\n",
+      "Reliability Requirements": "\n"
+    }
+  },
+  {
+    "id": "rectGopHLwiqTXAhW",
+    "createdTime": "2022-10-14T09:08:05.000Z",
+    "fields": {
+      "Features": "**Model: FRARD-250A**​\n- Rated voltage: 36 DCV​\n- **Capacity: 7Ah, 252Wh**​\n- Protection: OVP / UVP / OCP / SCP / OTP / UTP​\n- **Communication: CAN BUS**​\n​\n**Model: FARAD-360A**​\n- Rated Voltage: 36 DCV​\n- **Capacity: 10 Ah, 360Wh**​\n- Protection: OVP / UVP / OCP / SCP / OTP / UTP​\n- **Communication: CAN BUS**​\n\n",
+      "Name": "Battery Solution​",
+      "image": [
+        {
+          "id": "attjTrxxyR89A7s0r",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/ca7e601b66d1073a5bff9933d1e7fbae/85a372cd/EB09_BatterySolution_1012.png",
+          "filename": "EB09_Battery Solution_1012新增.png",
+          "size": 1556974,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/751b38f4b598f346bb7509e73ea46952/8afbf99d",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/4489e615a381be935030e69ea029247b/6dabcaa0",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/8414bcd44842d1688cfc1eb5c98159ea/a82320a8",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "E-bike system_09",
+      "Type": "E-bike system"
+    }
+  },
+  {
+    "id": "recttra9MQulHALUr",
+    "createdTime": "2022-09-08T07:53:35.000Z",
+    "fields": {
+      "Categories": "E-mobility",
+      "Features": "- Complying with TES-0D-02-01.\n\n",
+      "Name": "Low Voltage E-motorcycle Charging Gun​",
+      "image": [
+        {
+          "id": "att9mwLNacgO7SRy6",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/dc15ba537f5d342800564b0e1f42ec34/c9182ea3/EC03_LowVoltageE-motorcycleChargingGun_1012.png",
+          "filename": "EC03_Low Voltage E-motorcycle Charging Gun_1012新增.png",
+          "size": 504827,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/8ee0dac849bee20a08b3fa5ba4246446/921ed2a9",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/e85ae9d9705df326098281979e147b76/11ae8a42",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/13b5ffca358417ef91e9e69a6db815b6/b079ce1f",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "E-mobility Connectivity​_03",
+      "Type": "E-mobility Connectivity​",
+      "Specification": "- Rated voltage: 48V DC​\n- Rated current: 3 / 15 / 25A​\n- Flame rating: UL94 V-0​\n- Protection grade: IP55​\n- Operation temperature: -40°C ~ 80°C\n\n",
+      "Reliability Requirements": "\n"
+    }
+  },
+  {
+    "id": "recu1e58gSRfLfiUN",
+    "createdTime": "2022-10-14T09:20:46.000Z",
+    "fields": {
+      "Features": "- Real-time monitoring speed / torque / cadence / system and temperature.​\n- Real-time self diagnosis and abnormal warning.​\n- Trip history and diagnosis records.​\n- Bike setting and control brightness / auto sleep / password and assist level performance tuning.​\n- Riding logs upload to cloud server.​\n- Remote firmware update (OTA).​\n- Trouble shooting and maintenance reminding.​\n\n",
+      "Name": "E-bike APP - ARION​",
+      "image": [
+        {
+          "id": "attqE3eTIxDlhFwRG",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/58b58b607210ddff15856eb9994e7eb7/3631180a/EB14_E-bikeAPPARION_1012.png",
+          "filename": "EB14_E-bike APP ARION_1012新增.png",
+          "size": 1196274,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/12fde4a8b46d8fe69d2aaa128feedb5b/98dc48bd",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/b1ac739d84222f2da898913c25a30fa5/0df60e23",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/b398f65945a21726cb222bec7ee14e29/60f60c61",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "E-bike system_14",
+      "Type": "E-bike system"
+    }
+  },
+  {
+    "id": "recuLbUVedCEWQulw",
+    "createdTime": "2022-09-08T07:56:35.000Z",
+    "fields": {
+      "Categories": "E-mobility",
+      "Features": "- High level material for weather resistance. (Salt spray test: 144 hours)​\n- High precision tooling design & molding process.​\n- Eco-friendly materials used for environmental protection.​\n- Customized design available.​\n",
+      "Name": "8 In 1 Cable Assembly for E-bike Power ECU",
+      "image": [
+        {
+          "id": "attcmN0mHsYCPHRaN",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/e9130734364b0f2d6f2959c94e3e0850/1af616d3/EC09In1CableAssembly.png",
+          "filename": "EC09 In 1 Cable Assembly.png",
+          "size": 927123,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/894751baca3c2e7b26b8e6a99abb6064/fa3a7b74",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/20b0b479aa5ba837d1af3433fa952001/c61194d8",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/d67e87c6e02b5ae64111d8e5588be0c1/5d545b84",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "E-mobility Connectivity​_09",
+      "Type": "E-mobility Connectivity​"
+    }
+  },
+  {
+    "id": "recyPrpD8fKbskNvy",
+    "createdTime": "2022-10-14T09:07:59.000Z",
+    "fields": {
+      "Features": "**Display: Sidekick-2**​\n- 1.77”, 128 x 160mm TFT LCD​\n- 250Kbps CAN bus communication.​\n- 2.4GHz Bluetooth low energy version 5.0​\n- 32-Bit Arm® Cortex®- M0 + MCU.​\n- Protection grade: IP 65\n**Switch Unit: AMOEBA-3**​\n- 3 buttons​\n- Button function: Up, down and confirm.​\n- Protection grade: IP 65\n\n",
+      "Name": "HMI Display & Switch Units​",
+      "Description": "Helios Elite 1.77 display offers a **fully networked **in the smart system to continuously receive new functions through the **Arion APP**. It offers a **humanized interface design **and operated intuitively via free collocation with different buttons.​\n",
+      "image": [
+        {
+          "id": "attgw8JqMxFTIF0Pe",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/e821ec79a765ad39abe7c23692e760ed/5b53abca/EB03_HMIDisplaySwitchUnits.png",
+          "filename": "EB03_HMI Display & Switch Units.png",
+          "size": 1617253,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/43adfc746244a0ed17a453f0d31670a9/4879baac",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/6d7d55c33e655a0d342d2b3b8d9f929b/bc4cdb11",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/a8afee83adf68c63f9114082a4cddd39/ec4454e9",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "E-bike system_03",
+      "Type": "E-bike system"
+    }
+  },
+  {
+    "id": "recybAnZnmczbjjQm",
+    "createdTime": "2022-09-08T07:20:49.000Z",
+    "fields": {
+      "Categories": "E-mobility",
+      "Features": "- Fully automated process to improve accuracy and efficiency.​\n- Protection grade: IPX9K​\n- Cable tensile strength: 98N\n",
+      "Name": "HD Coaxial Cable for Reverse Camera​",
+      "image": [
+        {
+          "id": "attIU9P5V9X906v6A",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/728a8ad01a26603be01e58d56e64b60a/f31fd197/EV09_HDReverseCameraCableHDCoaxialcable.png",
+          "filename": "EV09_HD Reverse Camera Cable (HD Coaxial cable).png",
+          "size": 1825468,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/ce53ebe514011a341624e4f09492651d/1fae0067",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/a555288f881219c7d50f7bb0bb384db6/5ab7be1d",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/26962bd5463af97967b0779f35ab2508/d25c7c11",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "Electric Vehicle​_09",
+      "Type": "Electric Vehicle",
+      "Specification": "- Transmission frequency 700MHZ with anti-interference.\n",
+      "Reliability Requirements": "\n"
+    }
+  },
+  {
+    "id": "reczgudstwlxoKTZ8",
+    "createdTime": "2022-09-08T07:53:36.000Z",
+    "fields": {
+      "Categories": "E-mobility",
+      "Features": "- Largest outside diameter could be 6~8mm as customized request.​\n- Standard number of pins: 2-6 pins​\n- Fool-proof design.\n\n",
+      "Name": "6 Pin Circular Connector (Male / Female) for E-bike Signal Transmission",
+      "image": [
+        {
+          "id": "att6JHJj2iFeai3WT",
+          "width": 2400,
+          "height": 1650,
+          "url": "https://dl.airtable.com/.attachments/d7069b9aef82e48ea465fcd2eb964a8d/b4114fff/EC05_PinCircularConnector.png",
+          "filename": "EC05_Pin Circular Connector.png",
+          "size": 645304,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/f19394db5dd992d1dee36b8e9f41ba06/13e98962",
+              "width": 52,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/2b8b352d7d223a099a51aa2501521309/ce8e164d",
+              "width": 745,
+              "height": 512
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/316562acac76a38fb70f81bdaadb03a6/21382370",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product": "E-mobility Connectivity​_05",
+      "Type": "E-mobility Connectivity​"
+    }
+  }
+]

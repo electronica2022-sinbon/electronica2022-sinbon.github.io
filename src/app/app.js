@@ -16,9 +16,12 @@ export default function main(appId, initComponent) {
   };
 
   this.render = () => {
+    console.log('render');
     this.appElement.innerHTML = this.currentComponent.render();
-    if ('bindingEvent' in this.currentComponent)
+    if ('bindingEvent' in this.currentComponent) {
+      console.log('bindingEvent');
       this.currentComponent.bindingEvent();
+    }
   }
 
   this.mounte = (key = 'init') => {
@@ -30,23 +33,27 @@ export default function main(appId, initComponent) {
         }
         this.currentComponent = null;
       }
-      if ('beforeEnter' in this.$route) {
-        this.$route.beforeEnter(res)
-      } else {
-        res();
-      }
-      // if (this.$router)
-      // this.$router.beforeEach()
-      // res();
+      res();
     })
+    .then(() => new Promise(res => {
+        if (this.$route) {
+          if ('beforeEnter' in this.$route) {
+            this.$route.beforeEnter(res)
+          } else {
+            res();
+          }
+        }      
+      })
+    )
     .then(() => {
-      if (key instanceof Function) {
-        this.currentComponent = new (key)(this)
+      if (this.$route) {
+        this.currentComponent = new (this.$route.component)(this)
       } else {
         // if (typeof key === 'string')
         this.currentComponent = new (this.components[key])(this)
-      }
-      
+      }  
+    })
+    .then(() => {
       this.render()
     })
     .then(() => { 

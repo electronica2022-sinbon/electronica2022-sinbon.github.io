@@ -23,6 +23,7 @@ export default [{
   path: '/electric-vehicle',
   component: production,
   beforeEnter: (next) => {
+    console.log('API electric-vehicle');
     axios.get('https://api.airtable.com/v0/appKo4M9y5FKMRTUE/E-mobility', {
       headers: {
         'Authorization': 'Bearer keyPYCkBHUENMuMDp'
@@ -37,6 +38,7 @@ export default [{
   path: '/robotics',
   component: production,
   beforeEnter: (next) => {
+    console.log('API robotics');
     axios.get('https://api.airtable.com/v0/appKo4M9y5FKMRTUE/Smart Factory', {
       headers: {
         'Authorization': 'Bearer keyPYCkBHUENMuMDp'
@@ -51,6 +53,7 @@ export default [{
   path: '/patient-monitoring',
   component: production,
   beforeEnter: (next) => {
+    console.log('API patient-monitoring');
     axios.get('https://api.airtable.com/v0/appKo4M9y5FKMRTUE/Medical', {
       headers: {
         'Authorization': 'Bearer keyPYCkBHUENMuMDp'

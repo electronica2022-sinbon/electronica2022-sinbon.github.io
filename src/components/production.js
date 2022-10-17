@@ -104,8 +104,8 @@ export default function production(app) {
       </div> 
       <div class="container">
         <div class="title">
-          <h2 class="initial">${current_data(index).fields.Product}</h2>
-          <h1 class="initial">${current_data(index).fields.Name}</h1>
+          <h2 class="initial">${current_data(index).fields.Name}</h2>
+          <h1 class="initial">${current_data(index).fields.Tilte}</h1>
           <div class="photo initial">
             <img src="${current_data(index).fields.image[0].url}" alt="">
           </div>

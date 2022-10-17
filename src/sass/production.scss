@@ -119,7 +119,6 @@
 
 .production {
   height: 100%;
-  display: flow-root;
   background-position: left;
   background-repeat: no-repeat;
   background-size: contain;
@@ -146,6 +145,7 @@
   .container {
     display: flex;
     gap: 2%;
+    height: 100%;
     .title, .content {
       flex: 1 1 50%
     }

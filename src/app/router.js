@@ -47,14 +47,16 @@ function beforeEach() {
   const path = location.hash.split('#')[1]
   const new_route = this.findTargetRoute({ path });
 
-  if ('beforeEnter' in new_route) {
-    new_route.beforeEnter(() => {
-      this.app.mounte(new_route.component);
-    })
-  }
-  else {
-    this.app.mounte(new_route.component);
-  }
+  // if ('beforeEnter' in new_route) {
+  //   new_route.beforeEnter(() => {
+  //     this.app.mounte(new_route.component);
+  //   })
+  // }
+  // else {
+  //   this.app.mounte(new_route.component);
+  // }
+  this.app.$route = new_route;
+  this.app.mounte(new_route.component);
 }
 
 function push(routeCondition) {
