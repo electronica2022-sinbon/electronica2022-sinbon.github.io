@@ -105,7 +105,7 @@ export default function production(app) {
   const renderText = (title) => {
     const fields = current_data(index).fields
     if (title in fields && fields[title].trim().length > 0) {
-        return `<p class="${title}-section"><b>${title}</b><pre>${fields[title]}</pre></p>`
+      return `<p class="${title}-section"><b>${title}</b>${app.$md.render(fields[title])}</p>`
     }
     return ''
   }
