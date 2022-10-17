@@ -98,6 +98,7 @@ export default function production(app) {
         ${renderText('Description')}
         ${renderText('Features')}
         ${renderText('Specification')}
+        ${renderText('Reliability Requirements')}
       </div>
     </div>`
   
