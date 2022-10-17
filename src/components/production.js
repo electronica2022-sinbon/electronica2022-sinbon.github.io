@@ -13,39 +13,20 @@ export default function production(app) {
     return api_data[index];
   }
 
-  this.mounted = function () {
-    document.querySelector('.transition-next-page').classList.add('scale-0')
-    setTimeout(() => {
-      document.querySelectorAll('.initial').forEach(item => {
-        item.classList.remove('initial')
-      })
-    }, 10)
-    
-    document.querySelector('.icon-close').addEventListener('click', () => {
-      app.$router.push('/product-category')
-    })        
-  }
-
-  this.destroy = function () {
-  }
-
-  this.bindingEvent = () => {
-    // after render
-
-    document.querySelector('.prev').addEventListener('click', () => {
-      console.log('prev');
-      if (index === 1) return;
-      index -= 1;
-      this.render();
-      this.bindingEvent();
+  function removeInitialState() {
+    document.querySelectorAll('.initial').forEach(item => {
+      item.classList.remove('initial')
     })
-    document.querySelector('.next').addEventListener('click', () => {
-      console.log('next');
-      // debugger
-      if (index === api_data.length) return;
-      index += 1;
+
+    if (index + 1 === 1)
+      document.querySelector('.prev').style.opacity = 0.5
       
-      document.querySelector('.production .container').innerHTML = `
+    if (index + 1 === api_data.length)
+      document.querySelector('.next').style.opacity = 0.5
+  }
+
+  const onChangeProductionRerender = () => {
+    document.querySelector('.production .container').innerHTML = `
         <div class="title">
           <h2 class="initial">${current_data(index).fields.Product}</h2>
           <h1 class="initial">${current_data(index).fields.Name}</h1>
@@ -74,13 +55,40 @@ export default function production(app) {
             </p>
           </div>
         </div>`
-      
-      setTimeout(() => {
-        document.querySelectorAll('.initial').forEach(item => {
-          item.classList.remove('initial')
-        })
-        this.bindingEvent();
-      }, 10)
+
+    setTimeout(() => {
+      removeInitialState()
+      this.bindingEvent();
+    }, 10)
+  }
+
+  this.mounted = function () {
+    document.querySelector('.transition-next-page').classList.add('scale-0')
+    setTimeout(removeInitialState, 10)
+    
+    document.querySelector('.icon-close').addEventListener('click', () => {
+      app.$router.push('/product-category')
+    })        
+  }
+
+  this.destroy = function () {
+  }
+
+  this.bindingEvent = () => {
+    // after render
+
+    document.querySelector('.prev').addEventListener('click', () => {
+      console.log('prev');
+      if (index === 0) return;
+      index -= 1;
+      onChangeProductionRerender();
+    })
+    document.querySelector('.next').addEventListener('click', () => {
+      console.log('next');
+      // debugger
+      if (index === api_data.length) return;
+      index += 1;
+      onChangeProductionRerender();      
     })
   }
 
