@@ -23,14 +23,15 @@ export default [{
   path: '/electric-vehicle',
   component: production,
   beforeEnter: (next) => {
-    console.log('API electric-vehicle');
+    const type = Cookies.get('SINBON_TYPE');
+    console.log('type', type);
     axios.get('https://api.airtable.com/v0/appKo4M9y5FKMRTUE/E-mobility', {
       headers: {
         'Authorization': 'Bearer keyPYCkBHUENMuMDp'
       }
     })
       .then(res => res.data)
-      .then(data => window.sinbon.production = data.records)
+      .then(data => window.sinbon.production = data.records.filter(item => item.fields.Type.includes(type)))
       .then(next)
   }
 }, {
@@ -38,14 +39,15 @@ export default [{
   path: '/robotics',
   component: production,
   beforeEnter: (next) => {
-    console.log('API robotics');
+    const type = Cookies.get('SINBON_TYPE');
+    console.log('type', type);
     axios.get('https://api.airtable.com/v0/appKo4M9y5FKMRTUE/Smart Factory', {
       headers: {
         'Authorization': 'Bearer keyPYCkBHUENMuMDp'
       }
     })
       .then(res => res.data)
-      .then(data => window.sinbon.production = data.records)
+      .then(data => window.sinbon.production = data.records.filter(item => item.fields.Type.includes(type)))
       .then(next)
   }
 }, {
@@ -53,14 +55,15 @@ export default [{
   path: '/patient-monitoring',
   component: production,
   beforeEnter: (next) => {
-    console.log('API patient-monitoring');
+    const type = Cookies.get('SINBON_TYPE');
+    console.log('type', type);
     axios.get('https://api.airtable.com/v0/appKo4M9y5FKMRTUE/Medical', {
       headers: {
         'Authorization': 'Bearer keyPYCkBHUENMuMDp'
       }
     })
       .then(res => res.data)
-      .then(data => window.sinbon.production = data.records)
+      .then(data => window.sinbon.production = data.records.filter(item => item.fields.Type.includes(type)))
       .then(next)
   }
 }, {

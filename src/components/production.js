@@ -1,20 +1,17 @@
 export default function production(app) {
   this.backgroundUrl = './src/assets/background-triangle.png';
   const routeHash = location.hash.split('#/')[1];
-  const routeToBacktroundTitle = {
-    'electric-vehicle': './src/assets/background-title-E-mobility.png',
-    'robotics': './src/assets/background-title-SmartFactory.png',
-    'patient-monitoring': './src/assets/background-title-Medical.png',
+  const routeToTitle = {
+    'electric-vehicle': 'E-mobility',
+    'robotics': 'SmartFactory',
+    'patient-monitoring': 'Medical',
   }
   let api_data = window.sinbon.production;
   let index = 0;
 
   function current_data(index, field) {
     if (index != null && field != null) {
-      if (field in api_data[index].fields && api_data[index].fields[field].trim().length !== 0)
-        return api_data[index].fields[field];
-      else 
-        return '(無內容)'
+      return api_data[index].fields[field];
     } else if (index != null && field == null) {
       return api_data[index];
     }
@@ -33,35 +30,7 @@ export default function production(app) {
   }
 
   const onChangeProductionRerender = () => {
-    document.querySelector('.production .container').innerHTML = `
-        <div class="title">
-          <h2 class="initial">${current_data(index).fields.Product}</h2>
-          <h1 class="initial">${current_data(index).fields.Name}</h1>
-          <div class="photo initial">
-            <img src="${current_data(index).fields.image[0].url}" alt="">
-          </div>
-        </div>
-        <div class="content">
-          <div class="pagination">
-            <div class="prev">
-              <img src="./src/assets/slider_prev.png" alt="">
-            </div>
-            <span>${index + 1}/${api_data.length}</span>
-            <div class="next">
-              <img src="./src/assets/slider_next.png" alt="">
-            </div>
-          </div>
-          <div class="text">
-            <p>
-              <b>Features</b>
-              <pre>${current_data(index, 'Features')}</pre>
-            </p>
-            <p>
-              <b>Specification</b>
-              <pre>${current_data(index, 'Specification')}</pre>
-            </p>
-          </div>
-        </div>`
+    document.querySelector('.production .container').innerHTML = renderContainer()
 
     setTimeout(() => {
       removeInitialState()
@@ -100,37 +69,43 @@ export default function production(app) {
     <div class="production ${ routeHash }">
       <img class="icon-close" src="./src/assets/close-white.png" alt="">
       <div class="background-title initial">
-        <img src="${routeToBacktroundTitle[routeHash]}" alt="">
+        <img src="./src/assets/background-title-${routeToTitle[routeHash]}.png" alt="">
       </div> 
       <div class="container">
-        <div class="title">
-          <h2 class="initial">${current_data(index).fields.Name}</h2>
-          <h1 class="initial">${current_data(index).fields.Tilte}</h1>
-          <div class="photo initial">
-            <img src="${current_data(index).fields.image[0].url}" alt="">
-          </div>
+        ${renderContainer()}
+      </div>
+    </div>`  
+
+  const renderContainer = () => `
+    <div class="title">
+      <h2 class="initial">${current_data(index).fields.Type}</h2>
+      <h1 class="initial">${current_data(index).fields.Title}</h1>
+      <div class="photo initial">
+        <img src="${current_data(index).fields.Image[0].url}" alt="">
+      </div>
+    </div>
+    <div class="content">
+      <div class="pagination">
+        <div class="prev">
+          <img src="./src/assets/slider_prev.png" alt="">
         </div>
-        <div class="content">
-          <div class="pagination">
-            <div class="prev">
-              <img src="./src/assets/slider_prev.png" alt="">
-            </div>
-            <span>${index + 1}/${api_data.length}</span>
-            <div class="next">
-              <img src="./src/assets/slider_next.png" alt="">
-            </div>
-          </div>
-          <div class="text">
-            <p>
-              <b>Features</b>
-              <pre>${current_data(index).fields.Features}</pre>
-            </p>
-            <p>
-              <b>Specification</b>
-              <pre>${current_data(index).fields.Specification}</pre>
-            </p>
-          </div>
+        <span>${index + 1}/${api_data.length}</span>
+        <div class="next">
+          <img src="./src/assets/slider_next.png" alt="">
         </div>
       </div>
+      <div class="text">
+        ${renderText('Description')}
+        ${renderText('Features')}
+        ${renderText('Specification')}
+      </div>
     </div>`
+  
+  const renderText = (title) => {
+    const fields = current_data(index).fields
+    if (title in fields && fields[title].trim().length > 0) {
+        return `<p class="${title}-section"><b>${title}</b><pre>${fields[title]}</pre></p>`
+    }
+    return ''
+  }
 }

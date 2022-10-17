@@ -2,6 +2,7 @@ export default function productCategory(app) {
 
   this.mounted = function () {
     document.querySelector('.transition-next-page').classList.add('scale-0')
+    Cookies.remove('SINBON_TYPE', '')
   }
 
   this.destroy = function () {
@@ -17,20 +18,29 @@ export default function productCategory(app) {
     })
 
     document.querySelectorAll('.triangle').forEach(product => {
-      product.addEventListener('click', e => {
-        app.$router.push('/electric-vehicle')
+      product.addEventListener('click', (e) => {
+        const current_data_set = e.currentTarget.dataset.type;
+        console.log('SINBON_TYPE', current_data_set);
+        Cookies.set('SINBON_TYPE', current_data_set);
+        app.$router.push('/electric-vehicle');
       })
     })
 
     document.querySelectorAll('.circle').forEach(product => {
-      product.addEventListener('click', () => {
-        app.$router.push('/robotics')
+      product.addEventListener('click', (e) => {
+        const current_data_set = e.currentTarget.dataset.type;
+        console.log('SINBON_TYPE', current_data_set);
+        Cookies.set('SINBON_TYPE', current_data_set);
+        app.$router.push('/robotics');
       })
     })
 
     document.querySelectorAll('.rectangle').forEach(product => {
-      product.addEventListener('click', () => {
-        app.$router.push('/patient-monitoring')
+      product.addEventListener('click', (e) => {
+        const current_data_set = e.currentTarget.dataset.type;
+        console.log('SINBON_TYPE', current_data_set);
+        Cookies.set('SINBON_TYPE', current_data_set);
+        app.$router.push('/patient-monitoring');
       })
     })
   }
@@ -47,55 +57,55 @@ export default function productCategory(app) {
       </div>
       <div class="body">
         <div class="body-item">
-          <div class="option triangle">
+          <div data-type="Electric Vehicle" class="option triangle">
             <img class="shape" src="./src/assets/triangle-blue.png" alt="">
             <span>Electric<br />Vehicle</span>
           </div>
-          <div class="option triangle">
+          <div data-type="E-mobility Connectivity" class="option triangle">
             <img class="shape" src="./src/assets/triangle-blue.png" alt="">
             <span>E-mobility<br />Connectivity</span>
           </div>
-          <div class="option triangle">
+          <div data-type="E-bike System" class="option triangle">
             <img class="shape" src="./src/assets/triangle-blue.png" alt="">
             <span>E-bike<br />System</span>
           </div>
-          <div class="option triangle">
+          <div data-type="Other Mobility" class="option triangle">
             <img class="shape" src="./src/assets/triangle-blue.png" alt="">
             <span>Other<br />Mobility</span>
           </div>
         </div>
         <div class="body-item">
-          <div class="option circle">
+          <div data-type="Automation" class="option circle">
             <img class="shape" src="./src/assets/circle-orange.png" alt="">
             <span>Automation</span>
           </div>
-          <div class="option circle">
+          <div data-type="Robotics" class="option circle">
             <img class="shape" src="./src/assets/circle-orange.png" alt="">
             <span>Robotics</span>
           </div>
-          <div class="option circle">
+          <div data-type="Logistics" class="option circle">
             <img class="shape" src="./src/assets/circle-orange.png" alt="">
             <span>Logistics</span>
           </div>
-          <div class="option circle">
+          <div data-type="Micro-inverter" class="option circle">
             <img class="shape" src="./src/assets/circle-orange.png" alt="">
             <span>Micro-<br />inverter</span>
           </div>
-          <div class="option circle">
+          <div data-type="Multi-application" class="option circle">
             <img class="shape" src="./src/assets/circle-orange.png" alt="">
             <span>Multi-<br />application</span>
           </div>
         </div>
         <div class="body-item">
-          <div class="option rectangle">
+          <div data-type="Monitoring" class="option rectangle">
             <img class="shape" src="./src/assets/rectangle-red.png" alt="">
             <span>Patient<br />Monitoring</span>
           </div>
-          <div class="option rectangle">
+          <div data-type="Diagnostics Imaging" class="option rectangle">
             <img class="shape" src="./src/assets/rectangle-red.png" alt="">
             <span>Diagnostics<br />Imaging</span>
           </div>
-          <div class="option rectangle">
+          <div data-type="Medical Robots" class="option rectangle">
             <img class="shape" src="./src/assets/rectangle-red.png" alt="">
             <span>Medical<br />Robots</span>
           </div>
