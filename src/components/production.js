@@ -9,8 +9,15 @@ export default function production(app) {
   let api_data = window.sinbon.production;
   let index = 0;
 
-  function current_data(index) {
-    return api_data[index];
+  function current_data(index, field) {
+    if (index != null && field != null) {
+      if (field in api_data[index].fields && api_data[index].fields[field].trim().length !== 0)
+        return api_data[index].fields[field];
+      else 
+        return '(無內容)'
+    } else if (index != null && field == null) {
+      return api_data[index];
+    }
   }
 
   function removeInitialState() {
@@ -47,11 +54,11 @@ export default function production(app) {
           <div class="text">
             <p>
               <b>Features</b>
-              <pre>${current_data(index).fields.Features}</pre>
+              <pre>${current_data(index, 'Features')}</pre>
             </p>
             <p>
               <b>Specification</b>
-              <pre>${current_data(index).fields.Specification}</pre>
+              <pre>${current_data(index, 'Specification')}</pre>
             </p>
           </div>
         </div>`
@@ -78,15 +85,12 @@ export default function production(app) {
     // after render
 
     document.querySelector('.prev').addEventListener('click', () => {
-      console.log('prev');
-      if (index === 0) return;
+      if (index + 1 === 1) return;
       index -= 1;
       onChangeProductionRerender();
     })
     document.querySelector('.next').addEventListener('click', () => {
-      console.log('next');
-      // debugger
-      if (index === api_data.length) return;
+      if (index + 1 === api_data.length) return;
       index += 1;
       onChangeProductionRerender();      
     })
