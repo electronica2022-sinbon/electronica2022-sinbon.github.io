@@ -36,7 +36,7 @@ export default function caseExample(app) {
         <img class="icon-close" src="./src/assets/close-white.png" alt="">
       </div>
       <div class="container">
-        <video preload="auto" src="./src/video/case1.mp4" autoplay controls></video>
+        <video preload="auto" src="./src/video/case1.mp4" autoplay></video>
       </div>
     </div>`
 }
