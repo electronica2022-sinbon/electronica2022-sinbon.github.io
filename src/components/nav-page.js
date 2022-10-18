@@ -17,7 +17,7 @@ export default function navPage(app) {
       }, 300)
 
     })
-    document.querySelector('.circle').addEventListener('click', () => {
+    document.querySelector('.circle, .cover-for-click').addEventListener('click', () => {
       document.querySelector('.transition-next-page').classList.remove('scale-0')
       setTimeout(() => {
         app.$router.push('case-study');
@@ -34,6 +34,8 @@ export default function navPage(app) {
   }
 
   this.render = () => `
+
+    <div class="cover-for-click"></div>
     <div class="nav-page">
       <div class="header">
         <!-- 前後兩個元素隱藏 -->
