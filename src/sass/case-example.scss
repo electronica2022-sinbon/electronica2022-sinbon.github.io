@@ -1,0 +1,30 @@
+@use "./utility.scss";
+@use "./header.scss";
+@use "./amination.scss";
+@use 'sass:math';
+
+
+.case-example {
+  background: #252A31;
+  height: 100%;
+
+  $sec: 12s;
+  .head {
+    padding-top: utility.height(39);
+    padding-left: utility.width(34);
+    padding-right: utility.width(34);
+    padding-bottom: utility.height(36);
+
+    height: utility.height(152);
+    box-sizing: border-box;
+
+    font-family: 'Montserrat';
+    font-size: 24px;
+    line-height: 1.2;
+    color: #FFFFFF;
+  }
+
+  video {
+    object-fit: cover;
+  }
+}

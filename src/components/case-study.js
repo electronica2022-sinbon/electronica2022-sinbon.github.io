@@ -16,11 +16,17 @@ export default function caseStudy(app) {
         app.$router.push('/main-nav');
       }, 300)
     })
+
+    document.querySelectorAll('.triangle, .circle, .rectangle').forEach(shape => {
+      shape.addEventListener('click', () => {
+        app.$router.push('/case-example');
+      })
+    })
   }
 
   this.render = () => `
     <div class="case-study">
-      <div class="header">
+      <div class="head">
         <div class="back-prev">
           <img src="./src/assets/back-prev.png" alt="">
           <div class="title">Case Studyt</div>

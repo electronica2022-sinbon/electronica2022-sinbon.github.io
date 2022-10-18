@@ -6,15 +6,15 @@
   scale: 0 !important;
 }
 
-.header {
+.head {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.header .back-prev {
+.head .back-prev {
   position: relative;
 }
-.header .back-prev .title {
+.head .back-prev .title {
   position: absolute;
   left: 4.1666666667vw;
   top: 0;
@@ -29,19 +29,21 @@
   /* blueGray/blueGray */
   color: #939DAE;
 }
-.header .back-prev,
-.header .options,
-.header .sinbon-logo {
+.head .back-prev,
+.head .options,
+.head .sinbon-logo {
   flex: none;
   width: 10.7291666667vw;
 }
-.header .back-prev,
-.header .options {
+.head .icon-close,
+.head .back-prev,
+.head .options {
   flex: none;
   width: 4.1666666667vw;
 }
-.header .back-prev img,
-.header .options img {
+.head .icon-close img,
+.head .back-prev img,
+.head .options img {
   width: 100%;
 }
 
@@ -59,7 +61,7 @@
     transform: translate(1.0992439396px, 12.7889552806px) rotate(1.9937371279deg);
   }
 }
-.nav-page .header {
+.nav-page .head {
   margin-top: 3.4259259259vh;
   margin-left: 3.125vw;
   margin-right: 3.125vw;
@@ -116,9 +118,6 @@
 .nav-page .main-nav .shape:nth-child(2) img {
   transform: scale(1);
 }
-.nav-page .main-nav .shape:nth-child(3) {
-  animation: floating 6.524291946s ease-in-out infinite alternate;
-}
 .nav-page .main-nav .shape:nth-child(3) img {
   transform: rotate(-15deg) scale(0.81899729);
 }
@@ -135,7 +134,7 @@
   height: 20vw;
 }
 
-.product-category .header {
+.product-category .head {
   margin-top: 5.462962963vh;
   margin-left: 3.125vw;
   margin-right: 3.125vw;
@@ -1384,7 +1383,7 @@
   margin: 0;
 }
 
-.case-study .header {
+.case-study .head {
   margin-top: 5.462962963vh;
   margin-left: 3.125vw;
   margin-right: 3.125vw;
@@ -1490,6 +1489,26 @@
 }
 .case-study .rectangle:nth-child(2) img {
   rotate: -4.48deg;
+}
+
+.case-example {
+  background: #252A31;
+  height: 100%;
+}
+.case-example .head {
+  padding-top: 3.6111111111vh;
+  padding-left: 1.7708333333vw;
+  padding-right: 1.7708333333vw;
+  padding-bottom: 3.3333333333vh;
+  height: 14.0740740741vh;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  font-size: 24px;
+  line-height: 1.2;
+  color: #FFFFFF;
+}
+.case-example video {
+  object-fit: cover;
 }
 
 .pop-up {
@@ -1621,7 +1640,7 @@
   padding-top: 1.2em;
 }
 
-.about-sinbon > .header {
+.about-sinbon > .head {
   margin-top: 5.462962963vh;
   margin-left: 3.125vw;
   margin-right: 3.125vw;

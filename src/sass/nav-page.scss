@@ -4,7 +4,7 @@
 @use "./amination.scss";
 
 .nav-page {
-  .header {
+  .head {
     margin-top: utility.height(37);
     margin-left: utility.width(60);
     margin-right: utility.width(60);
@@ -79,7 +79,7 @@
             rotate(-15deg) 
             scale(math.div(302.21, 369));
         }
-        animation: floating 6.524291946s ease-in-out infinite alternate;
+        // animation: floating 6.524291946s ease-in-out infinite alternate;
       }
     }
   }

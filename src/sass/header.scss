@@ -1,6 +1,6 @@
 @use "utility.scss";
 
-.header {
+.head {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,6 +32,7 @@
     width: utility.width(206);
   }
 
+  .icon-close,
   .back-prev,
   .options {
     flex: none;

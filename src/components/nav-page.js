@@ -9,13 +9,31 @@ export default function navPage(app) {
   }
 
   this.bindingEvent = () => {
-    // 點擊選項，播放動畫    
+    // 點擊選項，播放動畫
+    // document.querySelectorAll('.main-nav-item').forEach(item => {
+    //   item.addEventListener('click', () => {
+    //     console.log('click');
+    //     document.querySelector('.transition-next-page').classList.remove('scale-0')
+    //     if (item.querySelector('.triangle') != null) {
+    //       setTimeout(() => {
+    //         app.$router.push('product-category');
+    //       }, 300)
+    //     } else if (item.querySelector('.circle') != null) {
+    //       setTimeout(() => {
+    //         app.$router.push('case-study');
+    //       }, 300)
+    //     } else if (item.querySelector('.rectangle') != null) {
+    //       setTimeout(() => {
+    //         app.$router.push('about');
+    //       }, 300)
+    //     }
+    //   })
+    // })
     document.querySelector('.triangle').addEventListener('click', () => {
       document.querySelector('.transition-next-page').classList.remove('scale-0')
       setTimeout(() => {
         app.$router.push('product-category');
       }, 300)
-
     })
     document.querySelector('.circle, .cover-for-click').addEventListener('click', () => {
       document.querySelector('.transition-next-page').classList.remove('scale-0')
@@ -37,7 +55,7 @@ export default function navPage(app) {
 
     <div class="cover-for-click"></div>
     <div class="nav-page">
-      <div class="header">
+      <div class="head">
         <!-- 前後兩個元素隱藏 -->
         <div></div>
         <img class="sinbon-logo" src="./src/assets/logo.png" alt="">

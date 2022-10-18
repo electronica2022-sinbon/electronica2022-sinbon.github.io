@@ -44,7 +44,7 @@ export default function productCategory(app) {
 
   this.render = () => `
     <div class="product-category">
-      <div class="header">
+      <div class="head">
         <div class="back-prev">
           <img src="./src/assets/back-prev.png" alt="">
           <div class="title">Product Category</div>

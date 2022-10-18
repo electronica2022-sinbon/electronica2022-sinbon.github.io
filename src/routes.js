@@ -3,6 +3,7 @@ import navPage from './components/nav-page.js'
 import productCategory from './components/product-category.js'
 import production from './components/production.js'
 import caseStudy from './components/case-study.js'
+import caseExample from './components/case-example.js'
 import aboutSimbon from './components/about-sinbon.js'
 import page404 from './components/page404.js'
 
@@ -70,6 +71,10 @@ export default [{
   name: 'case-study',
   path: '/case-study',
   component: caseStudy
+}, {
+  name: 'case-example',
+  path: '/case-example',
+  component: caseExample
 }, {
   name: 'about',
   path: '/about',
