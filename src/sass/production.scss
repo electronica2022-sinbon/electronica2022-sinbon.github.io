@@ -229,7 +229,7 @@
       overflow-y: auto;
       border: solid rgba(255, 255, 255, 0) 40px;
 
-      p + p {
+      section + section {
         margin-top: 2em;
       }
 
@@ -241,15 +241,17 @@
         color: #252A31;
       }
 
-      ul {
+      section {
         font-family: 'Montserrat';
         font-weight: lighter;
         font-size: 32px;
-        line-height: 1.7;
+        line-height: 1.2;
         color: #252A31;
         margin: 0;
-        // white-space: pre-wrap;
       }
+      // white-space: pre-wrap;
+      // ul {
+      // }
     }
   }
 }

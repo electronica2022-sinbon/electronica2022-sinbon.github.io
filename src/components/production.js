@@ -45,6 +45,8 @@ export default function production(app) {
     document.querySelector('.icon-close').addEventListener('click', () => {
       app.$router.push('/product-category')
     })        
+    // const fields = current_data(index).fields
+    // console.log('render markdown', app.$md.render(fields['Description']));
   }
 
   this.destroy = function () {
@@ -77,7 +79,7 @@ export default function production(app) {
     </div>`  
 
   const renderContainer = () => `
-    <div class="title">
+    <div class="title" data-id="${current_data(index).id}">
       <h2 class="initial">${current_data(index).fields.Type}</h2>
       <h1 class="initial">${current_data(index).fields.Title}</h1>
       <div class="photo initial">
@@ -105,7 +107,11 @@ export default function production(app) {
   const renderText = (title) => {
     const fields = current_data(index).fields
     if (title in fields && fields[title].trim().length > 0) {
-      return `<p class="${title}-section"><b>${title}</b>${app.$md.render(fields[title])}</p>`
+      console.log(title, fields[title]);
+      return `<section class="${title}-section">
+        <b>${title}</b>
+        ${app.$md.render(fields[title])}
+      </section>`
     }
     return ''
   }

@@ -1348,7 +1348,7 @@
   overflow-y: auto;
   border: solid rgba(255, 255, 255, 0) 40px;
 }
-.production .content .text p + p {
+.production .content .text section + section {
   margin-top: 2em;
 }
 .production .content .text b {
@@ -1358,11 +1358,11 @@
   line-height: 1.2;
   color: #252A31;
 }
-.production .content .text ul {
+.production .content .text section {
   font-family: "Montserrat";
   font-weight: lighter;
   font-size: 32px;
-  line-height: 1.7;
+  line-height: 1.2;
   color: #252A31;
   margin: 0;
 }
