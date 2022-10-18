@@ -31,7 +31,7 @@ export default [{
     })
       .then(res => res.data)
       .then(data => window.sinbon.production = data.records.filter(item => item.fields.Type.includes(type)))
-      .then(data => data.sort((a, b) => a.fields.ID.localeCompare(b.fields.ID)))
+      .then(data => data.sort((a, b) => a.fields.ID.localeCompare(b.fields.ID, 'en', { numeric: true })))
       .then(next)
   }
 }, {
@@ -47,7 +47,7 @@ export default [{
     })
       .then(res => res.data)
       .then(data => window.sinbon.production = data.records.filter(item => item.fields.Type.includes(type)))
-      .then(data => data.sort((a, b) => a.fields.ID.localeCompare(b.fields.ID)))
+      .then(data => data.sort((a, b) => a.fields.ID.localeCompare(b.fields.ID, 'en', { numeric: true })))
       .then(next)
   }
 }, {
@@ -63,7 +63,7 @@ export default [{
     })
       .then(res => res.data)
       .then(data => window.sinbon.production = data.records.filter(item => item.fields.Type.includes(type)))
-      .then(data => data.sort((a, b) => a.fields.ID.localeCompare(b.fields.ID)))
+      .then(data => data.sort((a, b) => a.fields.ID.localeCompare(b.fields.ID, 'en', { numeric: true })))
       .then(next)
   }
 }, {
