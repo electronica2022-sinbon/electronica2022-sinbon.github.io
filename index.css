@@ -1606,6 +1606,60 @@
   display: block;
   float: left;
 }
+.case-example .bubble {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.case-example .bubble-case1-1 {
+  position: absolute;
+  left: 11.48vw;
+  top: 36.13vh;
+  width: 607.5px;
+  height: 395px;
+}
+.case-example .bubble-case2-1 {
+  position: absolute;
+  left: 18.72vh;
+  top: 21vw;
+  width: 475.27px;
+  height: 378px;
+}
+.case-example .bubble-case3-1 {
+  position: absolute;
+  left: 3.33vw;
+  top: 44.63vh;
+  width: 700.5px;
+  height: 395px;
+}
+.case-example .bubble-case3-2 {
+  position: absolute;
+  width: 816px;
+  height: 354.05px;
+  left: 372px;
+  top: 195px;
+}
+.case-example .bubble-case4-1 {
+  position: absolute;
+  width: 514.03px;
+  height: 529px;
+  left: 8.22vw;
+  top: 26.11vh;
+}
+.case-example .bubble-case5-1 {
+  position: absolute;
+  left: 14.11vw;
+  top: 31.67vh;
+  width: 640.49px;
+  height: 395px;
+}
+.case-example .bubble-case6-1 {
+  position: absolute;
+  left: 5.89vw;
+  top: 32.5vh;
+  width: 566.06px;
+  height: 395px;
+}
 
 .pop-up {
   background-color: rgba(107, 107, 107, 0.6);

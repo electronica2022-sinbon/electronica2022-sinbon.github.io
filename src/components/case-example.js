@@ -9,7 +9,8 @@ export default function caseExample(app) {
         item.classList.add('show')
         item.classList.remove('hidden')
       })
-    }, 7500)
+    // }, 7500)
+    })
   }
 
   this.mounted = function () {
@@ -44,6 +45,17 @@ export default function caseExample(app) {
     })
   }
 
+  const rerenderBubble = (index) => {
+    if (index == null) return;
+    const solution = thisCase().solutions[index];
+    const name = app.$route.name;
+
+    if ('bubble' in solution) {
+      document.querySelector('div.bubble').innerHTML =
+        solution.bubble.map((src, index) => `<img src="${src}" alt="" class="bubble bubble-${name}-${index + 1}">`).join('')
+    }
+  }
+
   const bindContentOptionEvent = () => {
     document.querySelectorAll('.content-option').forEach((option, index) => {
       option.addEventListener('click', () => {
@@ -54,6 +66,7 @@ export default function caseExample(app) {
         }
 
         rerenderCaseOptions(selectedCaseIndex);
+        rerenderBubble(selectedCaseIndex)
         bindContentOptionEvent();
       })
     })
@@ -92,6 +105,7 @@ export default function caseExample(app) {
           </div>
         </div>
       </div>
+      <div class="bubble"></div>
     </div>`
   
   this.renderCaseOptions = (index) => {
@@ -112,9 +126,9 @@ export default function caseExample(app) {
       if ('features' in solution) {
         return `${solution.text}
       <div class="features">
-          ${solution.features.map(feature => `<div class="features-item">
-          <img src="${feature.icon}" alt="">
-          <span>${feature.text}</span></div>`).join('')}
+        ${solution.features.map(feature => `<div class="features-item">
+        <img src="${feature.icon}" alt="">
+        <span>${feature.text}</span></div>`).join('')}
       </div>`
       } else {
         return `${solution.text}`
