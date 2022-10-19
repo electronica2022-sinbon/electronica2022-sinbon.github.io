@@ -8,13 +8,6 @@
   bottom: 0;
   right: 0;
   margin: auto;
-
-  transition: left 0ms ease 600ms, top 0ms ease 600ms, opacity .3s .3s;
-  opacity: 0;
-  .content {
-    opacity: 0;
-    transition: opacity .3s;
-  }
   
   &.show {
     position: absolute;
@@ -23,7 +16,15 @@
     bottom: 0;
     right: 0;
     margin: auto;
-    
+  }
+
+  opacity: 0;
+  transition: left 0ms ease 600ms, top 0ms ease 600ms, opacity .3s .3s;
+  .content {
+    opacity: 0;
+    transition: opacity .3s;
+  }
+  &.show {
     opacity: 1;
     transition: opacity .3s;
     .content {

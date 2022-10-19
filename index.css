@@ -1507,8 +1507,83 @@
   line-height: 1.2;
   color: #FFFFFF;
 }
+.case-example .container {
+  position: relative;
+}
 .case-example video {
   object-fit: cover;
+}
+.case-example .background {
+  background: #252A31;
+  opacity: 0.4;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0px;
+  top: 0px;
+  margin: auto;
+}
+.case-example .background.hidden {
+  opacity: 0;
+  transition: left 0ms ease 600ms, top 0ms ease 600ms, opacity 0.3s 0.3s;
+}
+.case-example .background + .content.hidden {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.case-example .background.show {
+  opacity: 0.4;
+  transition: opacity 0.3s;
+}
+.case-example .background.show + .content.show {
+  opacity: 1;
+  transition: opacity 0.3s 0.3s;
+}
+.case-example .content {
+  position: absolute;
+  right: 0;
+  top: 0px;
+  margin: 48px 84px;
+  max-width: 557px;
+  display: flex;
+  flex-direction: column;
+}
+.case-example .content-options {
+  flex: none;
+}
+.case-example .content-text {
+  flex: auto;
+}
+.case-example .content-option {
+  display: inline-block;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.2;
+  background: #E0E0E0;
+  color: #939DAE;
+  border-bottom: solid 3px #939DAE;
+  padding: 14px 20px;
+}
+.case-example .content-option.active {
+  background: #FFFFFF;
+  color: #005694;
+  border-bottom: solid 3px #005694;
+}
+.case-example .content-option + .case-example .content-option {
+  margin: left;
+}
+.case-example .content-text {
+  background: #FFFFFF;
+  padding: 30px;
+  font-family: "Montserrat";
+  font-size: 24px;
+  line-height: 1.42;
+  color: #252A31;
+}
+.case-example .content-text > img {
+  display: block;
+  margin-top: 16px;
 }
 
 .pop-up {
@@ -1519,12 +1594,8 @@
   bottom: 0;
   right: 0;
   margin: auto;
+  opacity: 0;
   transition: left 0ms ease 600ms, top 0ms ease 600ms, opacity 0.3s 0.3s;
-  opacity: 0;
-}
-.pop-up .content {
-  opacity: 0;
-  transition: opacity 0.3s;
 }
 .pop-up.show {
   position: absolute;
@@ -1533,6 +1604,12 @@
   bottom: 0;
   right: 0;
   margin: auto;
+}
+.pop-up .content {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.pop-up.show {
   opacity: 1;
   transition: opacity 0.3s;
 }

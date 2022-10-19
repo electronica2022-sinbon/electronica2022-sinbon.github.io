@@ -15,7 +15,8 @@ html, body {
 }
 
 #app {
-  // display: flow-root;
+  // pop-up 的 margin-top 會出現莫名的空白
+  display: flow-root;
   position: relative;
   height: 100%;
 }
