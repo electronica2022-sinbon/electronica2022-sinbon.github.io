@@ -1704,6 +1704,7 @@ html, body {
 }
 
 #app {
+  display: flow-root;
   position: relative;
   height: 100%;
 }
