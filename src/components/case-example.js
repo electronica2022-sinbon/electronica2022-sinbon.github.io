@@ -2,15 +2,14 @@
 
 export default function caseExample(app) {
 
-  let selectedCaseIndex = 0;
+  let selectedCaseIndex = null;
   const showContentAfterVideoEnd = () => {
     setTimeout(() => {
       document.querySelectorAll('.hidden').forEach(item => {
         item.classList.add('show')
         item.classList.remove('hidden')
       })
-    // }, 8000)
-    })
+    }, 7500)
   }
 
   this.mounted = function () {
@@ -30,14 +29,14 @@ export default function caseExample(app) {
       // https://jiepeng.me/2019/03/17/autoplay-policy-note
       e.currentTarget.play()
     })
-    // document.querySelector('.replay-button').addEventListener('click', () => {
-    //   document.querySelectorAll('.show').forEach(item => {
-    //     item.classList.add('hidden')
-    //     item.classList.remove('show')
-    //   })
-    //   document.querySelector('video').play()
-    //   showContentAfterVideoEnd()
-    // })
+    document.querySelector('.replay-button').addEventListener('click', () => {
+      document.querySelectorAll('.show').forEach(item => {
+        item.classList.add('hidden')
+        item.classList.remove('show')
+      })
+      document.querySelector('video').play()
+      showContentAfterVideoEnd()
+    })
     bindContentOptionEvent();
     // after render
     document.querySelector('.icon-close').addEventListener('click', () => {
@@ -99,7 +98,7 @@ export default function caseExample(app) {
     if (thisCase().solutions.length === 1) {
       return `<div class="content-option ${index === 0 ? 'active' : ''}">Solution</div>`
     } else if (thisCase().solutions.length > 1) {
-      return thisCase().solutions.map((o, i) => `<div class="content-option ${index === i ? 'active' : ''}">Solution${i}</div>`)
+      return thisCase().solutions.map((o, i) => `<div class="content-option ${index === i ? 'active' : ''}">Solution${i+1}</div>`)
     } else {
       return ``
     }
@@ -110,12 +109,16 @@ export default function caseExample(app) {
       return `${thisCase().challenge}<img class="replay-button" src="./src/assets/replay.png" alt="">`
     } else {
       const solution = thisCase().solutions[index];
-      return `${solution.text}
+      if ('features' in solution) {
+        return `${solution.text}
       <div class="features">
           ${solution.features.map(feature => `<div class="features-item">
           <img src="${feature.icon}" alt="">
-          <span>${feature.text}</span></div>`).join('') }
+          <span>${feature.text}</span></div>`).join('')}
       </div>`
+      } else {
+        return `${solution.text}`
+      }
     }
   }
 }

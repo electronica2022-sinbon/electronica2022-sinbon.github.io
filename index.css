@@ -1585,6 +1585,27 @@
   display: block;
   margin-top: 16px;
 }
+.case-example .content-text .features {
+  margin-top: 16px;
+}
+.case-example .content-text .features-item {
+  font-family: "Montserrat";
+  font-size: 16px;
+  line-height: 1.25;
+  color: #252A31;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+.case-example .content-text .features-item img {
+  flex: none;
+}
+.case-example .content-text .features img {
+  width: 60px;
+  display: block;
+  float: left;
+}
 
 .pop-up {
   background-color: rgba(107, 107, 107, 0.6);
