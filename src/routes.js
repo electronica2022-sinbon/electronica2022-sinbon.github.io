@@ -74,7 +74,14 @@ export default [{
 }, {
   name: 'case-example',
   path: '/case-example',
-  component: caseExample
+  component: caseExample,
+  beforeEnter: (next) => {
+    axios.get('./src/assets/case-example.json')
+      .then(res => res.data)
+      .then(res => res.data)
+      .then(data => window.sinbon.case = data[0])
+      .then(next)
+  }
 }, {
   name: 'about',
   path: '/about',

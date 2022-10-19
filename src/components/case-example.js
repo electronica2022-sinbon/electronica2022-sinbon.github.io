@@ -1,77 +1,121 @@
+// import json from '../assets/begin.json'
+
 export default function caseExample(app) {
-  
-  // const onChangeProductionRerender = () => {
-  //   // document.querySelector('.production .container').innerHTML = renderContainer()
 
-  //   setTimeout(() => {
-  //     this.bindingEvent();
-  //   }, 10)
-  // }
-
+  let selectedCaseIndex = 0;
   const showContentAfterVideoEnd = () => {
     setTimeout(() => {
       document.querySelectorAll('.hidden').forEach(item => {
         item.classList.add('show')
         item.classList.remove('hidden')
       })
-    }, 8000)
+    // }, 8000)
+    })
   }
 
   this.mounted = function () {
     document.querySelector('.transition-next-page').classList.add('scale-0')
     showContentAfterVideoEnd()
-
-    // const fields = current_data(index).fields
-    // console.log('render markdown', app.$md.render(fields['Description']));
   }
   
   this.destroy = function () {
   }
+ 
   
+  function thisCase() {
+    return window.sinbon.case
+  }
   this.bindingEvent = () => {
     document.querySelector('video').addEventListener('loadeddata', (e) => {
       // https://jiepeng.me/2019/03/17/autoplay-policy-note
       e.currentTarget.play()
     })
-    document.querySelector('.replay-button').addEventListener('click', () => {
-      document.querySelectorAll('.show').forEach(item => {
-        item.classList.add('hidden')
-        item.classList.remove('show')
-      })
-      document.querySelector('video').play()
-      showContentAfterVideoEnd()
-    })
+    // document.querySelector('.replay-button').addEventListener('click', () => {
+    //   document.querySelectorAll('.show').forEach(item => {
+    //     item.classList.add('hidden')
+    //     item.classList.remove('show')
+    //   })
+    //   document.querySelector('video').play()
+    //   showContentAfterVideoEnd()
+    // })
+    bindContentOptionEvent();
     // after render
     document.querySelector('.icon-close').addEventListener('click', () => {
       app.$router.push('case-study');
     })
+  }
 
+  const bindContentOptionEvent = () => {
+    document.querySelectorAll('.content-option').forEach((option, index) => {
+      option.addEventListener('click', () => {
+        if (index > 0) {
+          selectedCaseIndex = index - 1;
+        } else {
+          selectedCaseIndex = null; // index === 0
+        }
 
+        rerenderCaseOptions(selectedCaseIndex);
+        bindContentOptionEvent();
+      })
+    })
+  }
+
+  const rerenderCaseOptions = (index) => {
+    document.querySelector('.content').innerHTML = `
+    <div class="content-options">
+      <div class="content-option ${index == null ? 'active' : ''}">Challenge</div>
+      ${this.renderCaseOptions(index)}
+    </div>
+    <div class="content-text">
+      ${this.renderContentText(index)}
+    </div>`
   }
 
   this.render = () => `
     <div class="case-example">
       <div class="head">
         <h1 class="title">
-          Customized Connector Design<br />
-          <small>Plug connector and raw cable for cardiac mapping</small>
+          ${thisCase().title}<br />
+          <small>${thisCase().sub_title}</small>
         </h1>
         <img class="icon-close" src="./src/assets/close-white.png" alt="">
       </div>
       <div class="container">
-        <video muted preload="auto" src="./src/video/case1.mp4" autoplay></video>
+        <video muted preload="auto" src="${thisCase().video_url}" autoplay></video>
         <div class="background hidden"></div>
         <div class="content hidden">
           <div class="content-options">
-            <div class="content-option active">Challenge</div>
-            <div class="content-option">Solution</div>
+            <div class="content-option ${selectedCaseIndex == null ? 'active' : ''}">Challenge</div>
+            ${this.renderCaseOptions(selectedCaseIndex)}
           </div>
           <div class="content-text">
-            The umbilical cable assembly requires the 78-pin plug connector on both ends, and the cable and connectors must serve as
-            a sturdy bridge for high-definition cardiac mapping capital equipment.
-            <img class="replay-button" src="./src/assets/replay.png" alt="">
+            ${this.renderContentText(selectedCaseIndex)}
           </div>
         </div>
       </div>
     </div>`
+  
+  this.renderCaseOptions = (index) => {
+    if (thisCase().solutions.length === 1) {
+      return `<div class="content-option ${index === 0 ? 'active' : ''}">Solution</div>`
+    } else if (thisCase().solutions.length > 1) {
+      return thisCase().solutions.map((o, i) => `<div class="content-option ${index === i ? 'active' : ''}">Solution${i}</div>`)
+    } else {
+      return ``
+    }
+  }
+
+  this.renderContentText = (index) => {
+    if (index == null) {
+      return `${thisCase().challenge}<img class="replay-button" src="./src/assets/replay.png" alt="">`
+    } else {
+      const solution = thisCase().solutions[index];
+      return `${solution.text}
+      <div class="features">
+          ${solution.features.map(feature => `<div class="features-item">
+          <img src="${feature.icon}" alt="">
+          <span>${feature.text}</span></div>`).join('') }
+      </div>`
+    }
+  }
 }

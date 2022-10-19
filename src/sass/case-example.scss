@@ -112,6 +112,31 @@
         display: block;
         margin-top: 16px;
       }
+
+      .features {
+        margin-top: 16px;
+
+        &-item {
+          font-family: 'Montserrat';
+          font-size: 16px;
+          line-height: 1.25;
+          color: #252A31;
+          
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          margin-top: 8px;
+          img {
+            flex: none;
+          }
+        }
+
+        img {
+          width: 60px;
+          display: block;
+          float: left;
+        }
+      }
     }
   }
 }

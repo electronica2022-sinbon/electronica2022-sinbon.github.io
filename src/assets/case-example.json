@@ -1,0 +1,29 @@
+{
+  "data": [
+    {
+      "title": "Customized Connector Design",
+      "sub_title": "Plug connector and raw cable for cardiac mapping",
+      "video_url": "./src/video/case1.mp4",
+      "challenge": "The umbilical cable assembly requires the 78-pin plug connector on both ends, and the cable and connectors must serve as a sturdy bridge for high - definition cardiac mapping capital equipment.",
+      "solutions": [
+        {
+          "text": "Customer has provided physical female connector samples with details. SINBON helps customer to redesign the plug connector and raw cable.",
+          "features": [
+            {
+              "icon": "./src/assets/feature-customized.png",
+              "text": "Customized design based on your prototype or sample."
+            },
+            {
+              "icon": "./src/assets/feature-plug.png",
+              "text": "Exclusive design pattern with 78 current plug."
+            },
+            {
+              "icon": "./src/assets/feature-solution.png",
+              "text": "Provide integrated solution with receptacle panel + umbilical cable + catheter connector."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
