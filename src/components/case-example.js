@@ -8,9 +8,8 @@ export default function caseExample(app) {
       document.querySelectorAll('.hidden').forEach(item => {
         item.classList.add('show')
         item.classList.remove('hidden')
-      // })
+      })
     }, 7500)
-    })
   }
 
   this.mounted = function () {

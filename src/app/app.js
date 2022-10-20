@@ -12,7 +12,7 @@ export default function main(appId, initComponent) {
   }
 
   this.component = (registComponent) => {
-    this.components[registComponent.name, registComponent]
+    this.components[registComponent.name] = registComponent
   };
 
   this.render = () => {

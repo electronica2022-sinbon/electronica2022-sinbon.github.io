@@ -81,7 +81,7 @@
       left: 0;
     }
     &:nth-child(1) {
-          animation: floating 3.3656091897s ease-in-out infinite alternate-reverse;
+      animation: floating 3.3656091897s ease-in-out infinite alternate-reverse;
       // animation: floating ($sec * math.random()) ease-in-out infinite alternate-reverse;
       img {
         rotate: -9.35deg;
