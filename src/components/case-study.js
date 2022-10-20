@@ -29,7 +29,7 @@ export default function caseStudy(app) {
       <div class="head">
         <div class="back-prev">
           <img src="./src/assets/back-prev.png" alt="">
-          <div class="title">Case Studyt</div>
+          <div class="title">Case Study</div>
         </div>
         <img class="sinbon-logo" src="./src/assets/logo.png" alt="">
         <img class="options" src="./src/assets/options.png" alt="">
