@@ -118,6 +118,9 @@
 .nav-page .main-nav .shape:nth-child(2) img {
   transform: scale(1);
 }
+.nav-page .main-nav .shape:nth-child(3) {
+  animation: floating 6.524291946s ease-in-out infinite alternate;
+}
 .nav-page .main-nav .shape:nth-child(3) img {
   transform: rotate(-15deg) scale(0.81899729);
 }
