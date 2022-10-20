@@ -45,7 +45,11 @@ export default function caseExample(app) {
   }
 
   const rerenderBubble = (index) => {
-    if (index == null) return;
+    console.log('rerenderBubble');
+    if (index == null) {
+      document.querySelector('div.bubble').innerHTML = ''
+      return;
+    }
     const solution = thisCase().solutions[index];
     const name = app.$route.name;
 
