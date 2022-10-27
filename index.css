@@ -1850,6 +1850,65 @@
   vertical-align: middle;
 }
 
+.form {
+  font-family: "Montserrat", sans-serif;
+  color: #005694;
+  padding: 38px 0;
+  box-sizing: border-box;
+}
+.form .sinbon-logo {
+  display: block;
+  width: 118px;
+  height: 35.88px;
+  margin: auto;
+}
+.form h1, .form p {
+  text-align: center;
+}
+.form h1 {
+  font-size: 50px;
+  line-height: 1.22;
+  margin: 0.1em 0;
+}
+.form .content {
+  max-width: 300px;
+  margin: auto;
+}
+.form p {
+  font-weight: lighter;
+  font-size: 17px;
+  line-height: 1.23;
+  margin: 0;
+}
+.form .input-group {
+  margin: 18px 0;
+  font-size: 14px;
+}
+.form label {
+  font-weight: lighter;
+  font-size: 1em;
+  line-height: 1.21;
+}
+.form label + div {
+  margin: 4px 0;
+}
+.form input {
+  width: 100%;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border: 1px solid #CDCDCD;
+  border-radius: 5px;
+  padding: 0.6em 0.8em;
+}
+.form .submit-button {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 2.5em 0;
+}
+.form .submit-button img {
+  width: 100%;
+}
+
 html, body {
   margin: 0;
   padding: 0;

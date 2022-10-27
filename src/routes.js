@@ -5,6 +5,7 @@ import production from './components/production.js'
 import caseStudy from './components/case-study.js'
 import caseExample from './components/case-example.js'
 import aboutSimbon from './components/about-sinbon.js'
+import visitorForm from './components/form.js'
 import page404 from './components/page404.js'
 
 export default [{
@@ -141,6 +142,10 @@ export default [{
   name: 'about',
   path: '/about',
   component: aboutSimbon
+}, {
+  name: 'form',
+  path: '/form',
+  component: visitorForm
 }, {
   name: '404',
   path: '*',
