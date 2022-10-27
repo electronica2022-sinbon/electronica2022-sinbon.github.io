@@ -13,7 +13,7 @@ export default function animationBegin(app) {
 
     this.data.amination.addEventListener('complete', () => {
       // this.destroy()
-      app.$router.push('nav-page')
+      app.$router.push('nav-main')
     })
   }
   

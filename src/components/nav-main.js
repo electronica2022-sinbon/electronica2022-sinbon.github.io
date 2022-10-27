@@ -1,16 +1,16 @@
-export default function navPage(app) {
+export default function navMain(app) {
 
   this.mounted = function () {
-    // document.querySelector('.nav-page').classList.remove('display-none')
+    // document.querySelector('.nav-main').classList.remove('display-none')
     document.querySelector('.transition-next-page').classList.add('scale-0')
     setTimeout(() => {
-      document.querySelectorAll('.main-nav-item').forEach(item => item.classList.remove('scale-0'))
+      document.querySelectorAll('.nav-main-item').forEach(item => item.classList.remove('scale-0'))
     }, 100)
   }
 
   this.bindingEvent = () => {
     // 點擊選項，播放動畫
-    // document.querySelectorAll('.main-nav-item').forEach(item => {
+    // document.querySelectorAll('.nav-main-item').forEach(item => {
     //   item.addEventListener('click', () => {
     //     console.log('click');
     //     document.querySelector('.transition-next-page').classList.remove('scale-0')
@@ -54,23 +54,23 @@ export default function navPage(app) {
   this.render = () => `
 
     <div class="cover-for-click"></div>
-    <div class="nav-page">
+    <div class="nav-main">
       <div class="head">
         <!-- 前後兩個元素隱藏 -->
         <div></div>
         <img class="sinbon-logo" src="./src/assets/logo.png" alt="">
         <div></div>
       </div>
-      <div class="main-nav">
-        <div class="main-nav-item shape scale-0">
+      <div class="nav-main">
+        <div class="nav-main-item shape scale-0">
           <img class="triangle" src="./src/assets/triangle-green.png" alt="">
           <div class="text triangle-text-fix">Product</div>
         </div>
-        <div class="main-nav-item shape scale-0">
+        <div class="nav-main-item shape scale-0">
           <img class="circle" src="./src/assets/circle-orange.png" alt="">
           <div class="text">Case<br />Study</div>
         </div>
-        <div class="main-nav-item shape scale-0">
+        <div class="nav-main-item shape scale-0">
           <img class="rectangle" src="./src/assets/rectangle-blue.png" alt="">
           <div class="text">About<br />SINBON</div>
         </div>

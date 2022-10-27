@@ -3,14 +3,14 @@
 @use "./header.scss";
 @use "./amination.scss";
 
-.nav-page {
+.nav-main {
   .head {
     margin-top: utility.height(37);
     margin-left: utility.width(60);
     margin-right: utility.width(60);
   }
 
-  .main-nav {
+  .nav-main {
     display: flex;
     align-items: center;
     margin-left: utility.width(100);

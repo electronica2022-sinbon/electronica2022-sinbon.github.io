@@ -13,7 +13,7 @@ export default function caseStudy(app) {
     document.querySelector('.back-prev > img').addEventListener('click', () => {
       document.querySelector('.transition-next-page').classList.remove('scale-0')
       setTimeout(() => {
-        app.$router.push('/main-nav');
+        app.$router.push('/nav-main');
       }, 300)
     })
 

@@ -1,5 +1,5 @@
 import animationBegin from './components/animation-begin.js'
-import navPage from './components/nav-page.js'
+import navMain from './components/nav-main.js'
 import productCategory from './components/product-category.js'
 import production from './components/production.js'
 import caseStudy from './components/case-study.js'
@@ -13,9 +13,9 @@ export default [{
   path: '/', // not be '/', that is not init page
   component: animationBegin
 }, {
-  name: 'nav-page',
-  path: '/main-nav',
-  component: navPage
+  name: 'nav-main',
+  path: '/nav-main',
+  component: navMain
 }, {
   name: 'product-category',
   path: '/product-category',
