@@ -6,7 +6,7 @@ export default function caseStudy(app) {
   }
 
   this.destroy = function () {
-    document.querySelector('.transition-next-page').classList.remove('scale-0')
+    
   }
 
   this.bindingEvent = () => {
@@ -14,6 +14,13 @@ export default function caseStudy(app) {
       document.querySelector('.transition-next-page').classList.remove('scale-0')
       setTimeout(() => {
         app.$router.push('/nav-main');
+      }, 300)
+    })
+    document.querySelector('.options > img').addEventListener('click', () => {
+      console.log('options');
+      document.querySelector('.transition-next-menu').classList.remove('scale-0')
+      setTimeout(() => {
+        app.$router.push('/nav-menu');
       }, 300)
     })
 
@@ -32,7 +39,10 @@ export default function caseStudy(app) {
           <div class="title">Case Study</div>
         </div>
         <img class="sinbon-logo" src="./src/assets/logo.png" alt="">
-        <img class="options" src="./src/assets/options.png" alt="">
+        <div class="options">
+          <div class="transition-next-menu"></div>
+          <img src="./src/assets/options.png" alt="">
+        </div>
       </div>
       <div class="body">
         <div class="body-item">

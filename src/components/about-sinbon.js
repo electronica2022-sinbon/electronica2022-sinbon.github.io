@@ -16,6 +16,13 @@ export default function aboutSimbon(app) {
         app.$router.push('/nav-main');
       }, 300)
     })
+    document.querySelector('.options > img').addEventListener('click', () => {
+      console.log('options');
+      document.querySelector('.transition-next-menu').classList.remove('scale-0')
+      setTimeout(() => {
+        app.$router.push('/nav-menu');
+      }, 300)
+    })
 
     document.querySelector('.qr-code-button').addEventListener('click', () => {
       document.querySelector('.pop-up').classList.add('show');
@@ -42,7 +49,10 @@ export default function aboutSimbon(app) {
           <div class="title">About</div>
         </div>
         <img class="sinbon-logo" src="./src/assets/logo.png" alt="">
-        <img class="options" src="./src/assets/options.png" alt="">
+        <div class="options">
+          <div class="transition-next-menu"></div>
+          <img src="./src/assets/options.png" alt="">
+        </div>
       </div>
       <div class="body">
         <div></div>

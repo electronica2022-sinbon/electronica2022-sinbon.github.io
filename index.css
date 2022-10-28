@@ -26,8 +26,22 @@
   font-weight: bold;
   height: fit-content;
   padding-left: 0.79em;
-  /* blueGray/blueGray */
   color: #939DAE;
+}
+.head .options {
+  position: relative;
+}
+.head .options .transition-to-menu {
+  outline: solid red;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  background-color: #005694;
 }
 .head .back-prev,
 .head .options,
@@ -66,26 +80,26 @@
   margin-left: 3.125vw;
   margin-right: 3.125vw;
 }
-.nav-main .main-nav {
+.nav-main .nav-main {
   display: flex;
   align-items: center;
   margin-left: 5.2083333333vw;
   margin-right: 5.2083333333vw;
   margin-top: 35.1268518519vh;
 }
-.nav-main .main-nav-item {
+.nav-main .nav-main-item {
   flex: 1 1 auto;
   padding-left: 5.2083333333vw;
   padding-right: 5.2083333333vw;
   box-sizing: border-box;
 }
-.nav-main .main-nav-item {
+.nav-main .nav-main-item {
   transition: scale 0.3s;
   scale: 1;
   position: relative;
   text-align: center;
 }
-.nav-main .main-nav-item img {
+.nav-main .nav-main-item img {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -96,7 +110,7 @@
   z-index: 0;
   width: 19.21875vw;
 }
-.nav-main .main-nav-item .text {
+.nav-main .nav-main-item .text {
   line-height: 1em;
   font-size: 3.13em;
   font-family: "Montserrat", sans-serif;
@@ -106,22 +120,22 @@
   z-index: 10;
   pointer-events: none;
 }
-.nav-main .main-nav .shape:nth-child(1) {
+.nav-main .nav-main .shape:nth-child(1) {
   animation: floating 3.3898021649s ease-in-out infinite alternate;
 }
-.nav-main .main-nav .shape:nth-child(1) img {
+.nav-main .nav-main .shape:nth-child(1) img {
   transform: rotate(-26deg) translate(-21px, -61px) scale(1.1160433604);
 }
-.nav-main .main-nav .shape:nth-child(2) {
+.nav-main .nav-main .shape:nth-child(2) {
   animation: floating 4.1441648987s ease-in-out infinite alternate-reverse;
 }
-.nav-main .main-nav .shape:nth-child(2) img {
+.nav-main .nav-main .shape:nth-child(2) img {
   transform: scale(1);
 }
-.nav-main .main-nav .shape:nth-child(3) {
+.nav-main .nav-main .shape:nth-child(3) {
   animation: floating 6.524291946s ease-in-out infinite alternate;
 }
-.nav-main .main-nav .shape:nth-child(3) img {
+.nav-main .nav-main .shape:nth-child(3) img {
   transform: rotate(-15deg) scale(0.81899729);
 }
 
@@ -135,6 +149,94 @@
   z-index: 100000;
   width: 20vw;
   height: 20vw;
+}
+
+.nav-menu {
+  display: flow-root;
+  background-color: #005694;
+  height: 100%;
+}
+.nav-menu .head {
+  margin-top: 3.4259259259vh;
+  margin-left: 3.125vw;
+  margin-right: 3.125vw;
+}
+.nav-menu .menu-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-color: #F2F3F4;
+  width: 80vh;
+  height: 80vh;
+  margin: auto;
+  border-radius: 100000px;
+  padding: 2vh;
+  scale: 1;
+  transition: scale 0.3s;
+}
+.nav-menu .menu-nav .sinbon-logo {
+  position: relative;
+  width: 206px;
+  padding: 40px;
+}
+.nav-menu .menu-nav-item-12 {
+  flex: 1 1 100% !important;
+}
+.nav-menu .menu-nav-item-6 {
+  flex: 1 1 50% !important;
+}
+.nav-menu .menu-nav-item-12, .nav-menu .menu-nav-item-6 {
+  flex: 1 1 auto;
+  padding-left: 5.2083333333vw;
+  padding-right: 5.2083333333vw;
+  box-sizing: border-box;
+}
+.nav-menu .menu-nav-item-12, .nav-menu .menu-nav-item-6 {
+  transition: scale 0.3s;
+  scale: 1;
+  position: relative;
+  text-align: center;
+}
+.nav-menu .menu-nav-item-12 img, .nav-menu .menu-nav-item-6 img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  display: block;
+  z-index: 0;
+  width: 19.21875vw;
+}
+.nav-menu .menu-nav-item-12 .text, .nav-menu .menu-nav-item-6 .text {
+  line-height: 1em;
+  font-size: 3.13em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #FFFFFF;
+  position: relative;
+  z-index: 10;
+  pointer-events: none;
+}
+.nav-menu .menu-nav .shape:nth-of-type(2) {
+  animation: floating 3.3898021649s ease-in-out infinite alternate;
+}
+.nav-menu .menu-nav .shape:nth-of-type(2) img {
+  transform: rotate(-26deg) translate(-21px, -61px) scale(1.1160433604);
+}
+.nav-menu .menu-nav .shape:nth-of-type(3) {
+  animation: floating 4.1441648987s ease-in-out infinite alternate-reverse;
+  bottom: 22px;
+}
+.nav-menu .menu-nav .shape:nth-of-type(3) img {
+  transform: scale(0.8);
+}
+.nav-menu .menu-nav .shape:nth-of-type(4) {
+  top: 22px;
+  animation: floating 6.524291946s ease-in-out infinite alternate;
+}
+.nav-menu .menu-nav .shape:nth-of-type(4) img {
+  transform: scale(0.9) rotate(-15deg);
 }
 
 .product-category .head {

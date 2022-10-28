@@ -9,7 +9,7 @@ export default function (config) {
   // methods
   this.install = install; // for use
   this.push = push;
-  // this.back = back;
+  this.back = back;
   // this.forward = forward;
   this.findTargetRoute = findTargetRoute
   this.beforeEach = beforeEach
@@ -38,9 +38,9 @@ function install(app) {
 //   history.forward();
 // }
 
-// function back () {
-//   history.back();
-// }
+function back () {
+  history.back();
+}
 
 
 function beforeEach() {

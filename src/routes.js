@@ -1,5 +1,6 @@
 import animationBegin from './components/animation-begin.js'
 import navMain from './components/nav-main.js'
+import navMenu from './components/nav-menu.js'
 import productCategory from './components/product-category.js'
 import production from './components/production.js'
 import caseStudy from './components/case-study.js'
@@ -16,6 +17,10 @@ export default [{
   name: 'nav-main',
   path: '/nav-main',
   component: navMain
+}, {
+  name: 'nav-menu',
+  path: '/nav-menu',
+  component: navMenu
 }, {
   name: 'product-category',
   path: '/product-category',

@@ -16,6 +16,13 @@ export default function productCategory(app) {
         app.$router.push('/nav-main');
       }, 300)
     })
+    document.querySelector('.options > img').addEventListener('click', () => {
+      console.log('options');
+      document.querySelector('.transition-next-menu').classList.remove('scale-0')
+      setTimeout(() => {
+        app.$router.push('/nav-menu');
+      }, 300)
+    })
 
     document.querySelectorAll('.triangle').forEach(product => {
       product.addEventListener('click', (e) => {
@@ -50,7 +57,10 @@ export default function productCategory(app) {
           <div class="title">Product Category</div>
         </div>
         <img class="sinbon-logo" src="./src/assets/logo.png" alt="">
-        <img class="options" src="./src/assets/options.png" alt="">
+        <div class="options">
+          <div class="transition-next-menu"></div>
+          <img src="./src/assets/options.png" alt="">
+        </div>
       </div>
       <div class="body">
         <div class="body-item">
