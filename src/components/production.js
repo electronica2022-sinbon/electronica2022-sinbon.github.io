@@ -108,7 +108,13 @@ export default function production(app) {
     const fields = current_data(index).fields
     if (title in fields && fields[title].trim().length > 0) {
       console.log(title, fields[title]);
-      return `<section class="${title}-section">
+      // description and feature didn't show title
+      if (title === 'Description' || title === 'Features') return `
+      <section class="${title}-section">
+        ${app.$md.render(fields[title])}
+      </section>`
+      else return `
+      <section class="${title}-section">
         <b>${title}</b>
         ${app.$md.render(fields[title])}
       </section>`

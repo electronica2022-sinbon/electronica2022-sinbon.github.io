@@ -1,4 +1,41 @@
+
 export default function form() {
+  const API = axios.create({
+    baseURL: 'https://my-god-render.onrender.com',
+    _baseURL: 'http://127.0.0.1:3000',
+    headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
+    },
+    origin: true,
+    withCredentials: true,
+  })
+
+  API.get('/sinbon')
+
+  this.bindingEvent = () => {
+    document.querySelector('.submit-button').addEventListener('click', () => {
+
+      const first_name = document.querySelector('#input-first-name').value;
+      const last_name = document.querySelector('#input-last-name').value;
+      const company_name = document.querySelector('#input-company-name').value;
+      const email_address = document.querySelector('#input-email-address').value;
+
+      API.post('/sinbon', {
+        first_name,
+        last_name,
+        company_name,
+        email_address,
+      })
+        .catch(e => console.log(e))
+        .then(e => {
+          document.querySelector('.pop-up').classList.add('show');
+          document.querySelector('.button-ok').addEventListener('click', () => {
+            document.querySelector('.pop-up').classList.remove('show');
+          })
+        })
+    })
+  }
   this.render = () => `<div class="form">
     <img class="sinbon-logo" src="./src/assets/logo.png" alt="">
     <h1>Hi</h1>
@@ -31,9 +68,22 @@ export default function form() {
           </div>
         </div>
         <div class="submit-button">
-          <img src="./src/assets/send-button.png" alt="">
+          <img src="./src/assets/button-send.png" alt="">
         </div>
       </form>
     </div>
+    <div class="pop-up">
+      <div class="content">
+        <div class="body">
+          <img src="./src/assets/icon-success.png" alt="">
+        </div>
+        <div class="text">
+          <span>Email send successfully!</span>
+        </div>
+        <div class="footer">
+          <img class="button-ok" src="./src/assets/button-ok.png" alt="">
+        </div>
+      </div>
+  </div>
   </div>`
 }

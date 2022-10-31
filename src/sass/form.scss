@@ -66,4 +66,32 @@
       width: 100%;
     }
   }
+
+
+  .pop-up {
+    .content {
+      width: 360px;
+      height: fit-content;
+      padding: 20px;
+      background: #FFFFFF;
+      border-radius: 6px;
+    }
+
+    .body, .text, .footer {
+      margin: 20px;
+      padding: 0;
+    }
+
+    .body > img {
+      width: 86px;
+    }
+    .footer > img {
+      width: 172px;
+    }
+    img {
+      width: 100%;
+      display: block;
+      margin: auto;
+    }
+  }
 }

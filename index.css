@@ -2010,6 +2010,28 @@
 .form .submit-button img {
   width: 100%;
 }
+.form .pop-up .content {
+  width: 360px;
+  height: fit-content;
+  padding: 20px;
+  background: #FFFFFF;
+  border-radius: 6px;
+}
+.form .pop-up .body, .form .pop-up .text, .form .pop-up .footer {
+  margin: 20px;
+  padding: 0;
+}
+.form .pop-up .body > img {
+  width: 86px;
+}
+.form .pop-up .footer > img {
+  width: 172px;
+}
+.form .pop-up img {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
 
 html, body {
   margin: 0;
