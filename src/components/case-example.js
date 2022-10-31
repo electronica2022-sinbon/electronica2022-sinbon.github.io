@@ -14,6 +14,12 @@ export default function caseExample(app) {
 
   this.mounted = function () {
     document.querySelector('.transition-next-page').classList.add('scale-0')
+    document.querySelector('video').addEventListener('click', () => {
+      document.querySelectorAll('.hidden').forEach(item => {
+        item.classList.add('show')
+        item.classList.remove('hidden')
+      })
+    })
     showContentAfterVideoEnd()
   }
   
@@ -56,6 +62,9 @@ export default function caseExample(app) {
     if ('bubble' in solution) {
       document.querySelector('div.bubble').innerHTML =
         solution.bubble.map((src, index) => `<img src="${src}" alt="" class="bubble bubble-${name}-${index + 1}">`).join('')
+    }
+    else {
+      document.querySelector('div.bubble').innerHTML = ''
     }
   }
 
@@ -127,14 +136,14 @@ export default function caseExample(app) {
     } else {
       const solution = thisCase().solutions[index];
       if ('features' in solution) {
-        return `${solution.text}
+        return `${app.$md.render(solution.text)}
       <div class="features">
         ${solution.features.map(feature => `<div class="features-item">
         <img src="${feature.icon}" alt="">
         <span>${feature.text}</span></div>`).join('')}
       </div>`
       } else {
-        return `${solution.text}`
+        return `${app.$md.render(solution.text)}`
       }
     }
   }

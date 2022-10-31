@@ -8,7 +8,9 @@
       "solutions": [
         {
           "text": "Customer has provided physical female connector samples with details. SINBON helps customer to redesign the plug connector and raw cable.",
-          "bubble": ["./src/assets/bubble-case1.png"],
+          "bubble": [
+            "./src/assets/bubble-case1.png"
+          ],
           "features": [
             {
               "icon": "./src/assets/feature-customized.png",
@@ -33,8 +35,10 @@
       "challenge": "The original power connector's functionality is limited because the original design can't survive frequent plugging and removing of the panel.",
       "solutions": [
         {
-          "text": "SINBON helps customer design an adaptor which can be replaced without disassembling the panel assembly.<br /> Moreover, the adapter can be customized with various functions based on the use of environment.",
-          "bubble": ["/src/assets/bubble-case2-1.png"],
+          "text": "SINBON helps customer design an adaptor which can be replaced without disassembling the panel assembly.\n Moreover, the adapter can be customized with various functions based on the use of environment.",
+          "bubble": [
+            "/src/assets/bubble-case2-1.png"
+          ],
           "features": [
             {
               "icon": "./src/assets/feature-magnetic.png",
@@ -80,7 +84,7 @@
           ]
         },
         {
-          "text": "And we still retain the option of customization for customers!<br />1. Panel (flange) Customization<br />Panels (flanges) can be tailored to the customer’s vehicle installation environment without changing the central part.<br />2. Customized Charging Pedestal Wiring Method<br />The rear inlet module of the charging base can be replaced by a different angle design.",
+          "text": "And we still retain the option of customization for customers!\n1. Panel (flange) Customization\nPanels (flanges) can be tailored to the customer’s vehicle installation environment without changing the central part.\n2. Customized Charging Pedestal Wiring Method\nThe rear inlet module of the charging base can be replaced by a different angle design.",
           "bubble": [
             "./src/assets/bubble-case3-1.png",
             "./src/assets/bubble-case3-2.png"
@@ -96,6 +100,9 @@
       "solutions": [
         {
           "text": "SINBON offers blade contact terminal design and crown spring terminal design which can meet the mechanical structure of e-bike and also fulfill the mating cycle.",
+          "bubble": [
+            "./src/assets/bubble-case4.png"
+          ],
           "features": [
             {
               "icon": "./src/assets/feature-customized.png",
@@ -112,10 +119,7 @@
           ]
         },
         {
-          "text": "1.Blade contact connectors are either open face completely or are open one-sided, so mating angles can be absorbed.<br />2.The level of current bared is proportional to the contact area in an interconnect system.  Whereas the blade connector would require a lot of space, theory behinds the lamella spring is to curl the blade into a cylinder, so the contact area remains the same but taking less mechanical space.",
-          "bubble": [
-            "./src/assets/bubble-case4.png"
-          ]
+          "text": "1. Blade contact connectors are either open face completely or are open one-sided, so mating angles can be absorbed.\n2. The level of current bared is proportional to the contact area in an interconnect system.  Whereas the blade connector would require a lot of space, theory behinds the lamella spring is to curl the blade into a cylinder, so the contact area remains the same but taking less mechanical space."
         }
       ]
     },
@@ -126,7 +130,7 @@
       "challenge": "In a smart warehouse people and robots sometimes cooperate in the same space. In order to keep maintenance workers safe, a customer needed an electronic system to notify the robots to slow down when a human is nearby. In addition, the system was required to use sound & vibration to alert the human about robot’s presence.",
       "solutions": [
         {
-          "text": "1. Customized a lightweight reel for increased flexibility. <br />Weight is reduced by 13%: from 388KG to 339KG.<br />2. Customized a durable connector. <br />Production capacity is increased from 2K to 40K annually.<br />3. Overmold design of each functional interface link was strengthened. <br />Bending cycle is increased from 10K to 26L, the load is 1.3KG.<br />4. Adjusted test fixtures according to customer requirements.",
+          "text": "1. Customized a lightweight reel for increased flexibility. \nWeight is reduced by 13%: from 388KG to 339KG.\n2. Customized a durable connector. \n Production capacity is increased from 2K to 40K annually.\n3. Overmold design of each functional interface link was strengthened. \nBending cycle is increased from 10K to 26K, the load is 1.3KG.\n4. Adjusted test fixtures according to customer requirements.",
           "bubble": [
             "./src/assets/bubble-case5.png"
           ],
@@ -151,10 +155,10 @@
       "title": "Customized Connector & Cable Design",
       "sub_title": "I/O Connector & raw cable for harsh environment",
       "video_url": "./src/video/case6.mp4",
-      "challenge": "Cable assembly is placed in the underground sewer system and must be waterproof, chemical and oil resistant. Harsh environment conditions include:<br />-Submerging in the “contaminated” water for 30 days at room temperature<br />-Submerging in the heated “contaminated” water at 70°C for 2 days<br />-Soaking into Kerosene (lighter fluid) / Motor oil (5W-40) for 7 days",
+      "challenge": "Cable assembly is placed in the underground sewer system and must be waterproof, chemical and oil resistant. Harsh environment conditions include:\n-Submerging in the “contaminated” water for 30 days at room temperature\n-Submerging in the heated “contaminated” water at 70°C for 2 days\n-Soaking into Kerosene (lighter fluid) / Motor oil (5W-40) for 7 days",
       "solutions": [
         {
-          "text": "1. Reduced lead time from 18-22 to 6 weeks and saved cost by 35%.   <br />2. Integrated molding design including sealing and dust cap function & provided well waterproof and chemical resistance performance.  <br />3. Improved breakout junction method by using PCB board connection instead of wire connection directly to make junction points stronger. Potting the enclosure and then overmolding.<br />4. Developed on-line testing jig to reduce testing times.",
+          "text": "1. Reduced lead time from 18-22 to 6 weeks and saved cost by 35%.   \n2. Integrated molding design including sealing and dust cap function & provided well waterproof and chemical resistance performance.  \n3. Improved breakout junction method by using PCB board connection instead of wire connection directly to make junction points stronger. Potting the enclosure and then overmolding.\n4. Developed on-line testing jig to reduce testing times.",
           "bubble": [
             "./src/assets/bubble-case6.png"
           ],

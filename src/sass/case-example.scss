@@ -44,10 +44,12 @@
   .background {
     // wait video end, show content
     &.hidden {
+      pointer-events: none;
       opacity: 0;
       transition: left 0ms ease 600ms, top 0ms ease 600ms, opacity .3s .3s;
     }
     & + .content.hidden {
+      pointer-events: none;
       opacity: 0;
       transition: opacity .3s;
     }
@@ -104,13 +106,14 @@
       background: #FFFFFF;
       padding: 30px;
       font-family: 'Montserrat';
-      font-size: 24px;
-      line-height: 1.42;
+      font-size: 18px;
+      line-height: 1.5;
       color: #252A31;
 
       > img {
         display: block;
         margin-top: 16px;
+        width: 166px;
       }
 
       .features {
