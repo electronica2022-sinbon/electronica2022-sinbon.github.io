@@ -11,12 +11,7 @@ export default function form() {
   API.get('/sinbon')
 
   this.bindingEvent = () => {
-
-    // document.querySelectorAll('body, #app').forEach(item => {
-    //   item.style.overflowY = "auto";
-    // })
-    // document.body.style.height = "fit-content";
-
+    document.body.style.overflowY = "auto";
     document.querySelector('.pop-up').style.display = 'none';
 
     document.querySelector('.submit-button').addEventListener('click', () => {
