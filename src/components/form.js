@@ -32,6 +32,9 @@ export default function form() {
           document.querySelector('.pop-up').style.display = 'block';
           setTimeout(() => {
             window.scrollTo(0, 0);
+          }, 1)
+          setTimeout(() => {
+            window.scrollTo(0, 0);
             document.querySelector('body').style.overflowY = 'hidden';
             document.querySelector('.pop-up').classList.add('show');
             document.querySelector('.button-ok').addEventListener('click', () => {
