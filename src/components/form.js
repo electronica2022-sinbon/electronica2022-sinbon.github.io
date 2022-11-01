@@ -11,6 +11,10 @@ export default function form() {
   API.get('/sinbon')
 
   this.bindingEvent = () => {
+
+    document.body.style.overflow = "auto";
+    document.body.style.height = "auto";
+
     document.querySelector('.submit-button').addEventListener('click', () => {
 
       const first_name = document.querySelector('#input-first-name').value;
@@ -26,6 +30,7 @@ export default function form() {
       })
         .catch(e => console.log(e))
         .then(e => {
+          console.log('response', e);
           document.querySelector('.pop-up').classList.add('show');
           document.querySelector('.button-ok').addEventListener('click', () => {
             document.querySelector('.pop-up').classList.remove('show');
