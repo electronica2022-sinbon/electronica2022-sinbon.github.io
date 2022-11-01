@@ -12,8 +12,12 @@ export default function form() {
 
   this.bindingEvent = () => {
 
-    document.body.style.overflow = "auto";
-    document.body.style.height = "auto";
+    // document.querySelectorAll('body, #app').forEach(item => {
+    //   item.style.overflowY = "auto";
+    // })
+    // document.body.style.height = "fit-content";
+
+    document.querySelector('.pop-up').style.display = 'none';
 
     document.querySelector('.submit-button').addEventListener('click', () => {
 
@@ -30,11 +34,13 @@ export default function form() {
       })
         .catch(e => console.log(e))
         .then(e => {
-          console.log('response', e);
-          document.querySelector('.pop-up').classList.add('show');
-          document.querySelector('.button-ok').addEventListener('click', () => {
-            document.querySelector('.pop-up').classList.remove('show');
-          })
+          document.querySelector('.pop-up').style.display = 'block';
+          setTimeout(() => {
+            document.querySelector('.pop-up').classList.add('show');
+            document.querySelector('.button-ok').addEventListener('click', () => {
+              document.querySelector('.pop-up').classList.remove('show');
+            })
+          }, 100)
         })
     })
   }

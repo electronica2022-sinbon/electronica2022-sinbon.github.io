@@ -1780,6 +1780,16 @@
   opacity: 0;
   transition: left 0ms ease 600ms, top 0ms ease 600ms, opacity 0.3s 0.3s;
 }
+.pop-up .content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 35.5729166667vw;
+  height: 65.462962963vh;
+}
 .pop-up.show {
   position: absolute;
   top: 0px;
@@ -1916,14 +1926,6 @@
   background-color: #F2F3F4;
   max-width: 683px;
   box-sizing: border-box;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 35.5729166667vw;
-  height: 65.462962963vh;
   display: flex;
   flex-direction: column;
   padding: 24px;
