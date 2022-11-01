@@ -2,10 +2,10 @@
   "name": "sinbonshow",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "dev": "sass --watch --no-source-map ./src/sass/main.scss ./index.css",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "npx http-server"
   },
   "keywords": [],
   "author": "",
