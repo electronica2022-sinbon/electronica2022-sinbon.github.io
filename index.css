@@ -1800,48 +1800,6 @@
   opacity: 1;
   transition: opacity 0.3s 0.3s;
 }
-.pop-up .content {
-  background-color: #F2F3F4;
-  max-width: 683px;
-  box-sizing: border-box;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 35.5729166667vw;
-  height: 65.462962963vh;
-  display: flex;
-  flex-direction: column;
-  padding: 24px;
-}
-.pop-up .content .head {
-  flex: 0;
-}
-.pop-up .content .head img {
-  display: block;
-  margin-left: auto;
-  width: 4.1666666667vw;
-}
-.pop-up .content .body {
-  flex: 1 1 auto;
-}
-.pop-up .content .body .qr-code {
-  display: block;
-  margin: auto;
-  object-fit: contain;
-  min-width: 435px;
-}
-.pop-up .content .footer {
-  flex: 0;
-  font-family: "Montserrat";
-  font-size: 24px;
-  line-height: 1.2;
-  text-align: center;
-  color: #252A31;
-  padding-bottom: 96px;
-}
 
 .ebook {
   background-color: rgba(107, 107, 107, 0.6);
@@ -1953,6 +1911,48 @@
 .about-sinbon > .body .qr-code-button img, .about-sinbon > .body .qr-code-button span {
   height: 1em;
   vertical-align: middle;
+}
+.about-sinbon .pop-up .content {
+  background-color: #F2F3F4;
+  max-width: 683px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 35.5729166667vw;
+  height: 65.462962963vh;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+.about-sinbon .pop-up .content .head {
+  flex: 0;
+}
+.about-sinbon .pop-up .content .head img {
+  display: block;
+  margin-left: auto;
+  width: 4.1666666667vw;
+}
+.about-sinbon .pop-up .content .body {
+  flex: 1 1 auto;
+}
+.about-sinbon .pop-up .content .body .qr-code {
+  display: block;
+  margin: auto;
+  max-width: 435px;
+  width: 100%;
+}
+.about-sinbon .pop-up .content .footer {
+  flex: 0;
+  font-family: "Montserrat";
+  font-size: 24px;
+  line-height: 1.2;
+  text-align: center;
+  color: #252A31;
+  padding-bottom: 96px;
 }
 
 .form {
