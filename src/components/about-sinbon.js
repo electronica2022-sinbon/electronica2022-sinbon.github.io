@@ -25,19 +25,31 @@ export default function aboutSimbon(app) {
     })
 
     document.querySelector('.qr-code-button').addEventListener('click', () => {
-      document.querySelector('.pop-up').classList.add('show');
+      document.querySelector('.pop-up').classList.remove('display-none');
+      setTimeout(() => {
+        document.querySelector('.pop-up').classList.add('show');
+      })
     })
     document.querySelector('.pop-up .close').addEventListener('click', () => {
       document.querySelector('.pop-up').classList.remove('show');
+      setTimeout(() => {
+        document.querySelector('.pop-up').classList.add('display-none');
+      }, 300)
     })
 
 
     document.querySelector('.read-me-button').addEventListener('click', () => {
       document.querySelector('iframe.body').src = "https://heyzine.com/flip-book/SINBON2022Electronica?fbclid=IwAR273vBJx8uczl2NclAz_cP9dUoJd1cuu2bE7whseSO8EytFNWMY_opAkbg#page/1";
-      document.querySelector('.ebook').classList.add('show');
+      document.querySelector('.ebook').classList.remove('display-none');
+      setTimeout(() => {
+        document.querySelector('.ebook').classList.add('show');
+      })
     })
     document.querySelector('.ebook .close').addEventListener('click', () => {
       document.querySelector('.ebook').classList.remove('show');
+      setTimeout(() => {
+        document.querySelector('.ebook').classList.add('display-none');
+      }, 300)
     })
   }
 
@@ -67,7 +79,7 @@ export default function aboutSimbon(app) {
           <span>Send PDF as Email</span>
         </div>
       </div>
-      <div class="pop-up">
+      <div class="pop-up display-none">
         <div class="content">
           <div class="head">
             <img class="close" src="./src/assets/close-blue.png" alt="">
@@ -81,7 +93,7 @@ export default function aboutSimbon(app) {
           </div>
         </div>
       </div>
-      <div class="ebook">
+      <div class="ebook display-none">
         <div class="content">
           <div class="head">
             <img class="close" src="./src/assets/close-blue.png" alt="">
