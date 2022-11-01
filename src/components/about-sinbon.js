@@ -73,7 +73,7 @@ export default function aboutSimbon(app) {
             <img class="close" src="./src/assets/close-blue.png" alt="">
           </div>
           <div class="body">
-            <img class="qr-code" src="./src/assets/qr-code-book.png" alt="">
+            <img class="qr-code" src="./src/assets/form-url-sinbon.png" alt="">
           </div>
           <div class="footer">
             Scan the QR code and fill in your email,<br />
