@@ -5,9 +5,7 @@ export default function form() {
     headers: {
       'Accept': 'application/json',
       'Content-Type': 'application/json'
-    },
-    origin: true,
-    withCredentials: true,
+    }
   })
 
   API.get('/sinbon')
