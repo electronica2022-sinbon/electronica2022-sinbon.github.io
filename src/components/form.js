@@ -11,7 +11,7 @@ export default function form() {
   API.get('/sinbon')
 
   this.bindingEvent = () => {
-    document.body.style.overflowY = "auto";
+    document.querySelector('body').style.overflowY = "auto";
     document.querySelector('.pop-up').style.display = 'none';
 
     document.querySelector('.submit-button').addEventListener('click', () => {
@@ -31,9 +31,13 @@ export default function form() {
         .then(e => {
           document.querySelector('.pop-up').style.display = 'block';
           setTimeout(() => {
+            window.scrollTo(0, 0);
+            document.querySelector('body').style.overflowY = 'hidden';
             document.querySelector('.pop-up').classList.add('show');
             document.querySelector('.button-ok').addEventListener('click', () => {
               document.querySelector('.pop-up').classList.remove('show');
+              document.querySelector('body').style.overflowY = 'auto';
+              document.querySelector('.pop-up').style.display = 'none';
             })
           }, 100)
         })
