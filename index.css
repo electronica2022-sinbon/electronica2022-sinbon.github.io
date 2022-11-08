@@ -1612,6 +1612,9 @@
   line-height: 1.2;
   color: #FFFFFF;
 }
+.case-example .head small {
+  font-weight: normal;
+}
 .case-example .container {
   position: relative;
 }
@@ -1693,6 +1696,9 @@
   margin-top: 16px;
   width: 166px;
 }
+.case-example .content-text > p {
+  margin: 0;
+}
 .case-example .content-text .features {
   margin-top: 16px;
 }
@@ -1728,10 +1734,10 @@
 }
 .case-example .bubble-case2-1 {
   position: absolute;
-  left: 18.72vh;
-  top: 21vw;
   width: 475.27px;
   height: 378px;
+  left: 450px;
+  top: 411px;
 }
 .case-example .bubble-case3-1 {
   position: absolute;
@@ -1750,9 +1756,9 @@
 .case-example .bubble-case4-1 {
   position: absolute;
   width: 514.03px;
-  height: 529px;
-  left: 8.22vw;
-  top: 26.11vh;
+  height: 580px;
+  left: 229px;
+  top: 230px;
 }
 .case-example .bubble-case5-1 {
   position: absolute;

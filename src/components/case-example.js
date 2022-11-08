@@ -132,7 +132,7 @@ export default function caseExample(app) {
 
   this.renderContentText = (index) => {
     if (index == null) {
-      return `${thisCase().challenge}<img class="replay-button" src="./src/assets/button-replay.png" alt="">`
+      return `${app.$md.render(thisCase().challenge)}<img class="replay-button" src="./src/assets/button-replay.png" alt="">`
     } else {
       const solution = thisCase().solutions[index];
       if ('features' in solution) {
