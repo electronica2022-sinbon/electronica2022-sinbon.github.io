@@ -76,7 +76,7 @@ export default function aboutSimbon(app) {
         </div>
         <div class="qr-code-button">
           <img src="./src/assets/icon-email.png" alt="">
-          <span>Send PDF as Email</span>
+          <span>Download from your mobile device</span>
         </div>
       </div>
       <div class="pop-up display-none">

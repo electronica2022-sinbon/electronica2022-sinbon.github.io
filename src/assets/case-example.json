@@ -1,8 +1,9 @@
 {
   "data": [
     {
-      "title": "Customized Connector Design",
-      "sub_title": "Plug connector and raw cable for cardiac mapping",
+      "id": "case1",
+      "title": "Cardiac Mapping",
+      "sub_title": "Plug Connector and Raw Cable for Cardiac Mapping",
       "video_url": "./src/video/case1.mp4",
       "challenge": "The umbilical cable assembly requires the 78-pin plug connector on both ends, and the cable and connectors must serve as a sturdy bridge for high - definition cardiac mapping capital equipment.",
       "solutions": [
@@ -29,13 +30,14 @@
       ]
     },
     {
-      "title": "Customized Adaptor Design",
-      "sub_title": "Adaptor for X-ray detector panel",
+      "id": "case2",
+      "title": "X-ray Detector Panel",
+      "sub_title": "Adaptor for X-ray Detector Panel",
       "video_url": "./src/video/case2.mp4",
       "challenge": "The original power connector's functionality is limited because the original design can't survive frequent plugging and removing of the panel.",
       "solutions": [
         {
-          "text": "SINBON helps customer design an adaptor which can be replaced without disassembling the panel assembly.\n Moreover, the adapter can be customized with various functions based on the use of environment.",
+          "text": "SINBON helps customer design an adaptor which can be replaced without disassembling the panel assembly. Moreover, the adapter can be customized with various functions based on the use of environment.",
           "bubble": [
             "/src/assets/bubble-case2-1.png"
           ],
@@ -61,13 +63,18 @@
       ]
     },
     {
-      "title": "Customized Interface Design",
-      "sub_title": "Electric vehicle inlet",
+      "id": "case3",
+      "title": "EV Inlet",
+      "sub_title": "Electric Vehicle Inlet",
       "video_url": "./src/video/case3.mp4",
       "challenge": "In the highly competitive electric vehicle market, customers usually hope to increase the proportion of automated manufacturing and accelerate production efficiency.",
       "solutions": [
         {
-          "text": "SINBON modularized the inlet of EV in order to realize automatic production and improve production process efficiency.",
+          "text": "SINBON modularized the inlet of EV in order to realize automatic production and improve production process efficiency.\nAnd we still retain the option of customization for customers!\n1. Panel (flange) Customization​\nPanels (flanges) can be tailored to the customer’s vehicle installation environment without changing the central part.\n2. Customized Charging Pedestal Wiring Method The rear inlet module of the charging base can be replaced by a different angle design.",
+          "bubble": [
+            "./src/assets/bubble-case3-1.png",
+            "./src/assets/bubble-case3-2.png"
+          ],
           "features": [
             {
               "icon": "./src/assets/feature-time.png",
@@ -82,24 +89,18 @@
               "text": "More beneficial to the implementation of automation solutions"
             }
           ]
-        },
-        {
-          "text": "And we still retain the option of customization for customers!\n1. Panel (flange) Customization\nPanels (flanges) can be tailored to the customer’s vehicle installation environment without changing the central part.\n2. Customized Charging Pedestal Wiring Method\nThe rear inlet module of the charging base can be replaced by a different angle design.",
-          "bubble": [
-            "./src/assets/bubble-case3-1.png",
-            "./src/assets/bubble-case3-2.png"
-          ]
         }
       ]
     },
     {
+      "id": "case4",
       "title": "Contact Terminal Design for E-bike",
       "sub_title": "",
       "video_url": "./src/video/case4.mp4",
       "challenge": "Due to the mechanical structure of bike frames, most battery connectors cannot be mated straight up and down but rather in a wiping action as illustrated. Moreover, some e-bike requires high mating cycle count (10,000 cycles minimum) in a mechanically constrained design space to withstand high current interconnection.",
       "solutions": [
         {
-          "text": "SINBON offers blade contact terminal design and crown spring terminal design which can meet the mechanical structure of e-bike and also fulfill the mating cycle.",
+          "text": "SINBON offers blade contact terminal design and crown spring terminal design which can meet the mechanical structure of e-bike and also fulfill the mating cycle.\n1. Blade contact connectors are either open face completely or are open one-sided, so mating angles can be absorbed.\n2. The level of current bared is proportional to the contact area in an interconnect system.  Whereas the blade connector would require a lot of space, theory behinds the lamella spring is to curl the blade into a cylinder, so the contact area remains the same but taking less mechanical space.",
           "bubble": [
             "./src/assets/bubble-case4.png"
           ],
@@ -117,15 +118,13 @@
               "text": "Conduct temperature rise & stress analysis during conceptual phase"
             }
           ]
-        },
-        {
-          "text": "1. Blade contact connectors are either open face completely or are open one-sided, so mating angles can be absorbed.\n2. The level of current bared is proportional to the contact area in an interconnect system.  Whereas the blade connector would require a lot of space, theory behinds the lamella spring is to curl the blade into a cylinder, so the contact area remains the same but taking less mechanical space."
         }
       ]
     },
     {
-      "title": "Customized Connector & Cable Design",
-      "sub_title": "Connector & raw cable for robotic tech vest",
+      "id": "case5",
+      "title": "Robotic Tech Vest",
+      "sub_title": "Connector & Raw Cable for Robotic Tech Vest",
       "video_url": "./src/video/case5.mp4",
       "challenge": "In a smart warehouse people and robots sometimes cooperate in the same space. In order to keep maintenance workers safe, a customer needed an electronic system to notify the robots to slow down when a human is nearby. In addition, the system was required to use sound & vibration to alert the human about robot’s presence.",
       "solutions": [
@@ -152,13 +151,14 @@
       ]
     },
     {
-      "title": "Customized Connector & Cable Design",
-      "sub_title": "I/O Connector & raw cable for harsh environment",
+      "id": "case6",
+      "title": "Sewer System",
+      "sub_title": "I/O Connector & Raw Cable for Harsh Environment",
       "video_url": "./src/video/case6.mp4",
       "challenge": "Cable assembly is placed in the underground sewer system and must be waterproof, chemical and oil resistant. Harsh environment conditions include:\n-Submerging in the “contaminated” water for 30 days at room temperature\n-Submerging in the heated “contaminated” water at 70°C for 2 days\n-Soaking into Kerosene (lighter fluid) / Motor oil (5W-40) for 7 days",
       "solutions": [
         {
-          "text": "1. Reduced lead time from 18-22 to 6 weeks and saved cost by 35%.   \n2. Integrated molding design including sealing and dust cap function & provided well waterproof and chemical resistance performance.  \n3. Improved breakout junction method by using PCB board connection instead of wire connection directly to make junction points stronger. Potting the enclosure and then overmolding.\n4. Developed on-line testing jig to reduce testing times.",
+          "text": "1. Reduced lead time from 18-22 to 6 weeks and saved cost by 35%.\n2. Integrated molding design including sealing and dust cap function & provided well waterproof and chemical resistance performance.  \n3. Improved breakout junction method by using PCB board connection instead of wire connection directly to make junction points stronger. Potting the enclosure and then overmolding.\n4. Developed on-line testing jig to reduce testing times.",
           "bubble": [
             "./src/assets/bubble-case6.png"
           ],
