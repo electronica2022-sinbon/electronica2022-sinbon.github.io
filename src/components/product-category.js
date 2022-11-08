@@ -10,11 +10,13 @@ export default function productCategory(app) {
   }
 
   this.bindingEvent = () => {
-    document.querySelector('.back-prev > img').addEventListener('click', () => {
-      document.querySelector('.transition-next-page').classList.remove('scale-0')
-      setTimeout(() => {
-        app.$router.push('/nav-main');
-      }, 300)
+    document.querySelectorAll('.back-prev > img, .sinbon-logo').forEach(item => {
+      item.addEventListener('click', () => {
+        document.querySelector('.transition-next-page').classList.remove('scale-0')
+        setTimeout(() => {
+          app.$router.push('/nav-main');
+        }, 300)
+      })
     })
     document.querySelector('.options > img').addEventListener('click', () => {
       console.log('options');
