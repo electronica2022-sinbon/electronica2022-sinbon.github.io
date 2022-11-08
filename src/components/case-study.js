@@ -46,33 +46,33 @@ export default function caseStudy(app) {
       </div>
       <div class="body">
         <div class="body-item">
-          <div class="option triangle" data-case="case1">
-            <img class="shape" src="./src/assets/triangle-blue.png" alt="">
-            <span>Cardiac<br />Mapping</span>
+          <div class="option circle" data-case="case5">
+            <img class="shape" src="./src/assets/circle-orange.png" alt="">
+            <span>Robotic<br /> Tech Vest</span>
           </div>
-          <div class="option triangle" data-case="case2">
-            <img class="shape" src="./src/assets/triangle-blue.png" alt="">
+          <div class="option circle" data-case="case6">
+            <img class="shape" src="./src/assets/circle-orange.png" alt="">
+            <span>Sewer System</span>
+          </div>
+        </div>
+        <div class="body-item">
+          <div class="option rectangle" data-case="case1">
+            <img class="shape" src="./src/assets/rectangle-red.png" alt="">
+            <span>Cardiac<br /> Mapping</span>
+          </div>
+          <div class="option rectangle" data-case="case2">
+            <img class="shape" src="./src/assets/rectangle-red.png" alt="">
             <span>X-ray<br />Detector<br />Panel</span>
           </div>
         </div>
         <div class="body-item">
-          <div class="option circle" data-case="case3">
-            <img class="shape" src="./src/assets/circle-orange.png" alt="">
+          <div class="option triangle" data-case="case3">
+            <img class="shape" src="./src/assets/triangle-blue.png" alt="">
             <span>EV Inlet</span>
           </div>
-          <div class="option circle" data-case="case4">
-            <img class="shape" src="./src/assets/circle-orange.png" alt="">
+          <div class="option triangle" data-case="case4">
+            <img class="shape" src="./src/assets/triangle-blue.png" alt="">
             <span>E-bike</span>
-          </div>
-        </div>
-        <div class="body-item">
-          <div class="option rectangle" data-case="case5">
-            <img class="shape" src="./src/assets/rectangle-red.png" alt="">
-            <span>Robotic<br />Tech Vest</span>
-          </div>
-          <div class="option rectangle" data-case="case6">
-            <img class="shape" src="./src/assets/rectangle-red.png" alt="">
-            <span>Sewer<br />System</span>
           </div>
         </div>
       </div>
