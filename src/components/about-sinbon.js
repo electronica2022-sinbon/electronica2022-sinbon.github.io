@@ -1,4 +1,5 @@
 export default function aboutSimbon(app) {
+  const e_book_url = "https://heyzine.com/flip-book/SINBON_CompanyProfile#page/1"
 
   this.mounted = function () {
     document.querySelector('.transition-next-page').classList.add('scale-0')
@@ -41,7 +42,7 @@ export default function aboutSimbon(app) {
 
 
     document.querySelector('.read-me-button').addEventListener('click', () => {
-      document.querySelector('iframe.body').src = "https://heyzine.com/flip-book/SINBON_CompanyProfile#page/1";
+      document.querySelector('iframe.body').src = e_book_url;
       document.querySelector('.ebook').classList.remove('display-none');
       setTimeout(() => {
         document.querySelector('.ebook').classList.add('show');
@@ -100,7 +101,7 @@ export default function aboutSimbon(app) {
           <div class="head">
             <img class="close" src="./src/assets/close-blue.png" alt="">
           </div>
-          <iframe class="body" src="">
+          <iframe class="body" src="${e_book_url}">
           </iframe>
         </div>
       </div>
