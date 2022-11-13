@@ -35,15 +35,9 @@ export default function caseExample(app) {
       // https://jiepeng.me/2019/03/17/autoplay-policy-note
       e.currentTarget.play()
     })
-    document.querySelector('.replay-button').addEventListener('click', () => {
-      document.querySelectorAll('.show').forEach(item => {
-        item.classList.add('hidden')
-        item.classList.remove('show')
-      })
-      document.querySelector('video').play()
-      showContentAfterVideoEnd()
-    })
+    
     bindContentOptionEvent();
+    bindingReplay();
     // after render
     document.querySelector('.icon-close').addEventListener('click', () => {
       app.$router.push('case-study');
@@ -77,9 +71,10 @@ export default function caseExample(app) {
           selectedCaseIndex = null; // index === 0
         }
 
-        rerenderCaseOptions(selectedCaseIndex);
-        rerenderBubble(selectedCaseIndex)
+        rerenderCaseOptions(selectedCaseIndex);  // 在這執行 render replay
+        rerenderBubble(selectedCaseIndex);
         bindContentOptionEvent();
+        bindingReplay(selectedCaseIndex);
       })
     })
   }
@@ -145,6 +140,19 @@ export default function caseExample(app) {
       } else {
         return `${app.$md.render(solution.text)}`
       }
+    }
+  }
+
+  function bindingReplay(index = null) {
+    if (index === null) {
+      document.querySelector('.replay-button').addEventListener('click', () => {
+        document.querySelectorAll('.show').forEach(item => {
+          item.classList.add('hidden');
+          item.classList.remove('show');
+        });
+        document.querySelector('video').play();
+        showContentAfterVideoEnd();
+      });
     }
   }
 }
