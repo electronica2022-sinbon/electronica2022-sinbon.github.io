@@ -100,7 +100,7 @@ export default function aboutSimbon(app) {
           <div class="head">
             <img class="close" src="./src/assets/close-blue.png" alt="">
           </div>
-          <iframe class="body" src="https://heyzine.com/flip-book/SINBON2022Electronica?fbclid=IwAR273vBJx8uczl2NclAz_cP9dUoJd1cuu2bE7whseSO8EytFNWMY_opAkbg#page/1">
+          <iframe class="body" src="https://heyzine.com/flip-book/SINBON_CompanyProfile#page/1">
           </iframe>
         </div>
       </div>
