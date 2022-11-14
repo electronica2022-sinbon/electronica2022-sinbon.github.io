@@ -129,7 +129,8 @@
       "challenge": "In a smart warehouse people and robots sometimes cooperate in the same space. In order to keep maintenance workers safe, a customer needed an electronic system to notify the robots to slow down when a human is nearby. In addition, the system was required to use sound & vibration to alert the human about robot’s presence.",
       "solutions": [
         {
-          "text": "1. Customized a lightweight reel for increased flexibility. \nWeight is reduced by 13%: from 388KG to 339KG.\n2. Customized a durable connector. \n Production capacity is increased from 2K to 40K annually.\n3. Overmold design of each functional interface link was strengthened. \nBending cycle is increased from 10K to 26K, the load is 1.3KG.\n4. Adjusted test fixtures according to customer requirements.",
+          "text": "**What we did:**\n 1. Customized a lightweight reel for increased flexibility. Weight is reduced by 13%: from 388g to 339g.\n 2. Customized a durable connector. Production capacity is increased from 2K to 40K annually.\n 3. Overmold design of each functional interface link was strengthened. Bending cycle is increased from 10K to 26K, the load is 1.3KG.\n 4. Adjusted test fixtures according to customer requirements.",
+          
           "bubble": [
             "./src/assets/bubble-case5.png"
           ],
